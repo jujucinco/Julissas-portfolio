@@ -57,6 +57,16 @@ nav {
     text-align: center; 
 }
 
+.herotext h1 {
+    font-size:48px;
+    padding-bottom:50px;
+    padding-top:300px;
+}
+
+.herotext p {
+    padding-bottom:100px;
+}
+
 /* PROJECT */
 
  .classkarmaproject {
@@ -131,6 +141,14 @@ footer {
     text-align: center;
 }
 
+footer ul {
+    margin:auto;
+}
+
 .worldimage {
     text-align:center;
 }
+
+
+/* START OF CASE STUDY CSS */
+
