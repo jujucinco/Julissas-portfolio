@@ -1,0 +1,236 @@
+
+/* GLOBAL */
+
+body{
+    font-family: 'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0;
+    margin:0;
+}
+
+.container{
+    margin: auto;
+    overflow:hidden;
+    text-align:center;
+}
+
+h2 {
+    font-size:25px;
+    font-weight:bold;
+}
+
+h3 {
+    font-size:20px;
+    font-weight:bold;
+    padding:15px;
+}
+
+
+/* NAV */
+
+header a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:'poppins';
+}
+
+header a:hover {
+    color:white;
+    font-weight:bold;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.logo {
+float: left;
+margin-top:10px;
+}
+
+nav {
+    float: right;
+    margin-top:10px;
+}
+
+
+/* HERO SECTION */
+
+.classkarmalogo  {
+    padding-top:150px;
+}
+
+.classkarmalogo img {
+    width:250px; 
+}
+
+.projecthero h2 {
+    font-size: 20px;
+    color:#3DCEFD;
+    padding-top:50px;
+    padding-bottom: 100px;
+}
+
+#heroimage img {
+    width:300px;
+    padding-bottom:100px;
+}
+
+.projecthero {
+    background:url(../images/projectimages/projectherobackground.png) no-repeat;
+    min-height:100vh;
+    background-size: cover;
+    background-position:top;
+}
+
+
+/* BENEATH THE FOLD */
+
+.block {
+    background-color:#F5F8FF;
+    min-height:437px;
+}
+
+#collegeillustration img {
+    width:287px;
+}
+
+#projecticons img {
+    width:64.64px;
+    padding:40px;
+}
+
+#projectdetails {
+    background-color:#DFF3FD;
+    min-height:437px;
+}
+
+#role, #deliverables, #tools {
+    padding: 20px;
+}
+
+#projectdetails h3 {
+    padding-bottom:15px;
+}
+
+#mockupinhand img {
+    width:375px;
+}
+
+#survey, #competitiveanalysis, #personas, #userstories, #userflows, #contentstrategy, #sketchesandwireframing, #usabilitytesting, #branding, #preferencetest {
+    padding:50px;
+}
+
+#survey img {
+    padding:50px;
+    width: 250px;
+}
+
+#dropbox img, #googledrive img, #evernote img {
+    width: 160px;
+    padding-top:60px;
+    padding-bottom:10px;
+}
+
+#crystal, #ana, #henry {
+    padding-bottom: 60px;
+}
+
+#userstories div {
+    padding-bottom:60px;
+}
+
+#userstories p {
+    font-family: 'Mansalva';
+    padding-bottom:30px;
+}
+
+#userstories h4{
+    padding-bottom: 20px;
+    font-weight:bold;
+}
+
+#userflows h4 {
+    color:#3DCEFD;
+    padding-bottom:20px;
+    font-weight:bold;
+}
+
+#userflows img, #contentstrategy img {
+    padding-bottom: 50px;
+}
+
+#sketchesandwireframing {
+    background: url(../images/projectimages/sketchesbackground.png);
+}
+
+#sketchesandwireframing p {
+    padding-bottom:30px;
+    font-weight: bold;
+}
+
+#usabilitytesting img {
+    padding-bottom:50px;
+    padding-top:20px;
+    width:245px;
+}
+
+#usabilitytesting h2, #usabilitytesting p {
+    padding-bottom:20px;
+}
+#usabilitytesting {
+    background-color: #E0F0F8;
+}
+
+.snippet {
+    background-color:#02A0D4;
+    color:white;
+}
+
+ #branding p, #branding img{
+    padding-bottom:50px;
+}
+
+#branding h2 {
+    padding-bottom:20px;
+}
+
+#fivescreenmockup-description p, #fivescreenmockup img {
+    padding-bottom:30px;
+}
+
+#preferencetest img {
+    padding:30px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 20px;
+    /* margin-top: 100px; */
+    text-align: center;
+}
+
+footer ul {
+    margin:auto;
+    
+}
+
+footer li {
+    display: inline-block;
+}
+
+
+
+
+
