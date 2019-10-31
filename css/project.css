@@ -18,6 +18,7 @@ body{
 h2 {
     font-size:25px;
     font-weight:bold;
+   
 }
 
 h3 {
@@ -429,32 +430,45 @@ nav a:hover {
     text-align:center;
 }
 
-.centered {
-    text-align: center;
-}
+
 
 .block {
     display:flex;
     align-items:center;
-    
+}
+
+.centered {
+    text-align: center;
 }
 
 .block h2 {
     padding-bottom:20px;
 }
 
-.button1 {
+.block p {
+    padding-bottom:20px;
+}
+
+.button {
     /* width: 160.11px;
     height: 43.2px; */
-    background: #3DCEFD;
+    background: #02A0D4;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
-    border:solid 2px #3DCEFD;
+    border:solid 2px #02A0D4;
     border-radius: 5px;
     padding: 10px 30px;
     color:white;
+    font-family:'BlinkMacSystemFont', '-apple-system';
     font-size:14px;
     text-decoration: none;
  }
+
+ .buttondiv {
+     padding-top:20px;
+     padding-bottom:10px;
+ }
+
+ 
 
 
 /* FOOTER */
@@ -465,6 +479,23 @@ footer {
 
 footer h2 {
     padding-top:40px;
+    padding-bottom:40px;
+}
+
+.button11 {
+    background: #D94420;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border:solid 2px #D94420;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color:white;
+    font-size:14px;
+    text-decoration: none;
+ }
+
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
 
 footer ul {
@@ -473,7 +504,7 @@ footer ul {
 
 footer li {
     display: inline-block;
-    padding-top:70px;
+    padding-top:50px;
     padding-bottom:20px;
 }
 
