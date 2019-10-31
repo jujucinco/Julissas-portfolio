@@ -6,11 +6,11 @@ body{
     font-size: 18px;
     line-height: 28px;
     padding: 0;
-    margin:0;
+    text-align:center;
 }
 
 .container{
-    margin: auto;
+    /* margin: auto; */
     overflow:hidden;
     text-align:center;
 }
@@ -18,22 +18,26 @@ body{
 h2 {
     font-size:25px;
     font-weight:bold;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h3 {
     font-size:20px;
     font-weight:bold;
-    padding:15px;
-    margin-left: 15px;
-    margin-right: 15px;
+    /* padding:15px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align:left;
 }
 
 p {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align:left;
 }
+
+
 
 
 /* NAV */
@@ -253,6 +257,11 @@ nav a:hover {
     min-height:437px;
     padding-top:60px;
     padding-bottom:50px;
+    text-align:center;
+}
+
+.boldchallenge {
+    font-weight:bold;
 }
 
 #collegeillustration img {
@@ -261,13 +270,19 @@ nav a:hover {
 
 #projecticons img {
     width:64.64px;
-    padding:40px;
+    padding:20px;
 }
 
 #projectdetails {
     background-color:#DFF3FD;
     min-height:437px;
 }
+
+.underline {
+    border-bottom: 5px solid #FBF6C7
+
+}
+   
 
 #role, #deliverables, #tools {
     padding: 20px;
@@ -279,10 +294,12 @@ nav a:hover {
 
 #mockupinhand img {
     width:375px;
+    
 }
 
 #survey, #competitiveanalysis, #personas, #userstories, #userflows, #contentstrategy, #sketchesandwireframing, #usabilitytesting, #branding, #preferencetest {
-    padding:50px;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 #survey img {
@@ -312,6 +329,18 @@ nav a:hover {
 #userstories h4{
     padding-bottom: 20px;
     font-weight:bold;
+}
+
+.underlinegreen {
+    border-bottom: 5px solid #C7FBDC
+}
+
+.underlineyellow {
+    border-bottom: 5px solid #FBF6C7
+}
+
+.underlinered {
+    border-bottom: 5px solid #FBC7C7
 }
 
 #userflows h4 {
@@ -347,8 +376,14 @@ nav a:hover {
 }
 
 .snippet {
-    background-color:#02A0D4;
-    color:white;
+    background-color:white;
+    color:grey;
+    border: 2px solid #C5E7F8;
+}
+
+.snippet p {
+    padding-top:20px;
+    font-size:14px;
 }
 
  #branding p, #branding img{
