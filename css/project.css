@@ -443,6 +443,19 @@ nav a:hover {
     padding-bottom:20px;
 }
 
+.button1 {
+    /* width: 160.11px;
+    height: 43.2px; */
+    background: #3DCEFD;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border:solid 2px #3DCEFD;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color:white;
+    font-size:14px;
+    text-decoration: none;
+ }
+
 
 /* FOOTER */
 
