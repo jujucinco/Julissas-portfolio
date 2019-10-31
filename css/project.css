@@ -33,6 +33,8 @@ p {
 
 
 
+
+
 /* NAV */
 
 nav ul {
@@ -232,6 +234,10 @@ nav a:hover {
     padding-right:20px;
 }
 
+.tagline {
+    font-weight: 500;
+}
+
 #heroimage img {
     width:300px;
     padding-bottom:100px;
@@ -265,7 +271,7 @@ nav a:hover {
 
 #projecticons img {
     width:64.64px;
-    padding:20px;
+    padding:28px;
 }
 
 #projectdetails {
@@ -275,12 +281,15 @@ nav a:hover {
 
 .underline {
     border-bottom: 5px solid #FBF6C7
-
 }
    
 
 #role, #deliverables, #tools {
-    padding: 20px;
+    padding: 20px; 
+}
+
+#projectdetails li {
+    list-style:none;
 }
 
 #projectdetails h3 {
@@ -290,7 +299,10 @@ nav a:hover {
 
 #mockupinhand img {
     width:375px;
-    
+}
+
+.centeredcontainer {
+    width:100%;
 }
 
 #survey, #competitiveanalysis, #personas, #userstories, #userflows, #contentstrategy, #sketchesandwireframing, #usabilitytesting, #branding, #preferencetest, #finalthoughts {
@@ -307,18 +319,33 @@ nav a:hover {
     padding-bottom:20px;
 }
 
+
 #dropbox img, #googledrive img, #evernote img {
     width: 160px;
-    padding-top:60px;
+    padding-top:30px;
     padding-bottom:10px;
 }
 
 #competitiveanalysis li {
     text-align: left;
+    padding-bottom:30px;
 }
 
+hr {
+    width:50%;
+    border-top: 1px solid #D2D2D2 
+}
+
+
+#competitiveanalysis li {
+    display:list-item;
+    list-style-position: inside;
+    list-style-image: url('../images/projectimages/cloudbullet.png');
+  }
+
 #crystal, #ana, #henry {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+    padding-top:30px;
 }
 
 #personas h3, #personas p {
@@ -326,10 +353,10 @@ nav a:hover {
     padding-top:10px;
 }
 
-#userstories div {
-    padding-bottom:60px;
-    
+#personas h4 {
+    color:#FD7254;
 }
+
 
 #userstories p {
     font-family: 'Mansalva';
@@ -428,6 +455,11 @@ nav a:hover {
 
 #preferencetest h3 {
     text-align:center;
+    font-weight: 400;
+}
+
+#preferencetest p {
+    padding-bottom: 40px;
 }
 
 
@@ -468,7 +500,18 @@ nav a:hover {
      padding-bottom:10px;
  }
 
- 
+
+ .processcontainer {
+     width:100%;
+ }
+
+ #survey .surveytextspacing {
+    padding-bottom:50px;
+}
+
+#finalthoughts p {
+    padding-bottom:30px;
+}
 
 
 /* FOOTER */
