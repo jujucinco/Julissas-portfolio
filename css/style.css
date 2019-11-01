@@ -420,7 +420,8 @@ footer a {
 
 /* MEDIA QUERIES */
 
-/* DESKTOP */
+/* DESKTOP HOME */
+
 @media only screen and (min-width: 768px) {
 .hero {
     background-image: url(../images/heroimageslice.png);
@@ -445,11 +446,14 @@ footer a {
     line-height:0px;
 }
 
+.classkarmaproject {
+    padding-bottom:0px;
+}
 
 .classkarmaproject h2 {
    color: #3DCEFD;
    font-size: 48px;
-   padding-bottom:20px;
+   padding-bottom:40px;
 }
 
 .classkarmaproject p {
@@ -463,10 +467,7 @@ footer a {
 .classkarmaprojectmockup {
     order:2;
     padding-top:80px;
-}
-
-.projdescription {
-    padding-bottom:40px;
+    margin-right:100px;
 }
 
 .button1 {
@@ -482,12 +483,22 @@ footer a {
      text-align: left;
  }
 
+ .tags {
+     padding-top:10px;
+     padding-bottom:10px;
+ }
+
+ .projectcontent p {
+     margin-left:0px;
+ }
+
  .projectcontent {
      margin-left:100px;
  }
 
  .buttondiv1 {
      text-align:left;
+     padding-top:50px;
  }
 
  #process .skill {
