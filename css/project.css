@@ -447,6 +447,10 @@ hr {
     text-align:center;
 }
 
+video {
+    width:100%;
+}
+
 #preferencetest img {
     padding:30px;
     width:300px;
@@ -511,6 +515,11 @@ hr {
 
 #finalthoughts p {
     padding-bottom:30px;
+}
+
+.videocaption {
+    text-align:center;
+    padding-bottom:20px;
 }
 
 
