@@ -457,19 +457,37 @@ footer a {
 }
 
 .classkarmaprojectmockup img {
-    width:1000px;
+    width:650px;
 }
 
+.classkarmaprojectmockup {
+    order:2;
+    padding-top:80px;
+}
 
-.classkarmaproject .projdescription {
+.projdescription {
     padding-bottom:40px;
 }
+
 .button1 {
     font-size:18px;
  }
 
- .classkarmaprojectmockup {
-    display:flex
+ .classkarmaproject {
+    display:flex;
+    align-items:center;
+ }
+
+ .projectcontent p, .projectcontent h2, .tags {
+     text-align: left;
+ }
+
+ .projectcontent {
+     margin-left:100px;
+ }
+
+ .buttondiv1 {
+     text-align:left;
  }
 
  #process .skill {
@@ -489,6 +507,14 @@ footer a {
 
  #process .skill p {
      font-size:16px;
+ }
+
+ footer h2 {
+     font-size:28px;
+ }
+
+ .heart img{
+    width:30px;
  }
 }
 
