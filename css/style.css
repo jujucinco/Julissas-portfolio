@@ -235,7 +235,7 @@ nav a:hover {
     text-align:center;
 }
 
-.downarrow {
+/* .downarrow {
     margin:auto;
     width: 10%; 
 }
@@ -246,7 +246,7 @@ nav a:hover {
     color:white;
     font-weight: bold
 
-}
+} */
 
 /* PROJECT */
 
@@ -417,6 +417,80 @@ footer a {
     padding:20px;
 }
 
+
+/* MEDIA QUERIES */
+
+/* DESKTOP */
+@media only screen and (min-width: 768px) {
+.hero {
+    background-image: url(../images/heroimageslice.png);
+    min-height:100vh;
+    background-size: cover;
+    background-position:top right
+}
+
+.logo img {
+    width:153px;
+    }
+
+.herotext h1 {
+    font-size:50px;
+}
+ 
+.herotext p {
+    font-size:24px;
+    padding-bottom:130px;
+    margin-left:5px;
+    margin-right:5px;
+    line-height:0px;
+}
+
+
+.classkarmaproject h2 {
+   color: #3DCEFD;
+   font-size: 48px;
+   padding-bottom:20px;
+}
+
+.classkarmaproject p {
+    font-size:24px;
+}
+
+.classkarmaprojectmockup img {
+    width:1000px;
+}
+
+
+.classkarmaproject .projdescription {
+    padding-bottom:40px;
+}
+.button1 {
+    font-size:18px;
+ }
+
+ .classkarmaprojectmockup {
+    display:flex
+ }
+
+ #process .skill {
+    float:left;
+    margin: 1%;
+    width: 18%;
+ }
+
+ #process .intro h2 {
+     padding-top:10px;
+     font-size:40px;
+ } 
+
+ #process .intro p {
+     font-size:20px;
+ }
+
+ #process .skill p {
+     font-size:16px;
+ }
+}
 
 
 
