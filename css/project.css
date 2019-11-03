@@ -725,5 +725,26 @@ footer a {
       "nonflexsurvey nonflexsurvey";
   }
 
-  
+  .surveyintro, .surveyp {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+  .nonflexsurvey {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+ #survey .nonflexsurvey {
+     margin-top:50px;
+ }
+
+  .button2div {
+      grid-column-start:1;
+      grid-column-end:3;
+  }
+
+  .analysislist {
+      float:left;
+  }
 
