@@ -1,3 +1,8 @@
+html, body { height: 100%; }
+body {
+    overflow-x:hidden;
+}
+
 
 
 body{
@@ -10,7 +15,7 @@ body{
 
 .container{
     margin: auto;
-    overflow:hidden
+    overflow-x:hidden
 }
 
 /* HERO SECTION */
@@ -186,6 +191,77 @@ nav a:hover {
 
 /* REST OF HERO */
 
+/* WAVE ANIMATION */
+
+.wrapper {
+    overflow-x:hidden;
+}
+
+.ocean { 
+  height: 4%;
+  width:100%;
+  position:absolute;
+  bottom: 0px;
+  left:0;
+  background: #015871;
+  overflow-x:none;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  position: absolute;
+  /* top: -170px; */
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave1 {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+    position: absolute;
+    top: -170px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+
+.wave2 {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+    position: absolute;
+    top: -192px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  } 
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+
+/* LOGO AND HERO TEXT */
 
 .logo {
     float: left;
@@ -200,7 +276,7 @@ nav a:hover {
 
 .hero {
     min-height:100vh;
-    background: url('../images/mobileheroimage.png') no-repeat;
+    background: url('../images/newmobileheroslice.png') no-repeat;
     background-size: cover;
     background-position:top right
 
@@ -230,7 +306,6 @@ nav a:hover {
     
 }
 
-
 .worldimage {
     text-align:center;
 }
@@ -247,6 +322,8 @@ nav a:hover {
     font-weight: bold
 
 } */
+
+
 
 /* PROJECT */
 
@@ -424,7 +501,7 @@ footer a {
 
 @media only screen and (min-width: 768px) {
 .hero {
-    background-image: url(../images/heroimageslice.png);
+    background-image: url(../images/wavesexperimentslice.png);
     min-height:100vh;
     background-size: cover;
     background-position:top right
@@ -528,6 +605,8 @@ footer a {
     width:30px;
  }
 }
+
+
 
 
 

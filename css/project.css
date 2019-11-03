@@ -277,6 +277,7 @@ nav a:hover {
 #projectdetails {
     background-color:#DFF3FD;
     min-height:437px;
+    padding-left:5%
 }
 
 .underline {
@@ -340,7 +341,6 @@ hr {
 #competitiveanalysis li {
     display:list-item;
     list-style-position: inside;
-    list-style-image: url('../images/projectimages/cloudbullet.png');
   }
 
 #crystal, #ana, #henry {
@@ -415,9 +415,8 @@ hr {
 }
 
 .snippet {
-    background-color:white;
     color:grey;
-    border: 2px solid #C5E7F8;
+    border: 3px solid white;
 }
 
 .snippet p {
@@ -486,8 +485,6 @@ video {
 }
 
 .button {
-    /* width: 160.11px;
-    height: 43.2px; */
     background: #02A0D4;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
     border:solid 2px #02A0D4;
@@ -565,9 +562,156 @@ footer a {
 }
 
 
+/* MEDIA QUERIES */
 
+@media only screen and (min-width: 768px) {
 
+    .logo img {
+        width:153px;
+        }
 
+    .container {
+        margin-left: 125px;
+        margin-right: 125px;
+    }
+    .classkarmalogo img {
+        width:250px;
+    }
 
+    #heroimage img {
+        width:500px;
+    }
+
+    .challengeblock {
+    display:flex;
+    align-items:center;
+    }
+
+    .challengecontainer {
+        justify-content:column;
+        display:flex;
+    }
+
+    .challengecontent {
+        text-align:left;
+    }
+
+    #collegeillustration img {
+        width:600px;
+    }
+
+    #projecticons img {
+        width:130px;
+        padding-left:150px;
+        padding-right:150px;
+    }
+
+    #role, #deliverables, #tools {
+        padding: 0px; 
+    }
+
+    #projectdetails .projectgroup {
+    float:left;
+    margin: 5%;
+    width: 20%;
+    text-align:center;
+    padding-top:0;
+    margin-top:50px;
+    }
+
+    #mockupinhand img {
+        width:1440px;
+    }
+
+    .block h2 {
+        font-size:36px;
+    }
+
+     p {
+        font-size:22px;
+    }
+
+    h3 {
+        font-size:25px;
+    }
+  
+    #survey img {
+        width:350px;
+    }
+
+    #userstories h4, #userstories p {
+        font-size:24px;
+        padding-bottom:50px;
+    }
+
+    #userstories h4 {
+        padding-top:30px;
+    }
+
+    #userflows h4 {
+        font-size:24px;
+    }
+
+    #userflows img {
+        width:700px;
+    }
+
+  #fivescreenmockup img {
+    width:100%;
+  }
+
+  #fivescreenmockup-description video {
+      width:450px;
+  }
+
+  #fivescreenmockup-description .desktopmockup img {
+      width:800px;
+  }
+
+  #preferencetest img {
+      width:500px;
+  }
+
+  .container video {
+      width:320px;
+  }
+
+  #sketchesandwireframing img {
+      width:300px;
+  }
+
+.button {
+    font-size:18px;
+}
+
+#survey .button2div {
+    padding-bottom:20px;
+}
+
+.competitiveanalysisblock p, .personasblock p, .userstoriesblock p {
+    text-align: center;
+}
+
+#contentstrategy img {
+    width:600px;
+}
+
+.snippet {
+    width:400px;
+    background-color:none;
+}
+
+.snippet p {
+    font-size:18px;
+    color:black;
+}
+
+#preferencetest .preferencelogo {
+    width:380px;
+}
+
+#deliverables {
+    padding-left:20px;
+}
 
 
