@@ -581,6 +581,11 @@ footer a {
         width:250px;
     }
 
+    .projecthero h2 {
+        font-weight: 500;
+        font-size:25px;
+    }
+
     #heroimage img {
         width:500px;
     }
@@ -597,10 +602,16 @@ footer a {
 
     .challengecontent {
         text-align:left;
+        padding-top:100px;
     }
 
     #collegeillustration img {
-        width:600px;
+        width:550px;
+        padding-left:30px;
+    }
+
+    #collegeillustration {
+        padding-bottom:70px;
     }
 
     #projecticons img {
@@ -609,9 +620,19 @@ footer a {
         padding-right:150px;
     }
 
+
     #role, #deliverables, #tools {
         padding: 0px; 
     }
+
+    #tools {
+        padding-left:20px;
+    }
+
+    #deliverables {
+        padding-left:40px;
+    }
+
 
     #projectdetails .projectgroup {
     float:left;
@@ -626,8 +647,6 @@ footer a {
     #mockupinhand img {
         width:1440px;
     }
-
-   
 
     .block h2 {
         font-size:36px;
@@ -695,12 +714,22 @@ footer a {
     padding-bottom:20px;
 }
 
-.competitiveanalysisblock p, .personasblock p, .userstoriesblock p {
+.competitiveanalysisblock p, .personasblock p, .userstoriesblock p, .solutionblock p {
     text-align: center;
 }
 
-#contentstrategy img {
-    width:600px;
+#contentstrategy img:first-child {
+    width:650px;
+    padding-right:50px;
+}
+
+#contentstrategy .contentstrategysmaller img {
+    width:450px;
+}
+
+#contentstrategy {
+    display:inline-flex;
+    
 }
 
 .snippet {
@@ -717,9 +746,6 @@ footer a {
     width:380px;
 }
 
-#deliverables {
-    padding-left:20px;
-}
 
 #survey .container {
     display: grid;
@@ -755,9 +781,7 @@ footer a {
     text-align:left;
   }
     
-    #contentstrategy {
-        display:inline-flex
-    }
+  
 
     #sketchesandwireframing {
         display:inline-flex;
@@ -783,7 +807,7 @@ footer a {
     }
     
 .testingvideos {
-    display:inline-flex;
+    display:flex;
     margin:0;
     padding:0px;
 }
@@ -813,14 +837,6 @@ footer a {
       grid-column-end: 3;
   }
 
-  /* #dropbox, #googledrive, #evernote {
-      width:23%;
-      float:left;
-      margin:5%;
-      padding-top:0px;
-      margin-top:0px;
-  } */
-
   #competitiveanalysis hr {
       width: .1px;
       height:186px;
@@ -833,34 +849,51 @@ footer a {
       padding-bottom:20px;
   }
 
-  #crystal, #ana, #henry {
-    width:20%;
-    float:left;
+
+  #personas .container {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+  #personas hr {
+    width: .1px;
+    height:186px;
     margin:5%;
-    padding-top:0px;
-    margin-top:0px;
+    background-color:#D2D2D2;
+  }
+
+  #crystal, #ana, #henry {
+      padding-bottom:70px;
   }
 
   #competitiveanalysis .container {
     display:flex;
     align-items: center;
     justify-content:center;
-    
 }
-
 
 
 #dropbox, #googledrive, #evernote {
     padding-top:0px;
     margin-top:0px;
-    width:50%
+    padding-bottom:50px;
 }
 
-/* #dropbox {
-    padding-top:100px;
+#dropbox {
+    padding-top:30px;
 }
 
-#evernote {
-    padding-top:20px;
-} */
- 
+#usabilitytesting .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "usertestwireframe . usabilitytext"
+      "documentwireframe . folderwireframe"
+      "samplequestions . snippet";
+  }
+
+
+
+
