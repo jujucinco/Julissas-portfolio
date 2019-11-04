@@ -330,6 +330,8 @@ nav a:hover {
 #competitiveanalysis li {
     text-align: left;
     padding-bottom:30px;
+    display:list-item;
+    list-style-position: inside;
 }
 
 hr {
@@ -337,11 +339,6 @@ hr {
     border-top: 1px solid #D2D2D2 
 }
 
-
-#competitiveanalysis li {
-    display:list-item;
-    list-style-position: inside;
-  }
 
 #crystal, #ana, #henry {
     padding-bottom: 30px;
@@ -678,6 +675,7 @@ footer a {
 
   #sketchesandwireframing img {
       width:300px;
+      height:566px;
   }
 
 .button {
@@ -735,14 +733,14 @@ footer a {
       grid-column-end: 3;
   }
 
- #survey h3:first-child {
-     padding-top:50px;
- }
-
   .button2div {
       grid-column-start:1;
       grid-column-end:3;
   }
+
+  #survey h3:first-child {
+    padding-top:50px;
+}
 
   .analysislist{
     text-align:left;
@@ -756,8 +754,78 @@ footer a {
         display:inline-flex;
         align-items:center;
         justify-content:center;
-        
-        
     }
     
+.testingvideos {
+    display:inline-flex;
+}
 
+#preferencetest .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "preferenceintro preferenceintro" 
+      "cancelpreference . loginpreference"
+      "div1preferencelogo . div2preferencelogo"
+      "preferencetext preferencetext";
+  }
+
+  .preferenceintro {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+  .preferencetext {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+  /* #dropbox, #googledrive, #evernote {
+      width:23%;
+      float:left;
+      margin:5%;
+      padding-top:0px;
+      margin-top:0px;
+  } */
+
+  #competitiveanalysis hr {
+      width: .1px;
+      height:186px;
+      margin:5%;
+      background-color:#D2D2D2;
+  }
+
+  #competitiveanalysis img {
+      padding-left:30px;
+      padding-bottom:20px;
+  }
+
+  #crystal, #ana, #henry {
+    width:20%;
+    float:left;
+    margin:5%;
+    padding-top:0px;
+    margin-top:0px;
+  }
+
+  #competitiveanalysis .container {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#dropbox, #googledrive, #evernote {
+    padding-top:0px;
+    margin-top:0px;
+    width:50%
+}
+
+/* #dropbox {
+    padding-top:100px;
+}
+
+#evernote {
+    padding-top:20px;
+} */
+ 
