@@ -735,8 +735,8 @@ footer a {
       grid-column-end: 3;
   }
 
- #survey .nonflexsurvey {
-     margin-top:50px;
+ #survey h3:first-child {
+     padding-top:50px;
  }
 
   .button2div {
@@ -744,7 +744,20 @@ footer a {
       grid-column-end:3;
   }
 
-  .analysislist {
-      float:left;
+  .analysislist{
+    text-align:left;
   }
+    
+    #contentstrategy {
+        display:inline-flex
+    }
+
+    #sketchesandwireframing {
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        
+        
+    }
+    
 
