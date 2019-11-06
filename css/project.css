@@ -33,8 +33,6 @@ p {
 
 
 
-
-
 /* NAV */
 
 nav ul {
@@ -75,6 +73,7 @@ nav a:hover {
     .logo {
           padding: 0;
     }
+}
 
     .nav-wrapper {
           position: fixed;
@@ -167,7 +166,6 @@ nav a:hover {
     .nav-btn i:nth-child(3) {
           margin-top: 4px;
     }
-}
 
 #nav:checked + .nav-btn {
     transform: rotate(45deg);
@@ -211,7 +209,7 @@ nav a:hover {
     float: left;
     margin-top:10px;
     padding-top:20px;
-    padding-left: 40px;
+    padding-left: 20px;
     }
 
 .logo img {
@@ -240,7 +238,7 @@ nav a:hover {
 }
 
 #heroimage img {
-    width:300px;
+    width:350px;
     padding-bottom:100px;
 }
 
@@ -268,9 +266,6 @@ nav a:hover {
 
 .introduction {
     background-image: url(../images/projectimages/projectherobackground.png);
-    padding-left:280px;
-    padding-right:280px;
-    padding-top:0px;
 }
 
 #collegeillustration img {
@@ -328,6 +323,10 @@ nav a:hover {
     padding-bottom:20px;
 }
 
+#survey .button2div {
+    padding-bottom:20px;
+}
+
 
 #dropbox img, #googledrive img, #evernote img {
     width: 160px;
@@ -369,7 +368,7 @@ hr {
     text-align:center;
 }
 
-#userstories h4{
+#userstories h4 {
     padding-bottom: 20px;
     font-weight:bold;
 }
@@ -396,6 +395,20 @@ hr {
     padding-bottom: 50px;
 }
 
+#userflows img {
+    width:375px;
+}
+
+#contentstrategy img:first-child {
+    width:375px;
+    padding-top:40px;
+}
+
+#contentstrategy .contentstrategysmaller img {
+    width:350px; 
+}
+
+
 #sketchesandwireframing {
     background: url(../images/projectimages/sketchesbackground.png);
 }
@@ -406,6 +419,22 @@ hr {
     text-align:center;
 }
 
+#sketchesandwireframing img {
+    width:300px;
+    text-align:center;
+}
+
+
+.colorpaletteimage img {
+    width:350px;
+}
+
+
+.brandingbuttons img {
+    width:300px;
+}
+
+
 #usabilitytesting img {
     padding-bottom:50px;
     padding-top:20px;
@@ -415,6 +444,8 @@ hr {
 #usabilitytesting h2, #usabilitytesting p {
     padding-bottom:20px;
 }
+
+
 #usabilitytesting {
     background-color: #E0F0F8;
 }
@@ -439,16 +470,25 @@ hr {
     padding-bottom:20px;
 }
 
+
 #fivescreenmockup-description p, #fivescreenmockup img {
     padding-bottom:30px;
 }
 
 #fivescreenmockup-description img {
-    width:330px;
+    width:350px;
+}
+
+#fivescreenmockup img {
+    width:375px;
 }
 
 .desktopmockup p {
     text-align:center;
+}
+
+.deskmockupone {
+    padding-top:50px;
 }
 
 video {
@@ -480,6 +520,10 @@ video {
     width:auto;
     height:auto;
     padding-top:0px;
+}
+
+.solutionblock p {
+    text-align:left;
 }
 
 
@@ -573,6 +617,15 @@ footer a {
     padding:20px;
 }
 
+.heart img {
+    width:25px;
+}
+
+.heart {
+    position:relative;
+    top: 3px;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -597,6 +650,12 @@ footer a {
 
     #heroimage img {
         width:500px;
+    }
+
+    .introduction {
+        padding-left:280px;
+        padding-right:280px;
+        padding-top:0px;
     }
 
     .challengeblock {
@@ -1209,10 +1268,15 @@ footer a {
     position:relative;
     top: 5px;
 }
-
 }
 
+/* SMALL MEDIA QUERIES */
 
+@media only screen and (max-width: 600px) {
+    .brandinglogoandsketches {
+      display:none;
+    }
+  }
 
 
 
