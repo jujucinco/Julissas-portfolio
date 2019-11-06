@@ -3,8 +3,6 @@ body {
     overflow-x:hidden;
 }
 
-
-
 body{
     font-family: 'poppins', Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -310,19 +308,6 @@ nav a:hover {
     text-align:center;
 }
 
-/* .downarrow {
-    margin:auto;
-    width: 10%; 
-}
-
-.featuredwork {
-    padding-top:100px;
-    font-size: 14px;
-    color:white;
-    font-weight: bold
-
-} */
-
 
 
 /* PROJECT */
@@ -360,8 +345,6 @@ nav a:hover {
 
 
  .button1 {
-    /* width: 160.11px;
-    height: 43.2px; */
     background: #3DCEFD;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
     border:solid 2px #3DCEFD;
@@ -480,13 +463,17 @@ footer h2 {
     top: 5px;
 }
 
+.heart img {
+    width:25px;
+}
+
 footer ul {
     margin:auto;
 }
 
 footer li {
     display: inline-block;
-    padding-top:70px;
+    padding-top:50px;
     padding-bottom:20px;
 }
 
@@ -495,7 +482,7 @@ footer a {
 }
 
 
-/* MEDIA QUERIES */
+/* HOME MEDIA QUERIES */
 
 /* DESKTOP HOME */
 
@@ -607,10 +594,113 @@ footer a {
 }
 
 
+/* ABOUT AND CONTACT PAGE CSS */
+
+.aboutcontainer, .contactcontainer {
+    margin-left:20px;
+    margin-right:20px;
+    text-align:center;
+}
+
+.aboutsection, .contactsection {
+    background-color:#FEF1EB;
+}
+
+.aboutintro p, li {
+    font-family:'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.aboutintro h2 {
+    font-weight:bold;
+    font-size:26px;
+    text-align:left;
+    padding-top:50px;
+}
 
 
+.profilephoto img {
+    width:275px;
+    text-align:center;
+    padding-top:50px;
+}
+
+.meloimage img {
+    width:275px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.aboutintro p, li{
+    text-align:left;
+}
+
+.aboutintro li {
+    padding-bottom:15px;
+}
+
+.aboutintro ul {
+    padding-left:30px;
+}
+
+.aboutintro a {
+    text-decoration:none;
+    font-weight: 600;
+}
+
+.contacttext {
+    padding-top:200px;
+}
+
+.contacttext h1 {
+    text-align:left;
+    font-size:26px;
+    font-weight:600;
+}
+
+.contacttext p {
+    text-align: left;
+    font-family: 'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
+    padding-bottom:50px;
+}
+
+form {
+    padding-bottom:200px;
+}
 
 
+/* ABOUT PAGE MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+
+.aboutcontainer {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "aboutintro . profilephoto"
+      "meloimage"
+  }
+
+  .aboutintro {
+      padding-top:100px;
+      grid-column-start:1;
+      grid-column-end:2;
+      grid-row-start:1;
+  }
+
+  .profilephoto img {
+    width:500px;
+    padding-top:500px;
+    padding-left:100px;
+  }
+
+  .meloimage img {
+      width:500px;
+  }
+}
 
 
 
