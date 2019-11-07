@@ -1,4 +1,7 @@
-
+html, body { height: 100%; }
+body {
+    overflow-x:hidden;
+}
 
 body{
     font-family: 'poppins', Arial, Helvetica, sans-serif;
@@ -10,7 +13,7 @@ body{
 
 .container{
     margin: auto;
-    overflow:hidden
+    overflow-x:hidden
 }
 
 /* HERO SECTION */
@@ -40,14 +43,15 @@ nav ul li:last-child {
 nav ul li a {
     display: inline-block;
     outline: none;
-    color: #000;
+    color: #255869;
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
+    font-family: 'poppins';
 }
 
 nav a:hover {
-    color:white;
+    color:#02A0D4;
     
 }
 
@@ -55,6 +59,7 @@ nav a:hover {
     .logo {
           padding: 0;
     }
+
 
     .nav-wrapper {
           position: fixed;
@@ -106,7 +111,7 @@ nav a:hover {
     .nav-wrapper ul li a {
           padding: 10px 24px;
           opacity: 0;
-          color: #000;
+          color: #255869;
           font-size: 18px;
           font-weight: 400;
           letter-spacing: 1.2px;
@@ -130,7 +135,7 @@ nav a:hover {
           display: block;
           width: 20px;
           height: 2px;
-          background: #000;
+          background: #255869;
           border-radius: 2px;
           margin-left: 14px;
     }
@@ -186,6 +191,58 @@ nav a:hover {
 
 /* REST OF HERO */
 
+/* WAVE ANIMATION */
+
+.wrapper {
+    overflow-x:hidden;
+}
+
+.ocean { 
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom: 0px;
+  left:0;
+  background: #015871;
+  overflow-x:none;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+
+.wave:nth-of-type(2) { 
+  top: -167px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  } 
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+
+/* LOGO AND HERO TEXT */
 
 .logo {
     float: left;
@@ -200,14 +257,16 @@ nav a:hover {
 
 .hero {
     min-height:100vh;
-    background: url('../images/mobileheroimage.png') no-repeat;
+    background: url('../images/newmobileheroslice.png') no-repeat;
     background-size: cover;
     background-position:top right
 
 }
 
-.herotext h1, p {
+.herotext h1, .herotext p {
     text-align: center; 
+    color:#255869;
+    font-weight: bold;
 }
 
 .herotext h1 {
@@ -221,32 +280,37 @@ nav a:hover {
     padding-bottom:170px;
     margin-left:5px;
     margin-right:5px;
-    line-height:0px;
+    line-height:20px;
 }
 
-.userspeople {
-    position:relative;
-    top: 13px;
+.userstext {
+    text-decoration:line-through;
+    text-decoration-color: #D94420;
+}
+
+.peopletext {
+    font-family: 'Liu Jian Mao Cao';
+    font-size: 30px;
+    color: #D94420;
+}
+
+.featuredworktext {
+    font-weight: 600;
+    text-align:center;
+    color: #255869;
     
 }
 
 
-.worldimage {
+.downarrow {
     text-align:center;
 }
 
-/* .downarrow {
-    margin:auto;
-    width: 10%; 
+.downarrow img {
+    width:30px;
 }
 
-.featuredwork {
-    padding-top:100px;
-    font-size: 14px;
-    color:white;
-    font-weight: bold
 
-} */
 
 /* PROJECT */
 
@@ -270,7 +334,8 @@ nav a:hover {
  }
 
  .classkarmaprojectmockup img {
-     width:375px;
+     width:350px;
+     padding-top:50px;
  }
 
  .tags img {
@@ -283,8 +348,6 @@ nav a:hover {
 
 
  .button1 {
-    /* width: 160.11px;
-    height: 43.2px; */
     background: #3DCEFD;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
     border:solid 2px #3DCEFD;
@@ -403,13 +466,17 @@ footer h2 {
     top: 5px;
 }
 
+.heart img {
+    width:25px;
+}
+
 footer ul {
     margin:auto;
 }
 
 footer li {
     display: inline-block;
-    padding-top:70px;
+    padding-top:50px;
     padding-bottom:20px;
 }
 
@@ -418,13 +485,59 @@ footer a {
 }
 
 
-/* MEDIA QUERIES */
+/* HOME MEDIA QUERIES */
 
-/* DESKTOP HOME */
+/* EXTRA SMALL SCREENS */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 370px) {
+
+
+
+    .herotext h1 {
+        font-size:30px;
+        padding-top:120px;
+        padding-bottom:30px;
+    }
+
+    .herotext p {
+        font-size:16px;
+        line-height:25px;
+        padding-bottom:100px;
+        margin-left:8px;
+        margin-right:8px;
+    }
+
+    .remotetext {
+        font-size:16px;
+    }
+
+     .userspeople {
+        width:135px;
+        position:relative;
+        top: 11px;
+    }
+
+    .classkarmaprojectmockup img {
+        width:270px;
+        padding-top:50px;
+    }
+
+    .peopletext {
+        font-size:25px;
+    }
+}
+
+
+@media only screen and (min-width: 768px max-width:1199px) {
+    .herotext {
+        padding-top:150px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
 .hero {
-    background-image: url(../images/heroimageslice.png);
+    background-image: url(../images/wavesexperimentslice.png);
     min-height:100vh;
     background-size: cover;
     background-position:top right
@@ -444,6 +557,15 @@ footer a {
     margin-left:5px;
     margin-right:5px;
     line-height:0px;
+}
+
+.userstext {
+    text-decoration:line-through;
+    text-decoration-color: #D94420;
+}
+
+.peopletext {
+    font-size:36px;
 }
 
 .classkarmaproject {
@@ -530,8 +652,254 @@ footer a {
 }
 
 
+/* ABOUT AND CONTACT PAGE CSS */
+
+.aboutcontainer, .contactcontainer {
+    margin-left:20px;
+    margin-right:20px;
+    text-align:center;
+}
+
+.aboutsection, .contactsection {
+    background-color:#FEF1EB;
+}
+
+.aboutintro p, li {
+    font-family:'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.aboutintro h2 {
+    font-weight:bold;
+    font-size:26px;
+    text-align:left;
+    padding-top:50px;
+}
 
 
+.profilephoto img {
+    width:275px;
+    text-align:center;
+    padding-top:50px;
+}
+
+.meloimage img {
+    width:275px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.aboutintro p, li{
+    text-align:left;
+}
+
+.aboutintro li {
+    padding-bottom:15px;
+}
+
+.aboutintro ul {
+    padding-left:30px;
+}
+
+.aboutintro a {
+    text-decoration:none;
+    font-weight: 600;
+}
+
+
+/* CONTACT PAGE CSS */
+
+
+.contacttext {
+    padding-top:200px;
+    padding-right: 50px;;
+}
+
+.contacttext h1 {
+    text-align:left;
+    font-size:26px;
+    font-weight:600;
+    line-height: 40px;
+}
+
+.contacttext p {
+    text-align: left;
+    font-family: 'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
+    padding-bottom:50px;
+}
+
+form {
+    margin-top:50px;
+    align-items: center;
+    padding-bottom:200px;
+}
+.form-control {
+    width: 300px;
+    background:transparent;
+    border:none;
+    outline:none;
+    border-bottom:1px solid gray;
+    color:black;
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+input {
+    height:45px;
+    
+}
+
+form .submit {
+    background: #D94420;
+    border-color:transparent;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'poppins';
+    letter-spacing:2px;
+    height:50px;
+    margin-top:50px;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.form-control .submit {
+    padding-top:100px;
+}
+
+/* ABOUT PAGE MEDIA QUERIES */
+
+
+@media only screen and (min-width: 768px) {
+    .profilephoto img {
+        width:450px;
+      }
+    
+      .meloimage img {
+          width:450px;
+      }
+}
+
+@media only screen and (min-width: 1200px) {
+
+.aboutcontainer {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "aboutintro . profilephoto"
+      "meloimage"
+  }
+
+  .aboutintro {
+      padding-top:100px;
+      grid-column-start:1;
+      grid-column-end:2;
+      grid-row-start:1;
+  }
+
+  .aboutintro h2 {
+      font-size:36px;
+      padding-bottom:20px;
+  }
+
+  .profilephoto img {
+    width:450px;
+    padding-top:500px;
+    padding-left:100px;
+  }
+
+  .meloimage img {
+      width:450px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+    .profilephoto img {
+        width:650px;
+    }
+
+    .meloimage img {
+        width:650px;
+    }
+}
+
+
+/* CONTACT PAGE MEDIA QUERIES */
+
+@media only screen and (max-width: 360px) {
+
+    .contactcontainer {
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .form-control {
+        width: 250px;
+      }
+
+      footer img {
+        width:25px;
+    }
+
+    .contacttext {
+        padding-right:0px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px){
+
+.contacttext {
+    padding-top:250px;
+    }
+
+    .contacttext h1 {
+        font-size:33px;
+        padding-bottom:40px;
+    }
+.contactcontainer {
+    padding-bottom:500px;
+    margin-left:80px;
+    margin-right:80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "contacttext . contact-form"
+  }
+
+  .contact-form {
+      padding-top:200px;
+  }
+
+  .form-control {
+    width: 400px;
+  }
+
+  .submit {
+      width:250px;
+  }
+
+  .contactfooter {
+      padding-top:0px;
+  }
+
+  .form-control {
+    width: 290px;
+
+}
+
+.contacttext {
+    padding-right:50px;
+}
+
+}
 
 
 

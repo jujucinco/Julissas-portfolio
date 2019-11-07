@@ -37,10 +37,10 @@ p {
 
 /* NAV */
 
+
 nav ul {
     float: right;
-    padding-top:30px;
-    
+    padding-top:30px; 
 }
 
 nav ul li {
@@ -53,21 +53,21 @@ nav ul li:not(:first-child) {
 }
 
 nav ul li:last-child {
-    margin-right: 350px;
+    margin-right: 50px;
 }
 
 nav ul li a {
     display: inline-block;
     outline: none;
-    color: #000;
+    color: #255869;
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
+    font-family: 'poppins';
 }
 
 nav a:hover {
-    color:white;
-    
+    color:#02A0D4;  
 }
 
 @media screen and (max-width: 864px) {
@@ -75,7 +75,8 @@ nav a:hover {
           padding: 0;
     }
 
-    .nav-wrapper {
+
+.nav-wrapper {
           position: fixed;
           top: 0;
           left: 0;
@@ -87,12 +88,14 @@ nav a:hover {
           transition: all 0.2s ease;
     }
 
+
     .nav-wrapper ul {
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
           width: 100%;
     }
+
 
     .nav-wrapper ul li {
           display: block;
@@ -125,7 +128,7 @@ nav a:hover {
     .nav-wrapper ul li a {
           padding: 10px 24px;
           opacity: 0;
-          color: #000;
+          color: #255869;
           font-size: 18px;
           font-weight: 400;
           letter-spacing: 1.2px;
@@ -149,7 +152,7 @@ nav a:hover {
           display: block;
           width: 20px;
           height: 2px;
-          background: #000;
+          background: #255869;
           border-radius: 2px;
           margin-left: 14px;
     }
@@ -166,6 +169,7 @@ nav a:hover {
     .nav-btn i:nth-child(3) {
           margin-top: 4px;
     }
+
 }
 
 #nav:checked + .nav-btn {
@@ -204,6 +208,8 @@ nav a:hover {
 }
 
 
+
+
 /* REST OF HERO */
 
 .logo {
@@ -239,7 +245,7 @@ nav a:hover {
 }
 
 #heroimage img {
-    width:300px;
+    width:350px;
     padding-bottom:100px;
 }
 
@@ -265,6 +271,10 @@ nav a:hover {
     font-weight:bold;
 }
 
+.introduction {
+    background-image: url(../images/projectimages/projectherobackground.png);
+}
+
 #collegeillustration img {
     width:287px;
 }
@@ -277,6 +287,7 @@ nav a:hover {
 #projectdetails {
     background-color:#DFF3FD;
     min-height:437px;
+    padding-left:5%
 }
 
 .underline {
@@ -298,7 +309,7 @@ nav a:hover {
 }
 
 #mockupinhand img {
-    width:375px;
+    width:100%;
 }
 
 .centeredcontainer {
@@ -319,6 +330,10 @@ nav a:hover {
     padding-bottom:20px;
 }
 
+#survey .button2div {
+    padding-bottom:20px;
+}
+
 
 #dropbox img, #googledrive img, #evernote img {
     width: 160px;
@@ -329,6 +344,8 @@ nav a:hover {
 #competitiveanalysis li {
     text-align: left;
     padding-bottom:30px;
+    display:list-item;
+    list-style-position: inside;
 }
 
 hr {
@@ -336,12 +353,6 @@ hr {
     border-top: 1px solid #D2D2D2 
 }
 
-
-#competitiveanalysis li {
-    display:list-item;
-    list-style-position: inside;
-    list-style-image: url('../images/projectimages/cloudbullet.png');
-  }
 
 #crystal, #ana, #henry {
     padding-bottom: 30px;
@@ -364,7 +375,7 @@ hr {
     text-align:center;
 }
 
-#userstories h4{
+#userstories h4 {
     padding-bottom: 20px;
     font-weight:bold;
 }
@@ -391,6 +402,20 @@ hr {
     padding-bottom: 50px;
 }
 
+#userflows img {
+    width:375px;
+}
+
+#contentstrategy img:first-child {
+    width:375px;
+    padding-top:40px;
+}
+
+#contentstrategy .contentstrategysmaller img {
+    width:350px; 
+}
+
+
 #sketchesandwireframing {
     background: url(../images/projectimages/sketchesbackground.png);
 }
@@ -401,6 +426,22 @@ hr {
     text-align:center;
 }
 
+#sketchesandwireframing img {
+    width:300px;
+    text-align:center;
+}
+
+
+.colorpaletteimage img {
+    width:350px;
+}
+
+
+.brandingbuttons img {
+    width:300px;
+}
+
+
 #usabilitytesting img {
     padding-bottom:50px;
     padding-top:20px;
@@ -410,14 +451,15 @@ hr {
 #usabilitytesting h2, #usabilitytesting p {
     padding-bottom:20px;
 }
+
+
 #usabilitytesting {
     background-color: #E0F0F8;
 }
 
 .snippet {
-    background-color:white;
     color:grey;
-    border: 2px solid #C5E7F8;
+    border: 3px solid white;
 }
 
 .snippet p {
@@ -435,16 +477,25 @@ hr {
     padding-bottom:20px;
 }
 
+
 #fivescreenmockup-description p, #fivescreenmockup img {
     padding-bottom:30px;
 }
 
 #fivescreenmockup-description img {
-    width:330px;
+    width:350px;
+}
+
+#fivescreenmockup img {
+    width:100%;
 }
 
 .desktopmockup p {
     text-align:center;
+}
+
+.deskmockupone {
+    padding-top:50px;
 }
 
 video {
@@ -467,11 +518,21 @@ video {
 }
 
 
-
 .block {
     display:flex;
     align-items:center;
 }
+
+.solutionblock {
+    width:auto;
+    height:auto;
+    padding-top:0px;
+}
+
+.solutionblock p {
+    text-align:left;
+}
+
 
 .centered {
     text-align: center;
@@ -486,8 +547,6 @@ video {
 }
 
 .button {
-    /* width: 160.11px;
-    height: 43.2px; */
     background: #02A0D4;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
     border:solid 2px #02A0D4;
@@ -515,6 +574,7 @@ video {
 
 #finalthoughts p {
     padding-bottom:30px;
+
 }
 
 .videocaption {
@@ -564,6 +624,933 @@ footer a {
     padding:20px;
 }
 
+.heart img {
+    width:25px;
+}
+
+.heart {
+    position:relative;
+    top: 3px;
+}
+
+.snippet iframe {
+    width:325px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* EXTRA SMALL SCREENS */
+
+@media only screen and (max-width: 360px) {
+
+#userflows img {
+    width:300px;
+}
+
+#contentstrategy img:first-child {
+    width:315px;
+
+}
+
+#contentstrategy .contentstrategysmaller img {
+    width:300px; 
+}
+
+.snippet {
+    width:275px;
+}
+
+.snippet iframe {
+    width:265px;
+}
+
+.nameimage img {
+    width:290px;
+}
+
+.typographyimages img {
+    width: 280px;
+}
+
+.colorpaletteimage img {
+    width:280px;
+}
+
+#preferencetest img {
+    width:200px;
+}
+
+.testingvideos video {
+    width:250px;
+}
+
+.brandinglogoandsketches {
+    display:none;
+
+}
+
+#heroimage img {
+    width:300px;
+}
+
+#projecticons img {
+    width:50px;
+    margin:1%;
+}
+
+#survey .surveyimg img {
+    width:220px;
+}
+
+.brandingbuttons img {
+    width:280px;
+}
+
+#fivescreenmockup-description img {
+    width:300px;
+}
+
+footer img {
+    width:30px;
+}
+
+}
+
+  /* MEDIUM MEDIA QUERIES */
+
+  @media only screen and (min-width: 768px) {
+
+    .container {
+        margin-left:40px;
+        margin-right:40px;
+    }
+
+   
+
+      .introduction {
+          padding-top:0px;
+          padding-left: 120px;
+          padding-right:120px;
+      }
+
+      .heroimage  {
+          padding-bottom:0px;
+      }
+
+      #heroimage img {
+          width:500px;
+      }
+
+      #collegeillustration img {
+          width:500px;
+      }
+
+      #projecticons img {
+          width:100px;
+          margin:5%;
+      }
+
+      .analysislist {
+          padding-left:120px;
+          padding-right:120px;
+      }
+     
+      hr {
+          width:30%;
+      }
+
+      #personas {
+          padding-left:120px;
+          padding-right:120px;
+      }
+
+      #userstories {
+          padding-left:50px;
+          padding-right:50px;
+      }
+
+      #userflows img {
+          width:600px;
+      }
+
+
+      #contentstrategy img:first-child {
+        width:600px;
+    
+    }
+    
+    #contentstrategy .contentstrategysmaller img {
+        width:500px; 
+    }
+
+    .samplequestions p {
+        text-align:center
+     }
+
+     .snippet {
+        width:400px;
+        text-align:center;
+        margin:0px;
+        margin:auto;
+    }
+
+    .colorpaletteimage img {
+        width:500px;
+    }
+
+    .brandingbuttons img {
+        width:400px;
+    }
+
+    .mobilehomevideo video {
+        width:400px;
+    }
+    
+    #fivescreenmockup-description img {
+        width:600px;
+    }
+
+    .preferenceintro {
+        padding-bottom:50px;
+    }
+
+    .testingvideos video {
+        width:300px;
+    }
+
+    #finalthoughts p {
+        padding-left:100px;
+        padding-right:100px;
+    }
+
+    .nav-btn {
+        padding-top:50px;
+        padding-right:50px;
+    }
+
+    .logo {
+        padding-top:20px;
+        padding-left: 60px;
+        }
+  
+
+    .logo img {
+        width:130px;
+    }
+
+    p {
+        font-size:20px;
+    }
+
+    .block h2 {
+        font-size:30px;
+    }
+
+    h3 {
+        font-size:25px;
+    }
+
+    #projectdetails li {
+        font-size:20px;
+    }
+
+    #competitivenanalysis li {
+        font-size:20px;
+    }
+
+    .analysislist ul {
+        padding-left:75px;
+        
+    }
+
+  }
+
+  @media only screen and (max-width: 1199px){
+  .brandinglogoandsketches {
+    display:none;
+  }
+}
+
+  /* DESKTOP MEDIA QUERIES */
+
+@media only screen and (min-width: 1200px) {
+
+    .logo img {
+        width:153px;
+        }
+
+    .container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .classkarmalogo img {
+        width:250px;
+    }
+
+    .projecthero h2 {
+        font-weight: 500;
+        font-size:25px;
+    }
+
+    #heroimage img {
+        width:600px;
+    }
+
+    .introduction {
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:0px;
+    }
+
+    .challengeblock {
+    display:flex;
+    align-items:center;
+    }
+
+    .challengecontainer {
+        justify-content:column;
+        display:flex;
+    }
+
+    .challengecontent {
+        text-align:left;
+        padding-top:100px;
+    }
+
+    #collegeillustration img {
+        width:550px;
+        padding-left:30px;
+    }
+
+    #collegeillustration {
+        padding-bottom:70px;
+    }
+
+    #projecticons img {
+        width:130px;
+        margin-left:8%;
+        margin-right:8%;
+        position:fixed;
+        /* padding-left:150px;
+        padding-right:150px; */
+       
+    }
+
+    
+
+    #role, #deliverables, #tools {
+        padding: 0px; 
+    }
+
+    #tools {
+        padding-left:20px;
+    }
+
+    #deliverables {
+        padding-left:40px;
+    }
+
+
+    #projectdetails .projectgroup {
+    float:left;
+    margin: 5%;
+    width: 20%;
+    text-align:center;
+    padding-top:0;
+    margin-top:50px;
+    margin-bottom:0px;
+    }
+
+    #mockupinhand img {
+        width:100%;
+    }
+
+    .block h2 {
+        font-size:36px;
+    }
+
+     p {
+        font-size:22px;
+    }
+
+    h3 {
+        font-size:25px;
+    }
+  
+
+    #userstories h4, #userstories p {
+        font-size:24px;
+        padding-bottom:50px;
+    }
+
+    #userstories h4 {
+        padding-top:30px;
+    }
+
+    #userflows h4 {
+        font-size:24px;
+    }
+
+    #userflows img {
+        width:500px;
+    
+    }
+
+    .userstoriesblock {
+        justify-content: center;
+    }
+
+    #userflows {
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
+    }
+
+    #userflows .buttondiv {
+        flex:100%;
+        align-items:center;
+        justify-content:center;
+    }
+
+    #userflows div {
+        margin:3%;
+        padding-bottom:0;
+        margin-bottom:0;
+        margin-top:0;
+    }
+
+    .flowone h4 {
+        padding-left:10px;
+    }
+
+    .flowtwo h4 {
+        padding-left:50px;
+    }
+
+  #fivescreenmockup img {
+    width:100%;
+  }
+
+  #fivescreenmockup-description video {
+      width:450px;
+  }
+
+  #fivescreenmockup-description .desktopmockup img {
+      width:800px;
+  }
+
+  #preferencetest img {
+      width:300px;
+  }
+
+  #preferencetest .divonepreferencelogo img, .divtwopreferencelogo img {
+      width:300px;
+      padding-bottom:100px;
+  }
+
+  .container video {
+      width:320px;
+  }
+
+
+  #sketchesandwireframing .menuwireframe img {
+      width:260px;
+  }
+
+  #sketchesandwireframing .homewireframe img {
+    width:280px;
+  }
+
+  #sketchesandwireframing .accountwireframe img {
+      width:260px;
+  }
+
+.button {
+    font-size:18px;
+}
+
+.competitiveanalysisblock p, .personasblock p, .userstoriesblock p, .solutionblock p, .userflowsblock p, .sketchesandwireframingblock p {
+    text-align: center;
+}
+
+#contentstrategy img:first-child {
+    width:650px;
+    padding-right:50px;
+}
+
+#contentstrategy .contentstrategysmaller img {
+    width:450px;
+}
+
+#contentstrategy {
+    display:inline-flex;
+    
+}
+
+.snippet {
+    width:350px;
+    background-color:none;
+}
+
+.snippet p {
+    font-size:18px;
+    color:black;
+}
+
+#preferencetest .preferencelogo {
+    width:300px;
+}
+
+#survey .button2div {
+    padding-bottom:20px;
+}
+
+#survey img {
+    width:350px;
+}
+
+#survey .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "surveyintro surveyintro" 
+      "surveyp surveyp"
+      "surveyflextext . surveyimg"
+      "nonflexsurvey nonflexsurvey";
+  }
+
+  .surveyintro, .surveyp {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+  .nonflexsurvey {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+  .button2div {
+      grid-column-start:1;
+      grid-column-end:3;
+  }
+
+  #survey h3:first-child {
+    padding-top:50px;
+}
+
+.surveyflextext h3 {
+    font-size:22px;
+}
+
+  .analysislist{
+    text-align:left;
+  }
+    
+  
+
+    #sketchesandwireframing {
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    #sketchesandwireframing div {
+        margin:5%;
+        padding-bottom:0;
+        margin-bottom:0;
+        margin-top:0;
+    }
+
+    #sketchesandwireframing .buttondiv{
+        flex:100%;
+    }
+
+    #sketchesandwireframing {
+        background-image:url(../images/projectimages/sketchesdesktop.svg);
+        width:100%
+    }
+    
+.testingvideos {
+    display:flex;
+    margin:0;
+    padding:0px;
+}
+
+.testingvideos div {
+    margin:5%;
+    width:30%;
+}
+
+.createcontentvideo video {
+    width:300px;
+}
+
+.organizecontentvideo video {
+    width:295px;
+}
+
+.locatecontentvideo video {
+    width:287px;
+}
+
+
+#preferencetest .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "preferenceintro preferenceintro" 
+      "cancelpreference . loginpreference"
+      "div1preferencelogo . div2preferencelogo"
+      "preferencetext preferencetext";
+  }
+
+  .preferenceintro {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+  .preferencetext {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+  #competitiveanalysis hr {
+      width: .1px;
+      height:186px;
+      margin:5%;
+      background-color:#D2D2D2;
+  }
+
+  #competitiveanalysis img {
+      padding-left:30px;
+      padding-bottom:20px;
+  }
+
+  .analysislist {
+      padding-left:0px;
+      padding-right:0px;
+  }
+
+  .analysislist ul {
+    padding-left:0px;
+    
+}
+
+  #dropbox img {
+      padding-left:100px;
+      padding-top:50px;
+  }
+
+  #googledrive img {
+      padding-right:50px;
+  }
+
+  #evernote img {
+      padding-left:60px;
+      padding-top:50px;
+  }
+
+  #competitiveanalysis .container {
+      margin-left:50px;
+      margin-right:50px;
+  }
+
+
+  #personas .container {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+  #personas hr {
+    width: .1px;
+    height:186px;
+    margin:5%;
+    background-color:#D2D2D2;
+  }
+
+  #crystal, #ana, #henry {
+      padding-bottom:70px;
+  }
+
+  #henry {
+      padding-top:50px;
+  }
+
+  #personas h3 {
+      font-size:22px;
+  }
+
+  #competitiveanalysis .container {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+#dropbox, #googledrive, #evernote {
+    padding-top:0px;
+    margin-top:0px;
+    padding-bottom:50px;
+}
+
+#dropbox {
+    padding-top:30px;
+}
+
+#usabilitytesting .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "usertestwireframe . usabilitytext"
+      "documentwireframe . folderwireframe"
+      "samplequestions . snippet";
+  }
+
+  .documentwireframe {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:2;
+    grid-row-end:2;
+    padding-bottom:50px;
+  }
+
+  .folderwireframe {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end:2;
+    padding-bottom:50px;
+  }
+
+  .samplequestions {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:3;
+    grid-row-end:3; 
+    padding-right:50px;
+  }
+
+  .samplequestions h2 {
+     text-align:center
+  }
+
+  .samplequestions p {
+      text-align:center;
+  }
+
+
+  .snippet {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:3;
+    grid-row-end:3;
+    margin-left:100px;
+    
+  }
+
+  #usabilitytesting img {
+      width:200px;
+  }
+
+
+  #usabilitytesting .usabilitytext {
+      padding-top:200px;
+  }
+
+  #branding .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "brandingname . nameimage"
+      "brandinglogoandsketches . brandinglogo"
+      "typography . typographyimages"
+      "colorpaletteimage . colorpalette"
+      "buttontext . signupbuttonimages pricingbuttonimages"
+      "gridbutton8";
+  }
+
+  .brandingname {
+      padding-bottom:100px;
+      padding-top:50px;
+  }
+
+  .nameimage {
+      padding-top:50px;
+  }
+
+
+  .brandinglogo {
+      grid-column-start: 2;
+      grid-column-end: 3;
+  }
+
+ #branding .brandinglogoandsketches img {
+    width:500px;
+    padding-right:20px;
+}
+
+
+  #branding .brandinglogoandsketches {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:2;
+    grid-row-end:2;
+    padding-bottom:100px;
+  }
+
+  .colorpalette {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-bottom:100px;
+  }
+
+  .colorpaletteimage {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:4;
+    grid-row-end:4;
+  }
+
+  .colorpaletteimage img {
+      width:500px;
+      padding-top:50px;
+      padding-right:100px;
+  }
+
+  .typography {
+      padding-bottom:100px;
+  }
+
+  .buttontext {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:5;
+    grid-row-end:5;
+    padding-bottom:100px;
+  }
+
+  .buttontext h2 {
+      padding-right:100px;
+  }
+
+  .colorpalette h2 {
+      padding-right:50px;
+  }
+
+  .typography h2,   {
+      padding-right:50px;
+  }
+
+  .brandingname h2{
+      padding-right:100px;
+  }
+
+  .brandinglogo {
+      padding-left:80px;
+  }
+
+  .typography h2 {
+      padding-right:50px;
+  }
+
+  .gridbutton8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
+#branding .signupbuttonimages img, .pricingbuttonimages img {
+    width:150px;
+}
+
+.brandinglogoimages, .brandinglogosketches {
+    display:none;
+}
+
+#fivescreenmockup-description .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "mobilehomevideo . fivescreenmockuptext"
+      "desktopmockupone desktopmockupone"
+      "desktopmockuptwo desktopmockuptwo"
+  }
+
+  .fivescreenmockuptext {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top:50px;
+  }
+
+  .mobilehomevideo {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end:2;
+  }
+
+  .deskmockupone {
+      grid-column-start:1;
+      grid-column-end:3;
+      grid-row-start: 2;
+      grid-row-end:2;
+  }
+
+  .deskmockuptwo {
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  #fivescreenmockup-description .desktopmockup img , .desktopmockup img {
+      width:1000px;
+  }
+
+  #fivescreenmockup-description .deskmockuptwo p {
+      padding-bottom:100px;
+  }
+
+  #competitiveanalysis {
+      font-size:20px;
+  }
+
+  #projectdetails {
+      font-size:20px;
+  }
+
+  #finalthoughts {
+      padding-left:150px;
+      padding-right:150px;
+  }
+
+  #finalthoughts p {
+      padding-bottom:100px;
+  }
+
+  footer h2 {
+    font-size:28px;
+}
+
+.heart img{
+   width:30px;
+}
+
+.heart {
+    position:relative;
+    top: 5px;
+}
+}
 
 
 
