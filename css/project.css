@@ -33,7 +33,10 @@ p {
 
 
 
+
+
 /* NAV */
+
 
 nav ul {
     float: right;
@@ -56,7 +59,7 @@ nav ul li:last-child {
 nav ul li a {
     display: inline-block;
     outline: none;
-    color: #000;
+    color: #255869;
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
@@ -66,6 +69,11 @@ nav ul li a {
 nav a:hover {
     color:#02A0D4;  
 }
+
+@media screen and (max-width: 864px) {
+    .logo {
+          padding: 0;
+    }
 
 
 .nav-wrapper {
@@ -120,7 +128,7 @@ nav a:hover {
     .nav-wrapper ul li a {
           padding: 10px 24px;
           opacity: 0;
-          color: #000;
+          color: #255869;
           font-size: 18px;
           font-weight: 400;
           letter-spacing: 1.2px;
@@ -144,7 +152,7 @@ nav a:hover {
           display: block;
           width: 20px;
           height: 2px;
-          background: #000;
+          background: #255869;
           border-radius: 2px;
           margin-left: 14px;
     }
@@ -161,6 +169,8 @@ nav a:hover {
     .nav-btn i:nth-child(3) {
           margin-top: 4px;
     }
+
+}
 
 #nav:checked + .nav-btn {
     transform: rotate(45deg);
@@ -196,6 +206,8 @@ nav a:hover {
 .hidden {
     display: none;
 }
+
+
 
 
 /* REST OF HERO */
@@ -297,7 +309,7 @@ nav a:hover {
 }
 
 #mockupinhand img {
-    width:375px;
+    width:100%;
 }
 
 .centeredcontainer {
@@ -475,7 +487,7 @@ hr {
 }
 
 #fivescreenmockup img {
-    width:375px;
+    width:100%;
 }
 
 .desktopmockup p {
@@ -621,30 +633,256 @@ footer a {
     top: 3px;
 }
 
+.snippet iframe {
+    width:325px;
+}
+
 
 /* MEDIA QUERIES */
 
-/* SMALL MEDIA QUERIES */
+/* EXTRA SMALL SCREENS */
 
-@media only screen and (max-width: 600px) {
-    .brandinglogoandsketches {
-      display:none;
+@media only screen and (max-width: 360px) {
+
+#userflows img {
+    width:300px;
+}
+
+#contentstrategy img:first-child {
+    width:315px;
+
+}
+
+#contentstrategy .contentstrategysmaller img {
+    width:300px; 
+}
+
+.snippet {
+    width:275px;
+}
+
+.snippet iframe {
+    width:265px;
+}
+
+.nameimage img {
+    width:290px;
+}
+
+.typographyimages img {
+    width: 280px;
+}
+
+.colorpaletteimage img {
+    width:280px;
+}
+
+#preferencetest img {
+    width:200px;
+}
+
+.testingvideos video {
+    width:250px;
+}
+
+.brandinglogoandsketches {
+    display:none;
+
+}
+
+#heroimage img {
+    width:300px;
+}
+
+#projecticons img {
+    width:50px;
+    margin:1%;
+}
+
+#survey .surveyimg img {
+    width:220px;
+}
+
+.brandingbuttons img {
+    width:280px;
+}
+
+#fivescreenmockup-description img {
+    width:300px;
+}
+
+footer img {
+    width:30px;
+}
+
+}
+
+  /* MEDIUM MEDIA QUERIES */
+
+  @media only screen and (min-width: 768px) {
+
+    .container {
+        margin-left:40px;
+        margin-right:40px;
     }
+
+   
+
+      .introduction {
+          padding-top:0px;
+          padding-left: 120px;
+          padding-right:120px;
+      }
+
+      .heroimage  {
+          padding-bottom:0px;
+      }
+
+      #heroimage img {
+          width:500px;
+      }
+
+      #collegeillustration img {
+          width:500px;
+      }
+
+      #projecticons img {
+          width:100px;
+          margin:5%;
+      }
+
+      .analysislist {
+          padding-left:120px;
+          padding-right:120px;
+      }
+     
+      hr {
+          width:30%;
+      }
+
+      #personas {
+          padding-left:120px;
+          padding-right:120px;
+      }
+
+      #userstories {
+          padding-left:50px;
+          padding-right:50px;
+      }
+
+      #userflows img {
+          width:600px;
+      }
+
+
+      #contentstrategy img:first-child {
+        width:600px;
+    
+    }
+    
+    #contentstrategy .contentstrategysmaller img {
+        width:500px; 
+    }
+
+    .samplequestions p {
+        text-align:center
+     }
+
+     .snippet {
+        width:400px;
+        text-align:center;
+        margin:0px;
+        margin:auto;
+    }
+
+    .colorpaletteimage img {
+        width:500px;
+    }
+
+    .brandingbuttons img {
+        width:400px;
+    }
+
+    .mobilehomevideo video {
+        width:400px;
+    }
+    
+    #fivescreenmockup-description img {
+        width:600px;
+    }
+
+    .preferenceintro {
+        padding-bottom:50px;
+    }
+
+    .testingvideos video {
+        width:300px;
+    }
+
+    #finalthoughts p {
+        padding-left:100px;
+        padding-right:100px;
+    }
+
+    .nav-btn {
+        padding-top:50px;
+        padding-right:50px;
+    }
+
+    .logo {
+        padding-top:20px;
+        padding-left: 60px;
+        }
+  
+
+    .logo img {
+        width:130px;
+    }
+
+    p {
+        font-size:20px;
+    }
+
+    .block h2 {
+        font-size:30px;
+    }
+
+    h3 {
+        font-size:25px;
+    }
+
+    #projectdetails li {
+        font-size:20px;
+    }
+
+    #competitivenanalysis li {
+        font-size:20px;
+    }
+
+    .analysislist ul {
+        padding-left:75px;
+        
+    }
+
   }
 
-
+  @media only screen and (max-width: 1199px){
+  .brandinglogoandsketches {
+    display:none;
+  }
+}
 
   /* DESKTOP MEDIA QUERIES */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
 
     .logo img {
         width:153px;
         }
 
     .container {
-        margin-left: 125px;
-        margin-right: 125px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .classkarmalogo img {
         width:250px;
@@ -656,12 +894,12 @@ footer a {
     }
 
     #heroimage img {
-        width:500px;
+        width:600px;
     }
 
     .introduction {
-        padding-left:280px;
-        padding-right:280px;
+        padding-left:100px;
+        padding-right:100px;
         padding-top:0px;
     }
 
@@ -691,10 +929,15 @@ footer a {
 
     #projecticons img {
         width:130px;
-        padding-left:150px;
-        padding-right:150px;
+        margin-left:8%;
+        margin-right:8%;
+        position:fixed;
+        /* padding-left:150px;
+        padding-right:150px; */
+       
     }
 
+    
 
     #role, #deliverables, #tools {
         padding: 0px; 
@@ -750,12 +993,19 @@ footer a {
     }
 
     #userflows img {
-        width:600px;
+        width:500px;
+    
+    }
+
+    .userstoriesblock {
+        justify-content: center;
     }
 
     #userflows {
     display:flex;
     flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
     }
 
     #userflows .buttondiv {
@@ -804,9 +1054,17 @@ footer a {
       width:320px;
   }
 
-  #sketchesandwireframing img {
-      width:300px;
-      height:566px;
+
+  #sketchesandwireframing .menuwireframe img {
+      width:260px;
+  }
+
+  #sketchesandwireframing .homewireframe img {
+    width:280px;
+  }
+
+  #sketchesandwireframing .accountwireframe img {
+      width:260px;
   }
 
 .button {
@@ -832,7 +1090,7 @@ footer a {
 }
 
 .snippet {
-    width:400px;
+    width:350px;
     background-color:none;
 }
 
@@ -973,6 +1231,16 @@ footer a {
       padding-bottom:20px;
   }
 
+  .analysislist {
+      padding-left:0px;
+      padding-right:0px;
+  }
+
+  .analysislist ul {
+    padding-left:0px;
+    
+}
+
   #dropbox img {
       padding-left:100px;
       padding-top:50px;
@@ -985,6 +1253,11 @@ footer a {
   #evernote img {
       padding-left:60px;
       padding-top:50px;
+  }
+
+  #competitiveanalysis .container {
+      margin-left:50px;
+      margin-right:50px;
   }
 
 
@@ -1083,7 +1356,7 @@ footer a {
   }
 
   #usabilitytesting img {
-      width:300px;
+      width:200px;
   }
 
 
@@ -1097,7 +1370,7 @@ footer a {
     grid-template-rows: auto;
     grid-template-areas: 
       "brandingname . nameimage"
-      "brandinglogoimages brandinglogosketches . brandinglogo"
+      "brandinglogoandsketches . brandinglogo"
       "typography . typographyimages"
       "colorpaletteimage . colorpalette"
       "buttontext . signupbuttonimages pricingbuttonimages"
@@ -1119,8 +1392,13 @@ footer a {
       grid-column-end: 3;
   }
 
+ #branding .brandinglogoandsketches img {
+    width:500px;
+    padding-right:20px;
+}
 
-  .brandinglogoandsketches {
+
+  #branding .brandinglogoandsketches {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start:2;
@@ -1188,10 +1466,7 @@ footer a {
     grid-column-end: 3;
 }
 
-.brandinglogoandsketches img {
-    width:500px;
-    padding-right:20px;
-}
+
 
 #branding .signupbuttonimages img, .pricingbuttonimages img {
     width:150px;
@@ -1255,8 +1530,8 @@ footer a {
   }
 
   #finalthoughts {
-      padding-left:180px;
-      padding-right:180px;
+      padding-left:150px;
+      padding-right:150px;
   }
 
   #finalthoughts p {
@@ -1277,11 +1552,6 @@ footer a {
 }
 }
 
-/* @media screen and (max-width: 864px) {
-    .logo {
-          padding: 0;
-    }
-} */
 
 
 
