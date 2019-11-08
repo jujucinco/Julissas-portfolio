@@ -224,6 +224,7 @@ nav a:hover {
   transform: translate3d(0, 0, 0);
   overflow-x:hidden;
   
+  
 }
 
 
@@ -258,6 +259,8 @@ nav a:hover {
 .waveanimationgroup {
     overflow:hidden;
     max-width:100%;
+    display:block;
+    
 }
 
 /* LOGO AND HERO TEXT */
@@ -519,6 +522,8 @@ footer a {
 footer ul img {
     width:40px;
 }
+
+
 
 
 /* HOME MEDIA QUERIES */
