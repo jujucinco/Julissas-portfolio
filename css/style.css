@@ -262,8 +262,11 @@ nav a:hover {
 .waveanimationgroup {
     overflow:hidden;
     max-width:100%;
-    
-    
+      
+}
+
+.endWave{
+	display:none;
 }
 
 /* LOGO AND HERO TEXT */
