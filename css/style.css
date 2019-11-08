@@ -302,8 +302,9 @@ nav a:hover {
     font-weight: 600;
     text-align:center;
     color: #255869; 
+    position:relative;
+    z-index:1;
 }
-
 
 
 .downarrow img {
@@ -312,6 +313,8 @@ nav a:hover {
 
 .downarrowdiv {
     text-align:center;
+    position:relative;
+    z-index:1;
 }
 
 .featuredworktext a {
