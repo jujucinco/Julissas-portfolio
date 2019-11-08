@@ -48,6 +48,7 @@ nav ul li a {
     font-size: 18px;
     font-weight: 400;
     font-family: 'poppins';
+    
 }
 
 nav a:hover {
@@ -257,7 +258,7 @@ nav a:hover {
 
 .hero {
     min-height:100vh;
-    background: url('../images/newmobileheroslice.png') no-repeat;
+    background: url('../images/newmobileheroslice.svg') no-repeat;
     background-size: cover;
     background-position:top right
 
@@ -536,15 +537,17 @@ footer a {
 
 
 @media only screen and (min-width: 1200px) {
+
+
 .hero {
-    background-image: url(../images/wavesexperimentslice.png);
+    background-image: url(../images/newdesktopslice.svg);
     min-height:100vh;
     background-size: cover;
     background-position:top right
 }
 
 .logo img {
-    width:153px;
+    width:180px;
     }
 
 .herotext h1 {

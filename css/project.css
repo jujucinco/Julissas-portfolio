@@ -1263,26 +1263,35 @@ footer img {
     display:flex;
     align-items: center;
     justify-content:center;
+    margin:auto;
+  }
+
+  #personas {
+    padding-top:0px;
+    margin-top:0px;
   }
 
   #personas hr {
-    width: .1px;
+    width: .2px;
     height:186px;
-    margin:5%;
+    margin:10%;
     background-color:#D2D2D2;
   }
 
   #crystal, #ana, #henry {
+      padding-top:0px;
+      margin-top:50px;
       padding-bottom:70px;
   }
 
-  #henry {
-      padding-top:50px;
+  #ana {
+      padding-top:30px;
   }
-
   #personas h3 {
       font-size:22px;
   }
+
+  
 
   #competitiveanalysis .container {
     display:flex;
