@@ -263,7 +263,7 @@ nav a:hover {
     background: url('../images/newmobileheroslice.svg') no-repeat;
     background-size: cover;
     background-position:top right;
-    overflow-x:hidden
+    overflow-x:hidden;
 
 }
 
@@ -508,7 +508,9 @@ footer ul img {
 
 @media only screen and (max-width: 370px) {
 
-
+    .hero {
+        overflow:hidden;
+    }
 
     .herotext h1 {
         font-size:30px;
@@ -552,6 +554,10 @@ footer ul img {
 @media only screen and (min-width: 768px max-width:1199px) {
     .herotext {
         padding-top:150px;
+    }
+
+    .hero {
+        overflow:hidden;
     }
 }
 
@@ -877,6 +883,10 @@ form .submit {
 }
 
 @media only screen and (min-width: 768px){
+
+    .hero {
+        overflow:hidden;
+    }
 
 .contacttext {
     padding-top:250px;
