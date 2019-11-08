@@ -233,7 +233,8 @@ nav a:hover {
   overflow-x:hidden;
 }
 
-@keyframes wave {
+/* @keyframes wave */
+@-webkit-keyframes wave  {
   0% {
     margin-left: 0;
   }
@@ -242,7 +243,8 @@ nav a:hover {
   } 
 }
 
-@keyframes swell {
+/* @keyframes swell */
+@-webkit-keyframes swell {
   0%, 100% {
     transform: translate3d(0,-25px,0);
   }
