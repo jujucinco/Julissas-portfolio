@@ -310,6 +310,14 @@ nav a:hover {
     z-index:1;
 }
 
+.featuredworktext a {
+    text-decoration:none;
+    color: #255869;
+}
+
+.featuredworktext a:visited {
+    color:#255869;
+}
 
 .downarrow img {
     width:30px;
@@ -320,16 +328,6 @@ nav a:hover {
     position:relative;
     z-index:1;
 }
-
-.featuredworktext a {
-    text-decoration:none;
-    color: #255869;
-}
-
-.featuredworktext a:visited {
-    color:#255869;
-}
-
 
 
 /* PROJECT */
