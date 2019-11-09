@@ -283,6 +283,7 @@ nav a:hover {
       }
 
 
+
 .herotext h1, .herotext p {
     text-align: center; 
     color:#5F2569;
@@ -584,11 +585,6 @@ footer ul img {
 @media only screen and (min-width: 1200px) {
 
 
-.hero {
-    min-height:100vh;
-    background-size: cover;
-
-}
 
 .logo img {
     width:180px;
