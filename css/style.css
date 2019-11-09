@@ -480,13 +480,15 @@ footer h2 {
 }
 
 .button2 {
-    background: #A58CDC;
+    background: #F8C65F;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
-    border:solid 2px #A58CDC;
+    border:solid 2px #F8C65F;
     border-radius: 5px;
     padding: 10px 40px;
-    color:white;
-    font-size:14px;
+    color:#3B3B3B;
+    font-family: 'poppins';
+    font-weight:bold;
+    font-size:18px;
     text-decoration: none;
  }
 
