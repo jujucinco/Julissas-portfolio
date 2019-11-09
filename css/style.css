@@ -2,11 +2,8 @@ html, body { height: 100%; }
 body {
     overflow-x:hidden;
     max-width:100vw;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-    position:relative;
-    margin: 0;max-height: 100vh; overflow-x:hidden;
-    padding: 9em 0 0 0;
+   
+    
 
 }
 
@@ -50,7 +47,7 @@ nav ul li:last-child {
 nav ul li a {
     display: inline-block;
     outline: none;
-    color: #255869;
+    color: #5F2569;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
@@ -119,7 +116,7 @@ nav a:hover {
     .nav-wrapper ul li a {
           padding: 10px 24px;
           opacity: 0;
-          color: #255869;
+          color: #5F2569;
           font-size: 18px;
           font-weight: 400;
           letter-spacing: 1.2px;
@@ -197,6 +194,7 @@ nav a:hover {
     display: none;
 }
 
+
 /* REST OF HERO */
 
 /* WAVE ANIMATION */
@@ -225,6 +223,7 @@ nav a:hover {
 	}
 }
 
+
 /* LOGO AND HERO TEXT */
 
 .logo {
@@ -237,6 +236,7 @@ nav a:hover {
 .logo img {
     width:115px;
     }
+
 
 .hero {
         width: 100%;
@@ -280,14 +280,13 @@ nav a:hover {
         100% {
           background-color: #B5EAD7;
         }
-      };
-    
+      }
 
-}
+
 
 .herotext h1, .herotext p {
     text-align: center; 
-    color:#255869;
+    color:#5F2569;
     font-weight: bold;
 }
 
@@ -319,18 +318,18 @@ nav a:hover {
 .featuredworktext {
     font-weight: 600;
     text-align:center;
-    color: #255869; 
+    color: #5F2569; 
     position:relative;
     z-index:1;
 }
 
 .featuredworktext a {
     text-decoration:none;
-    color: #255869;
+    color: #5F2569;
 }
 
 .featuredworktext a:visited {
-    color:#255869;
+    color:#5F2569;
 }
 
 .downarrow img {
@@ -520,7 +519,6 @@ footer a {
 footer ul img {
     width:40px;
 }
-
 
 
 
