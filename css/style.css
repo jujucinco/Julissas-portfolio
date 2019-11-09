@@ -283,7 +283,7 @@ nav a:hover {
 
 .herotext h1, .herotext p {
     text-align: center; 
-    color:#5F2569;
+    color:#6F6F6F;
     font-weight: bold;
 }
 
@@ -315,18 +315,18 @@ nav a:hover {
 .featuredworktext {
     font-weight: 600;
     text-align:center;
-    color: #5F2569; 
+    color: #6F6F6F; 
     position:relative;
     z-index:1;
 }
 
 .featuredworktext a {
     text-decoration:none;
-    color: #5F2569;
+    color: #6F6F6F;
 }
 
 .featuredworktext a:visited {
-    color:#5F2569;
+    color:#6F6F6F;
 }
 
 .downarrow img {
@@ -403,11 +403,11 @@ nav a:hover {
 .intro h2 {
     font-size:30px;
     padding-bottom:30px;
-    color: #255869;
+    color: #6F6F6F;
 }
 
 .intro p {
-    color: #255869;
+    color: #6F6F6F;
     padding-bottom: 40px;
 }
 
@@ -426,7 +426,7 @@ nav a:hover {
 .skill h3 {
     font-size: 22px;
     font-weight: bold;
-    color: #255869;
+    color: #6F6F6F;
     padding-bottom:10px;
 }
 
@@ -447,7 +447,7 @@ nav a:hover {
     font-size:24px;
     font-weight: bold;
     padding-bottom:30px;
-    color:#255869;
+    color:#6F6F6F;
 }
 
 .testimonial p {
@@ -480,9 +480,9 @@ footer h2 {
 }
 
 .button2 {
-    background: #D94420;
+    background: #A58CDC;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
-    border:solid 2px #D94420;
+    border:solid 2px #A58CDC;
     border-radius: 5px;
     padding: 10px 40px;
     color:white;
@@ -703,6 +703,7 @@ footer ul img {
     margin-left:20px;
     margin-right:20px;
     text-align:center;
+    justify-items: center;
 }
 
 .aboutsection, .contactsection {
