@@ -4,7 +4,7 @@
 /* html, body { height: 100%; } */
 /* body {
     overflow-x:hidden;
-    max-width:100vw;  
+    max-width:100vw;
 
 } */
 
@@ -28,7 +28,7 @@ body{
 nav ul {
     float: right;
     padding-top:50px;
-    
+
 }
 
 nav ul li {
@@ -52,12 +52,12 @@ nav ul li a {
     font-size: 20px;
     font-weight: 600;
     font-family: 'poppins';
-    
+
 }
 
 nav a:hover {
     color:#02A0D4;
-    
+
 }
 
 @media screen and (max-width: 864px) {
@@ -143,7 +143,7 @@ nav a:hover {
           background: #4D4D4D;
           border-radius: 2px;
           margin-left: 14px;
-         
+
     }
 
     .nav-btn i:nth-child(1) {
@@ -224,7 +224,7 @@ nav a:hover {
 
 
 .profilephoto img {
-    width:275px;
+    width: 90%;
     text-align:center;
     padding-top:50px;
 }
@@ -304,7 +304,7 @@ form {
 
 input {
     height:45px;
-    
+
 }
 
 form .submit {
@@ -389,9 +389,10 @@ footer ul img {
 
 @media only screen and (min-width: 768px) {
     .profilephoto img {
-        width:450px;
+        width: 90%;
+        margin-top: 20px;
       }
-    
+
       .meloimage img {
           width:450px;
       }
@@ -399,15 +400,15 @@ footer ul img {
 
 @media only screen and (min-width: 1200px) {
 
-   
+
 
 /* .aboutcontainer {
     margin-left: 100px;
-    margin-right: 100px; 
+    margin-right: 100px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
       "aboutintro . profilephoto"
       "meloimage"
   }
@@ -434,13 +435,25 @@ footer ul img {
   } */
 
   .aboutcontainer {
-      padding-left:100px;
-      padding-right:100px;
+    background-color: #FFF7E7;
+    margin: -8px auto;
+    display: inline-block;
+    padding: 50px;
+  }
+
+  .nav_bar {
+    background-color: #FFF7E7;
+    width: 100%;
+    display: inline-block;
   }
 
   .profilephoto {
       float:right;
-      margin:20%;
+      width: 45%;
+  }
+
+  .aboutintro {
+    width: 45%;
   }
 
   .aboutintro h2 {
@@ -493,7 +506,7 @@ footer ul img {
     .contacttext {
         padding-right:0px;
     }
-    
+
 }
 
 @media only screen and (min-width: 768px){
@@ -522,7 +535,7 @@ footer ul img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
       "contacttext . contact-form"
   }
 
