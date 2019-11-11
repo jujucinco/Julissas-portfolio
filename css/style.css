@@ -114,7 +114,7 @@ nav a:hover {
     .nav-wrapper ul li a {
           padding: 10px 24px;
           opacity: 0;
-          color: #5F2569;
+          color: #6F6F6F;
           font-size: 18px;
           font-weight: 400;
           letter-spacing: 1.2px;
@@ -292,7 +292,7 @@ nav a:hover {
 .herotext h1 {
     font-size:48px;
     padding-bottom:50px;
-    padding-top:150px;
+    padding-top:200px;
 }
 
 .herotext p {
@@ -317,7 +317,7 @@ nav a:hover {
 .featuredworktext {
     font-weight: 600;
     text-align:center;
-    padding-top:130px;
+    padding-top:200px;
     color: #6F6F6F; 
     
 }
@@ -404,15 +404,16 @@ nav a:hover {
 
 .intro h2 {
     font-size:32px;
-    padding-bottom:30px;
+    padding-bottom:40px;
     color: #A68DDE;
     font-weight:600;
+    line-height: 35px;
 
 }
 
 .intro p {
     color: #6F6F6F;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 #process .skill {
@@ -442,21 +443,26 @@ nav a:hover {
 
 .testimonial {
     text-align: center;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:100px;
+    padding-bottom:80px;
     background-color:#F3FCFF;
 }
 
 .testimonial h2 {
     font-size:32px;
     font-weight: bold;
-    padding-bottom:30px;
+    padding-bottom:40px;
     color:#6F6F6F;
+    line-height:35px;
 }
 
 .testimonial p {
     margin-left: 60px;
     margin-right:60px;
+}
+
+.testimonialbody {
+    padding-bottom:40px;
 }
 
 .testimonial img {
@@ -472,7 +478,7 @@ nav a:hover {
 /* FOOTER */
 
 footer {
-    padding: 100px;
+    padding-top: 65px;
     padding-bottom:0px;
     /* margin-top: 100px; */
     text-align: center;
@@ -502,6 +508,10 @@ footer p {
     margin-bottom:100px;
  }
 
+ .button2div {
+     padding-bottom:50px;
+ }
+
 
 
 .heart {
@@ -524,7 +534,7 @@ footer li {
 }
 
 footer a {
-    padding:10px;
+    padding:30px;
 }
 
 footer ul img {
@@ -596,18 +606,18 @@ footer ul img {
 @media only screen and (min-width: 1200px) {
 
 
-
 .logo img {
-    width:180px;
-    padding-top:15px;
+    width:220px;
+    padding-top:10px;
+    padding-left:20px;
     }
 
 .herotext h1 {
-    font-size:50px;
+    font-size:60px;
 }
  
 .herotext p {
-    font-size:24px;
+    font-size:28px;
     padding-bottom:100px;
     margin-left:5px;
     margin-right:5px;
@@ -620,7 +630,7 @@ footer ul img {
 }
 
 .peopletext {
-    font-size:36px;
+    font-size:40px;
 }
 
 .classkarmaproject {
