@@ -302,6 +302,7 @@ form .submit {
     appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
+    -webkit-appearance: none;
     background: #A68DDE;
     border-color:transparent;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
