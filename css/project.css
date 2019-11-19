@@ -32,6 +32,9 @@ p {
 }
 
 
+  
+
+  
 
 /* NAV */
 
@@ -214,11 +217,11 @@ nav a:hover {
     float: left;
     margin-top:10px;
     padding-top:20px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     }
 
 .logo img {
-    width:115px;
+    width:50%;
     }
 
 .classkarmalogo  {
@@ -289,7 +292,7 @@ nav a:hover {
 }
 
 .underline {
-    border-bottom: 5px solid #FBF6C7
+    border-bottom: 5px solid #C0C0C0
 }
    
 
@@ -332,6 +335,10 @@ nav a:hover {
     padding-bottom:20px;
 }
 
+.surveyflextext h3 {
+    font-size:18px;
+}
+
 
 #dropbox img, #googledrive img, #evernote img {
     width: 160px;
@@ -363,12 +370,12 @@ hr {
 }
 
 #personas h4 {
-    color:#FD7254;
+    color:#6F6F6F;
 }
 
 
 #userstories p {
-    font-family: 'Mansalva';
+    font-family: 'delius', Arial, Helvetica, sans-serif;
     padding-bottom:30px;
     text-align:center;
 }
@@ -379,15 +386,15 @@ hr {
 }
 
 .underlinegreen {
-    border-bottom: 5px solid #C7FBDC
+    border-bottom: 5px solid rgb(175, 255, 207)
 }
 
 .underlineyellow {
-    border-bottom: 5px solid #FBF6C7
+    border-bottom: 5px solid #FFD179
 }
 
 .underlinered {
-    border-bottom: 5px solid #FBC7C7
+    border-bottom: 5px solid rgb(245, 171, 171)
 }
 
 #userflows h4 {
@@ -455,10 +462,7 @@ hr {
     background-color: #E0F0F8;
 }
 
-.snippet {
-    color:grey;
-    border: 3px solid white;
-}
+
 
 .snippet p {
     padding:20px;
@@ -580,6 +584,17 @@ video {
     padding-bottom:20px;
 }
 
+.uparrow img {
+    width:40px;
+    padding-top:80px;
+}
+
+.backtotoptext {
+    text-decoration:none;
+    color:#02A0D4;
+    font-family:'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
+}
+
 
 /* FOOTER */
 
@@ -601,6 +616,7 @@ footer h2 {
 
 footer p {
     font-size:14px;
+    padding-bottom:15px;
     text-align: center;
     font-family: 'poppins';
 }
@@ -741,7 +757,6 @@ footer ul img {
         margin-right:40px;
     }
 
-   
 
       .introduction {
           padding-top:0px;
@@ -840,22 +855,22 @@ footer ul img {
     }
 
     .nav-btn {
-        padding-top:50px;
+        padding-top:30px;
         padding-right:50px;
     }
 
     .logo {
-        padding-top:20px;
-        padding-left: 60px;
+        padding-top:40px;
+        padding-left: 30px;
         }
   
 
     .logo img {
-        width:130px;
+        width:70%;
     }
 
     p {
-        font-size:20px;
+        font-size:18px;
     }
 
     .block h2 {
@@ -867,11 +882,11 @@ footer ul img {
     }
 
     #projectdetails li {
-        font-size:20px;
+        font-size:18px;
     }
 
     #competitivenanalysis li {
-        font-size:20px;
+        font-size:18px;
     }
 
     .analysislist ul {
@@ -879,6 +894,12 @@ footer ul img {
         
     }
 
+  }
+
+  @media only screen and (min-width: 1024px) {
+      .logo {
+          padding-top:20px;
+      }
   }
 
   @media only screen and (max-width: 1199px){
@@ -892,7 +913,7 @@ footer ul img {
 @media only screen and (min-width: 1200px) {
 
     .logo img {
-        width:153px;
+        width:80%;
         }
 
     .container {
@@ -916,6 +937,8 @@ footer ul img {
         padding-left:100px;
         padding-right:100px;
         padding-top:0px;
+        width:50%;
+        margin:0 auto;
     }
 
     .challengeblock {
@@ -986,7 +1009,7 @@ footer ul img {
     }
 
      p {
-        font-size:22px;
+        font-size:18px;
     }
 
     h3 {
@@ -1157,7 +1180,7 @@ footer ul img {
 }
 
 .surveyflextext h3 {
-    font-size:22px;
+    font-size:18px;
 }
 
   .analysislist{
@@ -1375,7 +1398,7 @@ footer ul img {
     grid-column-end: 3;
     grid-row-start:3;
     grid-row-end:3;
-    margin-left:100px;
+   
     
   }
 
@@ -1546,11 +1569,11 @@ footer ul img {
   }
 
   #competitiveanalysis {
-      font-size:20px;
+      font-size:18px;
   }
 
   #projectdetails {
-      font-size:20px;
+      font-size:18px;
   }
 
   #finalthoughts {

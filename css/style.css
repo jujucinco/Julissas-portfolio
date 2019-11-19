@@ -201,7 +201,7 @@ nav a:hover {
 .wave {
 	font-size: 120px;
     position: relative;
-    padding-bottom:150px;
+    padding-bottom:100px;
 }
 
 .wavespan {
@@ -233,15 +233,13 @@ nav a:hover {
     }
 
 .logo img {
-    width:150px;
+    width:50%;
     }
 
 
 .hero {
         width: 100%;
         min-height: 100vh;
-        /* position: absolute; */
-        /* opacity: 0.4; */
         animation: hue-rotator 20s infinite alternate linear;
       }
       
@@ -297,7 +295,7 @@ nav a:hover {
 
 .herotext p {
     font-size:17px;
-    padding-bottom:170px;
+    padding-bottom:100px;
     margin-left:5px;
     margin-right:5px;
     line-height:20px;
@@ -446,6 +444,7 @@ nav a:hover {
     padding-top:100px;
     padding-bottom:80px;
     background-color:#F3FCFF;
+    
 }
 
 .testimonial h2 {
@@ -459,10 +458,15 @@ nav a:hover {
 .testimonial p {
     margin-left: 60px;
     margin-right:60px;
+
 }
 
 .testimonialbody {
     padding-bottom:40px;
+    max-width:70%;
+    text-align:center;
+    margin: 0 auto !important;
+    
 }
 
 .testimonial img {
@@ -492,6 +496,7 @@ footer h2 {
 
 footer p {
     font-size:14px;
+    padding-bottom:15px;
 }
 
 .button2 {
@@ -607,7 +612,7 @@ footer ul img {
 
 
 .logo img {
-    width:220px;
+    width:70%;
     padding-top:10px;
     padding-left:20px;
     }
@@ -631,6 +636,10 @@ footer ul img {
 
 .peopletext {
     font-size:40px;
+}
+
+.wave {
+    padding-bottom:200px;
 }
 
 .classkarmaproject {
@@ -707,6 +716,14 @@ footer ul img {
  #process .skill p {
      font-size:16px;
  }
+
+ .testimonialbody {
+    max-width:50%;
+    text-align:center;
+    margin: 0 auto !important;
+    
+}
+ 
 
  footer h2 {
      font-size:28px;
