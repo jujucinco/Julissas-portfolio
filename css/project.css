@@ -919,7 +919,17 @@ footer ul img {
     .container {
         margin-left: 100px;
         margin-right: 100px;
+       
     }
+
+    .auto-margin {
+        margin-left:auto;
+        margin-right:auto;
+        padding-left:200px;
+        padding-right:200px;
+    }
+
+
     .classkarmalogo img {
         width:250px;
     }
@@ -950,6 +960,8 @@ footer ul img {
         justify-content:column;
         display:flex;
     }
+
+    
 
     .challengecontent {
         text-align:left;
