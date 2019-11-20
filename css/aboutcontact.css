@@ -251,7 +251,7 @@ nav a:hover {
     }
 
 .logo img {
-    width:120px;
+    width:50%;
     }
 
 
@@ -275,6 +275,12 @@ nav a:hover {
     text-align: left;
     font-family: 'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
     padding-bottom:50px;
+}
+
+.smilingemoji img {
+    width:20px;
+    position:relative;
+    top:3px;
 }
 
 form {
@@ -410,7 +416,7 @@ footer p {
     background-color: #FEF1EB;
     margin: -8px auto;
     display: inline-block;
-    padding: 50px;
+    padding: 80px;
   }
 
   .nav_bar {
@@ -435,12 +441,17 @@ footer p {
 
   .profilephoto img {
     width:450px;
-    padding-top:500px;
+    padding-top:80px;
     padding-left:100px;
+  }
+
+  .meloimage {
+    text-align: left;
   }
 
   .meloimage img {
       width:450px;
+      
   }
 
   header {
@@ -489,12 +500,13 @@ footer p {
 @media only screen and (min-width: 1200px){
 
     .logo img {
-        width:180px;
+        width:70%;
         padding-top:15px;
+        padding-left:20px;
         }
 
 .contacttext {
-    padding-top:250px;
+    padding-top:150px;
     }
 
 .contacttext h1 {
@@ -504,7 +516,7 @@ footer p {
 
 
 .contactcontainer {
-    padding-bottom:500px;
+    padding-bottom:100px;
     padding-left:80px;
     padding-right:80px;
     display: grid;
@@ -515,7 +527,7 @@ footer p {
   }
 
   .contact-form {
-      padding-top:200px;
+      padding-top:100px;
   }
 
   .form-control {
