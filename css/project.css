@@ -375,7 +375,7 @@ hr {
 
 
 #userstories p {
-    font-family: 'delius', Arial, Helvetica, sans-serif;
+    font-family: 'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
     padding-bottom:30px;
     text-align:center;
 }
