@@ -344,6 +344,10 @@ footer {
     text-align: center;
 }
 
+.aboutfooter {
+    background-color: #FEF1EB;
+}
+
 footer h2 {
     padding-top: 30px;
     padding-bottom: 50px;
@@ -426,10 +430,6 @@ footer p {
   }
 
 
-  /* .aboutcontainer {
-  background-color: white;
-  } */
-
   .contactcontainer, .nav_bar {
     background-color: #FEF1EB;
     width: 100%;
@@ -459,9 +459,9 @@ footer p {
   }
 
   .profilephoto img {
-    width:600px;
+    width:650px;
     padding-top:80px;
-    padding-left:100px;
+    /* padding-left:100px; */
   }
 
   .meloimage {
@@ -469,7 +469,7 @@ footer p {
   }
 
   .meloimage img {
-      width:450px;
+      width:550px;
       
   }
 
