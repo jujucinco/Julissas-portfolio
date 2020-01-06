@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-Preferences_setup">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="Preferences_setup" data-name="Preferences setup" clip-path="url(#clip-Preferences_setup)">
+    <rect width="375" height="812" fill="#fff"/>
+    <text id="I_m_looking_for" data-name="I’m looking for" transform="translate(38 105)" fill="#050505" font-size="25" font-family="SFProText-Regular, SF Pro Text"><tspan x="65.51" y="24">I’m looking for</tspan></text>
+    <text id="Connection_types_I_m_open_to" data-name="Connection types I’m open to" transform="translate(38 343)" fill="#050505" font-size="25" font-family="SFProText-Regular, SF Pro Text"><tspan x="24.494" y="24">Connection types I’m </tspan><tspan x="104.7" y="54">open to</tspan></text>
+    <g id="Rectangle_34" data-name="Rectangle 34" transform="translate(75.654 175.777)" fill="#fff" stroke="#8b8b8b" stroke-miterlimit="10" stroke-width="1.346">
+      <rect width="224.445" height="42.952" rx="21.476" stroke="none"/>
+      <rect x="0.673" y="0.673" width="223.099" height="41.607" rx="20.803" fill="none"/>
+    </g>
+    <g id="Rectangle_34-2" data-name="Rectangle 34" transform="translate(73.654 443.777)" fill="#fff" stroke="#8b8b8b" stroke-miterlimit="10" stroke-width="1.346">
+      <rect width="228.346" height="43.636" rx="21.818" stroke="none"/>
+      <rect x="0.673" y="0.673" width="227" height="42.29" rx="21.145" fill="none"/>
+    </g>
+    <g id="Rectangle_34-3" data-name="Rectangle 34" transform="translate(73.654 514.93)" fill="#fff" stroke="#8b8b8b" stroke-miterlimit="10" stroke-width="1.346">
+      <rect width="228.346" height="43.636" rx="21.818" stroke="none"/>
+      <rect x="0.673" y="0.673" width="227" height="42.29" rx="21.145" fill="none"/>
+    </g>
+    <g id="Rectangle_34-4" data-name="Rectangle 34" transform="translate(73.654 586.083)" fill="#fff" stroke="#8b8b8b" stroke-miterlimit="10" stroke-width="1.346">
+      <rect width="228.346" height="43.636" rx="21.818" stroke="none"/>
+      <rect x="0.673" y="0.673" width="227" height="42.29" rx="21.145" fill="none"/>
+    </g>
+    <g id="Rectangle_34-5" data-name="Rectangle 34" transform="translate(75.654 245.814)" fill="#fff" stroke="#8b8b8b" stroke-miterlimit="10" stroke-width="1.346">
+      <rect width="224.445" height="42.952" rx="21.476" stroke="none"/>
+      <rect x="0.673" y="0.673" width="223.099" height="41.607" rx="20.803" fill="none"/>
+    </g>
+    <text id="Coworking_Spaces" data-name="Coworking Spaces" transform="translate(189 203)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-69.844" y="0">Coworking Spaces</tspan></text>
+    <text id="Professional_Networking" data-name="Professional Networking" transform="translate(188 473)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-91.457" y="0">Professional Networking</tspan></text>
+    <text id="Project_Collaboration" data-name="Project Collaboration" transform="translate(188 544)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-79.266" y="0">Project Collaboration</tspan></text>
+    <text id="Friends" transform="translate(188 615)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-27.934" y="0">Friends</tspan></text>
+    <text id="Public_Spaces_With_Wifi" data-name="Public Spaces With Wifi" transform="translate(188 273)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-89.465" y="0">Public Spaces With Wifi</tspan></text>
+    <g id="button" transform="translate(49.084 714.099)">
+      <g id="Button_Get_Started" data-name="Button/Get Started">
+        <g id="Button-2" data-name="Button">
+          <rect id="Base" width="276.336" height="50.662" rx="25.331" fill="#9b9b9b"/>
+          <text id="Button-3" data-name="Button" transform="translate(27.25 15.722)" fill="#fff" font-size="15.475" font-family="SFProDisplay-Semibold, SF Pro Display" font-weight="600"><tspan x="94.809" y="15">Next</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="321.579" height="135.662" viewBox="0 0 321.579 135.662">
+  <g id="Group_72" data-name="Group 72" transform="translate(-829 -1230)">
+    <g id="Button_Get_Started" data-name="Button/Get Started" transform="translate(829.158 1230.495)">
+      <g id="Button">
+        <rect id="Base" width="321.579" height="50.662" rx="25" transform="translate(-0.158 -0.495)" fill="#2792ab"/>
+        <text id="Button-2" data-name="Button" transform="translate(31.842 15.505)" fill="#fff" font-size="16" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="88.374" y="15">Get Started</tspan></text>
+      </g>
+    </g>
+    <g id="Button_Get_Started-2" data-name="Button/Get Started" transform="translate(829.158 1315.495)">
+      <g id="Button-3" data-name="Button">
+        <rect id="Base-2" data-name="Base" width="321.579" height="50.662" rx="25" transform="translate(-0.158 -0.495)" fill="#f4ad93"/>
+        <text id="Button-4" data-name="Button" transform="translate(31.842 15.505)" fill="#092040" font-size="16" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="73.494" y="15">Create Account</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

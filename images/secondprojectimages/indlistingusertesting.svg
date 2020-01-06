@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="374.504" height="63.643" transform="translate(374.504 63.643) rotate(180)" fill="#9b9b9b"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Mask-2" data-name="Mask" width="38.502" height="38.502" rx="19.251" fill="#e4e4e4"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 32 32">
+      <image width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAACQUlEQVRYhe3XvU4VURAH8J9KY5QPE0MBQsdHQiEIPoItaHwGH4H4AKCx84MQGwm9iYmJlVztLI2xsEBjoWIsNFpogGjEa3FmXby5u+xe6eSfnNybnf+cMzszZ2aW/x2HanDHcB7nMIiheL6B92jgPl7tp4Ewg8doVlyPML0fB3dhCb9i48+4g1nJG8dijWEOK8Fphs6t2KMj9MnfehML6Kmg14NFbMm90Vf38K5QbEqxnam7AU7jTezRUNMTS6H4DgMdHJ5hQErQJm5UVZqW4reJqQJOP5bxAT+wjnkcbsM9I4Vjp2S/v5C5fqFAPoy32mf/PRxpo3Ml5Gt7HT4mz/aihFsLzhNM4oR0Az7F80ttdHrxJeQjZQZcDtJKgXw45N9wskV2MWQvCnRXQz5fZkAjSHMF8gnclVzaiu7Q/V6ge0GFMLwM0mgZqQBTofu6QJ6Fd71sk69B6q55+Cieh+61Ak7moa/7acBR3JauYhPPFCdvJQPqhmA5+D/jf28Jt1II9krCVnwMfpVSnSXhw1bB7urViN/Zigb0S/PE0wrc7KVKb0GVQtQJKhci8lK8WGHjrATvhasK3N8OWTPakhrJvxowg22pGU1WMYA0yTSlVjpYVakNBuXt+HodxdaB5GwHh0/Ku2btgYQ0RmXXckuq/2X3PEOvFPNtee2vPZJl6MJNKX5NKZNXpdF8HMdjjUv3fFWe7TuS2zseSndjAg9UH8sb9k7gP6jzYTIi/zAZwql4vhEr+zAp6ogHOEBb/AYkx7nH7uMFhAAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <filter id="Path" x="-23.704" y="726.256" width="422.704" height="108.687" filterUnits="userSpaceOnUse">
+      <feOffset dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Individual_listing_1">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="Individual_listing_1" data-name="Individual listing – 1" clip-path="url(#clip-Individual_listing_1)">
+    <rect width="375" height="812" fill="#fff"/>
+    <g id="Group_7" data-name="Group 7" transform="translate(-1.67 58)">
+      <path id="Mask-3" data-name="Mask" d="M-.011,3.533A3.554,3.554,0,0,1,3.57,0h370.2a3.555,3.555,0,0,1,3.581,3.522L377.763,266H.4Z" transform="translate(0.143 0)" fill="#d8d8d8"/>
+      <path id="photo_icon" data-name="photo icon" d="M41,40.3h0a237.5,237.5,0,0,1-30.93-2.172C3.264,37.2.066,36.4,0,35.606c-.053-.653,1.893-1.25,4.147-1.942,2.447-.751,5.221-1.6,5.918-2.713l.288-.461,0-.006c2.091-3.351,5.983-9.589,11.706-11.49a4.79,4.79,0,0,1,1.484-.276c1.812,0,2.35,1.545,2.662,3.214.053.283.1.566.142.839.2,1.275.382,2.375,1.122,2.375a1.3,1.3,0,0,0,.589-.174c.959-.5,2.285-2.533,3.962-5.107a65.59,65.59,0,0,1,6.506-8.811c2.987-3.212,5.842-4.918,8.729-5.215A15.071,15.071,0,0,1,48.8,5.757a9.49,9.49,0,0,1,7.73,3.562c1.857,2.187,3.22,5.225,4.663,8.44.53,1.181,1.078,2.4,1.669,3.626.662,1.371,1.339,2.646,1.993,3.879,2.1,3.966,3.765,7.1,2.792,9.48-.589,1.442-2.155,2.549-4.785,3.383C58.444,39.527,50.678,40.3,41,40.3ZM17.079,14.2a7.1,7.1,0,1,1,7.1-7.1A7.108,7.108,0,0,1,17.079,14.2Z" transform="translate(155.356 101.698)" fill="#a3a3a3"/>
+    </g>
+    <g id="nav_bar" data-name="nav bar" transform="translate(374.504 -6.798) rotate(180)">
+      <g id="Group_24" data-name="Group 24" transform="translate(0 -70.441)">
+        <g id="nav_bar-2" data-name="nav bar">
+          <g id="Group_23" data-name="Group 23">
+            <g id="ui_pic" data-name="ui/pic">
+              <rect id="Mask-4" data-name="Mask" width="374.504" height="63.643" transform="translate(374.504 63.643) rotate(180)" fill="#9b9b9b"/>
+            </g>
+          </g>
+        </g>
+        <text id="Connect" transform="translate(341.215 30.237) rotate(180)" fill="#fff" font-size="15" font-family="SFProDisplay-Medium, SF Pro Display" font-weight="500"><tspan x="121.202" y="14">Starbucks</tspan></text>
+      </g>
+      <g id="icon" transform="translate(347.11 -55.534)">
+        <rect id="Rectangle" width="2.081" height="9.363" rx="1.04" transform="translate(1.471 13.367) rotate(-135)" fill="#fff"/>
+        <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="2.081" height="9.363" rx="1.04" transform="translate(0.074 1.471) rotate(-45)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Polygon_3" data-name="Polygon 3" transform="translate(362.5 173.5) rotate(90)" fill="#fff">
+      <path d="M 17.14507484436035 15.5 L 0.854926586151123 15.5 L 9.000000953674316 1.019867777824402 L 17.14507484436035 15.5 Z" stroke="none"/>
+      <path d="M 9.000000953674316 2.039735794067383 L 1.70985221862793 15 L 16.2901496887207 15 L 9.000000953674316 2.039735794067383 M 9.000000953674316 0 L 18 16 L 1.9073486328125e-06 16 L 9.000000953674316 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="home" transform="translate(36.63 344.399)">
+      <rect id="Rectangle-2" data-name="Rectangle" width="34.158" height="34.158" rx="5.373" fill="#b3b3b3"/>
+    </g>
+    <g id="home_copy" data-name="home copy" transform="translate(161.365 344.399)">
+      <rect id="Rectangle-3" data-name="Rectangle" width="34.158" height="34.158" rx="5.373" fill="#b3b3b3"/>
+    </g>
+    <g id="home_copy_2" data-name="home copy 2" transform="translate(300.3 344.399)">
+      <rect id="Rectangle-4" data-name="Rectangle" width="34.158" height="34.158" rx="5.373" fill="#b3b3b3"/>
+    </g>
+    <text id="Check_In" data-name="Check In" transform="translate(56 403)" fill="#050505" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="-24.7" y="0">Check In</tspan></text>
+    <text id="Wifi" transform="translate(178 403)" fill="#050505" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="-10.931" y="0">Wifi</tspan></text>
+    <text id="Navigation" transform="translate(317 403)" fill="#050505" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="-30.044" y="0">Navigation</tspan></text>
+    <line id="Line_1" data-name="Line 1" y2="51" transform="translate(111.5 341.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_2" data-name="Line 2" y2="51" transform="translate(249.5 341.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Hours:" transform="translate(50 528)" fill="#050505" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="-18.65" y="0">Hours:</tspan></text>
+    <text id="Cafe_or_Restaurant" data-name="Cafe or Restaurant" transform="translate(84 501)" fill="#050505" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="-52.931" y="0">Cafe or Restaurant</tspan></text>
+    <text id="Amenities" transform="translate(70 571)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-37.191" y="0">Amenities</tspan></text>
+    <text id="Here_Right_Now" data-name="Here Right Now" transform="translate(92 682)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-58.953" y="0">Here Right Now</tspan></text>
+    <text id="_9:00_am_-_5:00_pm" data-name="9:00 am - 5:00 pm" transform="translate(126 528)" fill="#050505" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="-53.227" y="0">9:00 am - 5:00 pm</tspan></text>
+    <g id="Group_3" data-name="Group 3" transform="translate(43.92 591.512)">
+      <g id="Group_2" data-name="Group 2">
+        <g id="Group_8" data-name="Group 8" transform="translate(218.239)">
+          <g id="Group_5" data-name="Group 5">
+            <g id="heart" transform="translate(8.06)">
+              <rect id="Rectangle-5" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_6" data-name="Group 6" transform="translate(145.318)">
+          <g id="users" transform="translate(7.292)">
+            <rect id="Rectangle-6" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+          </g>
+        </g>
+        <g id="Group_9" data-name="Group 9">
+          <g id="Group_7-2" data-name="Group 7">
+            <g id="more-horizontal" transform="translate(6.908)">
+              <rect id="Rectangle-7" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_9_Copy" data-name="Group 9 Copy" transform="translate(72.735)">
+          <g id="Group_7-3" data-name="Group 7">
+            <g id="more-horizontal-2" data-name="more-horizontal" transform="translate(6.908)">
+              <rect id="Rectangle-8" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Logos_3karatLogo" data-name="Logos / 3karatLogo" transform="translate(36.424 709.768)">
+      <ellipse id="Oval" cx="29.225" cy="28.925" rx="29.225" ry="28.925" transform="translate(0 0)" fill="#d8d8d8"/>
+      <path id="photo_icon-2" data-name="photo icon" d="M12.549,12.238h0a73.67,73.67,0,0,1-9.468-.656C1,11.3.02,11.061,0,10.82c-.016-.2.58-.377,1.27-.586.749-.227,1.6-.483,1.811-.819l.089-.141C3.811,8.263,5,6.378,6.755,5.8a1.482,1.482,0,0,1,.454-.083c.555,0,.719.466.814.97.016.085.03.171.044.253.063.385.117.717.344.717a.4.4,0,0,0,.18-.052A5.7,5.7,0,0,0,9.8,6.068c1.061-1.606,2.665-4.032,4.664-4.235a4.677,4.677,0,0,1,.471-.025c2.145,0,2.908,1.679,3.792,3.622.163.358.331.727.512,1.1.2.413.409.8.609,1.17.643,1.2,1.151,2.14.858,2.858a2.124,2.124,0,0,1-1.467,1.027A25.41,25.41,0,0,1,12.549,12.238ZM5.269,4.311A2.169,2.169,0,0,1,3.091,2.155a2.178,2.178,0,0,1,4.356,0A2.169,2.169,0,0,1,5.269,4.311Z" transform="translate(18.828 22.807)" fill="#a3a3a3"/>
+    </g>
+    <g id="Logos_3karatLogo-2" data-name="Logos / 3karatLogo" transform="translate(128.987 707.768)">
+      <ellipse id="Oval-2" data-name="Oval" cx="29.225" cy="28.925" rx="29.225" ry="28.925" transform="translate(0 0)" fill="#d8d8d8"/>
+      <path id="photo_icon-3" data-name="photo icon" d="M12.549,12.238h0a73.67,73.67,0,0,1-9.468-.656C1,11.3.02,11.061,0,10.82c-.016-.2.58-.377,1.27-.586.749-.227,1.6-.483,1.811-.819l.089-.141C3.811,8.263,5,6.378,6.755,5.8a1.482,1.482,0,0,1,.454-.083c.555,0,.719.466.814.97.016.085.03.171.044.253.063.385.117.717.344.717a.4.4,0,0,0,.18-.052A5.7,5.7,0,0,0,9.8,6.068c1.061-1.606,2.665-4.032,4.664-4.235a4.677,4.677,0,0,1,.471-.025c2.145,0,2.908,1.679,3.792,3.622.163.358.331.727.512,1.1.2.413.409.8.609,1.17.643,1.2,1.151,2.14.858,2.858a2.124,2.124,0,0,1-1.467,1.027A25.41,25.41,0,0,1,12.549,12.238ZM5.269,4.311A2.169,2.169,0,0,1,3.091,2.155a2.178,2.178,0,0,1,4.356,0A2.169,2.169,0,0,1,5.269,4.311Z" transform="translate(18.828 22.807)" fill="#a3a3a3"/>
+    </g>
+    <g id="Logos_3karatLogo-3" data-name="Logos / 3karatLogo" transform="translate(225.549 707.768)">
+      <ellipse id="Oval-3" data-name="Oval" cx="29.225" cy="28.925" rx="29.225" ry="28.925" transform="translate(0 0)" fill="#d8d8d8"/>
+      <path id="photo_icon-4" data-name="photo icon" d="M12.549,12.238h0a73.67,73.67,0,0,1-9.468-.656C1,11.3.02,11.061,0,10.82c-.016-.2.58-.377,1.27-.586.749-.227,1.6-.483,1.811-.819l.089-.141C3.811,8.263,5,6.378,6.755,5.8a1.482,1.482,0,0,1,.454-.083c.555,0,.719.466.814.97.016.085.03.171.044.253.063.385.117.717.344.717a.4.4,0,0,0,.18-.052A5.7,5.7,0,0,0,9.8,6.068c1.061-1.606,2.665-4.032,4.664-4.235a4.677,4.677,0,0,1,.471-.025c2.145,0,2.908,1.679,3.792,3.622.163.358.331.727.512,1.1.2.413.409.8.609,1.17.643,1.2,1.151,2.14.858,2.858a2.124,2.124,0,0,1-1.467,1.027A25.41,25.41,0,0,1,12.549,12.238ZM5.269,4.311A2.169,2.169,0,0,1,3.091,2.155a2.178,2.178,0,0,1,4.356,0A2.169,2.169,0,0,1,5.269,4.311Z" transform="translate(18.828 22.807)" fill="#a3a3a3"/>
+    </g>
+    <text id="Lauren" transform="translate(64 798)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-25.797" y="0">Lauren</tspan></text>
+    <text id="Amy" transform="translate(155 802)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-16.539" y="0">Amy</tspan></text>
+    <text id="Ray" transform="translate(252 799)" fill="#050505" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="-13.828" y="0">Ray</tspan></text>
+    <g id="fav_icon" data-name="fav icon" transform="translate(327.249 74.487)">
+      <g id="color_red" data-name="color / red">
+        <rect id="Mask-5" data-name="Mask" width="38.502" height="38.502" rx="19.251" fill="#e4e4e4"/>
+        <g id="color_red-2" data-name="color / red" clip-path="url(#clip-path-2)">
+          <g id="color_red-3" data-name="color / red" transform="translate(-2.668 -2.668)">
+            <rect id="Rectangle-9" data-name="Rectangle" width="43.839" height="43.839" fill="#e4e4e4"/>
+          </g>
+        </g>
+      </g>
+      <g id="icons_fav" data-name="icons / fav" transform="translate(10.293 11.818)">
+        <path id="Path-2" data-name="Path" d="M9.149,16.834,7.868,15.553C3.111,11.345,0,8.509,0,5.032A4.961,4.961,0,0,1,5.032,0,5.5,5.5,0,0,1,9.149,1.921,5.5,5.5,0,0,1,13.266,0,4.961,4.961,0,0,1,18.3,5.032c0,3.477-3.111,6.313-7.868,10.521Z" transform="translate(0 0.311)" fill="#9b9b9b"/>
+      </g>
+    </g>
+    <text id="Back" transform="translate(31 47)" fill="#fff" font-size="16" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="0">Back</tspan></text>
+    <rect id="icons8-help-32" width="16" height="16" rx="8" transform="translate(183 516)" fill="url(#pattern)"/>
+    <g id="Group_9_Copy-2" data-name="Group 9 Copy" transform="translate(23.655 430.512)">
+      <g id="Group_7-4" data-name="Group 7" transform="translate(6.908)">
+        <g id="more-horizontal-3" data-name="more-horizontal">
+          <rect id="Rectangle-10" data-name="Rectangle" width="16.938" height="16.336" rx="5.373" fill="#b3b3b3"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_9_Copy-3" data-name="Group 9 Copy" transform="translate(50.655 430.512)">
+      <g id="Group_7-5" data-name="Group 7" transform="translate(6.908)">
+        <g id="more-horizontal-4" data-name="more-horizontal">
+          <rect id="Rectangle-11" data-name="Rectangle" width="16.938" height="16.336" rx="5.373" fill="#b3b3b3"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_9_Copy-4" data-name="Group 9 Copy" transform="translate(77.655 430.512)">
+      <g id="Group_7-6" data-name="Group 7" transform="translate(6.908)">
+        <g id="more-horizontal-5" data-name="more-horizontal">
+          <rect id="Rectangle-12" data-name="Rectangle" width="16.938" height="16.336" rx="5.373" fill="#b3b3b3"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_9_Copy-5" data-name="Group 9 Copy" transform="translate(104.655 430.512)">
+      <g id="Group_7-7" data-name="Group 7" transform="translate(6.908)">
+        <g id="more-horizontal-6" data-name="more-horizontal">
+          <rect id="Rectangle-13" data-name="Rectangle" width="16.938" height="16.336" rx="5.373" fill="#b3b3b3"/>
+        </g>
+      </g>
+    </g>
+    <text id="_1240_Main_Street_London_EN" data-name="1240 Main Street, London, EN" transform="translate(115 474)" fill="#050505" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="-84.144" y="0">1240 Main Street, London, EN</tspan></text>
+    <g id="more" transform="translate(265 67)">
+      <path id="Path_2" data-name="Path 2" d="M4.951,22A4.951,4.951,0,1,0,9.9,26.951,4.957,4.957,0,0,0,4.951,22Zm0,8.664a3.713,3.713,0,1,1,3.713-3.713A3.717,3.717,0,0,1,4.951,30.664Z"/>
+      <path id="Path_3" data-name="Path 3" d="M48.951,22A4.951,4.951,0,1,0,53.9,26.951,4.957,4.957,0,0,0,48.951,22Zm0,8.664a3.713,3.713,0,1,1,3.713-3.713A3.717,3.717,0,0,1,48.951,30.664Z" transform="translate(-16.769)"/>
+      <path id="Path_4" data-name="Path 4" d="M26.951,22A4.951,4.951,0,1,0,31.9,26.951,4.957,4.957,0,0,0,26.951,22Zm0,8.664a3.713,3.713,0,1,1,3.713-3.713A3.717,3.717,0,0,1,26.951,30.664Z" transform="translate(-8.385)"/>
+    </g>
+    <text id="Power_Outlets" data-name="Power Outlets" transform="translate(64 627)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-33" y="0">Power Outlets</tspan></text>
+    <text id="Noise_Level" data-name="Noise Level" transform="translate(135 627)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-27.034" y="0">Noise Level</tspan></text>
+    <text id="Seating" transform="translate(208 627)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-17.813" y="0">Seating</tspan></text>
+    <text id="Beverages" transform="translate(280 627)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-24.746" y="0">Beverages</tspan></text>
+    <g id="Group" transform="translate(0.296 751.256)">
+      <g transform="matrix(1, 0, 0, 1, -0.3, -751.26)" filter="url(#Path)">
+        <path id="Path-3" data-name="Path" d="M374.7,0V60.686H0V0Z" transform="translate(0.3 751.26)" fill="#fff"/>
+      </g>
+      <g id="Group_3-2" data-name="Group 3" transform="translate(23.624 10.256)">
+        <g id="Group_2-2" data-name="Group 2">
+          <g id="Group_4" data-name="Group 4" transform="translate(290.823)">
+            <g id="home-2" data-name="home" transform="translate(8.06)">
+              <rect id="Rectangle-14" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+            </g>
+          </g>
+          <g id="Group_8-2" data-name="Group 8" transform="translate(218.239)">
+            <g id="Group_5-2" data-name="Group 5">
+              <g id="heart-2" data-name="heart" transform="translate(8.06)">
+                <rect id="Rectangle-15" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_6-2" data-name="Group 6" transform="translate(145.318)">
+            <g id="users-2" data-name="users" transform="translate(7.292)">
+              <rect id="Rectangle-16" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+            </g>
+          </g>
+          <g id="Group_9-2" data-name="Group 9">
+            <g id="Group_7-8" data-name="Group 7">
+              <g id="more-horizontal-7" data-name="more-horizontal" transform="translate(6.908)">
+                <rect id="Rectangle-17" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+              </g>
+              <text id="Spaces" transform="translate(18.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-17.263" y="0">Spaces</tspan></text>
+              <text id="Connect-2" data-name="Connect" transform="translate(91.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-19.888" y="0">Connect</tspan></text>
+              <text id="Messages" transform="translate(164.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-23.691" y="0">Messages</tspan></text>
+              <text id="Happenings" transform="translate(239.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-28.149" y="0">Happenings</tspan></text>
+              <text id="Profile" transform="translate(309.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-15.117" y="0">Profile</tspan></text>
+            </g>
+          </g>
+          <g id="Group_9_Copy-6" data-name="Group 9 Copy" transform="translate(72.735)">
+            <g id="Group_7-9" data-name="Group 7">
+              <g id="more-horizontal-8" data-name="more-horizontal" transform="translate(6.908)">
+                <rect id="Rectangle-18" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Path_14" data-name="Path 14" d="M3387.047,2117.4a3.952,3.952,0,0,1-1.036.713c-6.426,1.751-12.817,3.717-19.3,5.133-8.26,1.8-16.591,3.191-24.9,4.679-2.106.377-4.259.406-6.381.684-1.34.176-2.655.608-4,.765-3.5.41-7,.755-10.5,1.067-.61.054-1.242-.263-1.86-.244-.378.012-.745.488-1.123.5-3.288.114-6.578.263-9.866.222-4.471-.055-8.958-.021-13.405-.467-6.781-.68-13.509-1.891-19.291-6.449-3.787-2.985-7.075-6.406-7.71-12.07a17.853,17.853,0,0,1,2.4-11.1c1.439-2.523,3.19-4.816,4.75-7.254.432-.675.619-1.546,1.023-2.25a17.311,17.311,0,0,1,2.037-3.147A96.141,96.141,0,0,1,3293,2075.073c3.989-2.843,8.035-5.612,12.2-8.1,13.325-7.943,27.167-14.435,41.83-18.529a148.665,148.665,0,0,1,29.781-5.5c6.08-.416,12.2-.115,18.3-.083,4.941.025,9.882.132,14.823.2a84.2,84.2,0,0,1,26.7,4.221,25.784,25.784,0,0,1,11.662,7.448c3.731,4.359,4.922,12.11,2.513,17.55a28.081,28.081,0,0,1-8.382,10.894c-1.891,1.485-3.854,2.88-5.613,4.547-1.5,1.421-2.659,3.3-4.138,4.752-2.311,2.274-4.8,4.312-7.137,6.556a26.146,26.146,0,0,0-1.861,2.67,56.206,56.206,0,0,1-5.574,6.728c-3.211,2.932-6.7,5.485-10.134,8.087-1.835,1.389-3.812,2.54-5.724,3.8a4.033,4.033,0,0,0-3.395,1.975c-2.229,1.142-4.456,2.292-6.689,3.422-.481.243-.988.418-1.478.619q-2.69,1.211-5.39,2.432a9.732,9.732,0,0,1-1.789,1.333,293.6,293.6,0,0,1-40.108,14.035c-8.593,2.313-17.156,4.818-25.816,6.76-7.6,1.7-15.307,2.766-22.974,4.06-1.226.207-2.489.11-3.731.205a4.439,4.439,0,0,1-3.708-1.47,1.909,1.909,0,0,0-.42-.314c-.393-.229-.792-.444-1.188-.664l1.083-.9a1.688,1.688,0,0,0-.27-.25c-.382-.22-.771-.425-1.157-.635.439-.3.865-.834,1.321-.869,15.354-1.186,30.131-5.738,44.953-9.954A392.2,392.2,0,0,0,3382.6,2122c3.84-1.693,7.635-3.526,11.392-5.444a63.5,63.5,0,0,0,7.971-4.883c-1.35.517-2.692,1.059-4.05,1.545-2.862,1.024-5.736,2-8.594,3.043a4.7,4.7,0,0,0-1.052.774Zm-83.438-38.088c-1.5.763-3.054,1.415-4.491,2.308a82.808,82.808,0,0,0-17.949,15.02,76.96,76.96,0,0,0-4.916,6.942,17.546,17.546,0,0,0-3.271,9.593,5.248,5.248,0,0,0,.734,3.118,9.514,9.514,0,0,0,5.177,3.249c-1.429-2.954-2.032-5.894-.538-8.751a26.231,26.231,0,0,1,3.8-5.481c4.459-4.881,9.819-8.312,15.273-11.529a153.7,153.7,0,0,1,26.727-12.2,168.671,168.671,0,0,1,36.477-8.763c4.3-.518,8.615-.913,12.932-1.239a107.237,107.237,0,0,1,26.229,1.267,56.821,56.821,0,0,1,13.882,3.928c4.576,2.053,8.728,4.5,10.966,9.8.272.646.587.865,1.208.5,1.485-.877,3.023-1.642,4.491-2.554a11.918,11.918,0,0,0,3.425-2.505,15.8,15.8,0,0,0,3.278-8.862,12.349,12.349,0,0,0-1.595-7.376c-1.619-2.5-3.306-5.156-5.886-6.49-1.247-.645-1.737-2.563-3.4-2.377-.135.015-.3-.476-.473-.717-.525-.746-1.649-.471-2.009-1.5a.878.878,0,0,1-.229.119c-.352.063-.751.26-1.052.142a77.588,77.588,0,0,0-10.953-3.807,35.13,35.13,0,0,0-10.441-.995c-2.209.159-4.452,1-6.72.067-.436-.178-1.109.572-1.7.654-3.881.545-7.762,1.133-11.658,1.494-3.8.352-7.443,1.99-11.354,1.477a2.839,2.839,0,0,0-2.952,1.077c-.383.538-1.469-.173-2.363.345-.956.553-2.25.357-3.4.491-.039,0-.073.056-.113.067-2.519.677-4.952,1.728-7.419,2.524-9.343,3.015-18.648,6.124-27.723,10.073-2.044.889-4.045,1.937-6.135,2.656-2.792.961-5.657,1.583-8.111,3.587a16.309,16.309,0,0,1-3.211,1.533,8.1,8.1,0,0,0-1.149.847Zm56.575-.589.752-1.03a2.211,2.211,0,0,0-.821-.105,14.252,14.252,0,0,0-1.436.612l1.553.477c-.322.273-.626.732-.971.778-.659.088-1.372-.222-2.008-.07-.917.218-1.76.833-2.677,1.049-7.065,1.666-14.161,3.171-21.2,4.956a57.238,57.238,0,0,0-8.139,3.039c-4.545,1.932-9.356,3-13.728,5.491-.367.209-.847.156-1.226.347-1.425.722-2.846,1.458-4.237,2.26-1.284.741-2.5,1.647-3.8,2.342-1.256.671-2.6,1.123-3.88,1.748-3.432,1.678-6.207,4.486-9.106,7.042a37.342,37.342,0,0,0-4.319,4.939,19.053,19.053,0,0,0-1.809,3.063c-.593,1.144-.084,1.748.928,1.878a71.131,71.131,0,0,0,8.949,1.031c14.009.006,27.844-2.235,41.654-4.582,7.723-1.313,15.41-2.926,23.088-4.561a357.169,357.169,0,0,0,37.72-10.011,234.673,234.673,0,0,0,25.8-10.02c1.071-.5.96-.956.328-1.746a18.313,18.313,0,0,0-7.662-5.431c-3.611-1.455-7.469-2.116-11.212-3.16-.268-.075-.441-.52-.693-.741-.3-.264-.639-.473-.96-.706l-.383.526,1.037.217-.246.366a6.1,6.1,0,0,0-1.994-.36c-2,.32-3.919-.407-5.9-.412-3.371-.01-6.742-.346-10.112-.556-.884-.055-1.767-.207-2.651-.214a23.741,23.741,0,0,0-2.378.2c-.59.056-1.18.11-1.768.179-.551.065-1.252.432-1.62.174-1.09-.76-2.084-.286-3.087.021-.87.266-1.673.7-2.2-.61-.085-.21-.481-.272-.745-.361-.033-.011-.221.287-.19.354.531,1.157-.369.625-.679.72a9.883,9.883,0,0,1-1.282.255c-.735.125-1.469.246-2.205.354-.893.131-1.922-.023-2.644.441C3361.224,2079.425,3360.771,2079.08,3360.184,2078.722Zm72.348-27.472c-.2.226-.435.67-.611.644-1.731-.25-3.452-.588-5.179-.879a6.207,6.207,0,0,0-1-.011,4.355,4.355,0,0,0,.664.816c1.528,1.137,3.118,2.169,4.608,3.365a24.149,24.149,0,0,1,8.989,16.429,52.274,52.274,0,0,1,.036,6.131c3.65-3.064,6.624-6.251,8.335-10.6a6.922,6.922,0,0,0-.376-6.539c-2.752-4.109-6.914-5.582-10.932-7.3C3435.529,2052.644,3433.643,2052.95,3432.531,2051.25Zm-47.181-7.194c-17.8-.289-45.992,4.335-78.366,22.979a127.89,127.89,0,0,0-23.183,16.943C3314.4,2059.4,3348.293,2045.658,3385.35,2044.055Zm-99.418,59.453.158.314c1.718-1.251,3.41-2.551,5.159-3.744a113.946,113.946,0,0,1,19.367-10.836c5.945-2.539,11.9-5.134,18.016-7.055,7.676-2.413,15.494-4.274,23.292-6.149,3.273-.787,6.654-1.012,9.988-1.469,1.949-.267,3.9-.494,5.854-.727,1.968-.234,3.936-.454,5.9-.679a17.538,17.538,0,0,0-4.524-.164c-4.518.6-9.029,1.3-13.53,2.045a164.564,164.564,0,0,0-34.632,9.263c-6.654,2.676-13.2,5.727-19.7,8.855A63.131,63.131,0,0,0,3285.932,2103.508Zm118.927,9.075-.226-.4c-1.545.943-3.056,1.967-4.642,2.813-3.665,1.956-7.332,3.919-11.062,5.707-4.432,2.124-8.921,4.1-13.415,6.054-.7.3-1.5,1.2-2.356.21a3.174,3.174,0,0,0-.449.36,6.159,6.159,0,0,1-1.491,1.181q-12.669,4.514-25.365,8.936c-1.235.432-2.483.818-3.725,1.226a4.193,4.193,0,0,0,2.036-.233q13.5-4.618,27-9.272c.89-.308,1.286-.235,1.158.965a3.847,3.847,0,0,0,.31,1.249,12.4,12.4,0,0,0,.582-1.13c.357-.9.186-1.983,1.389-2.479q6.836-2.812,13.571-5.937c2.967-1.377,5.851-2.99,8.764-4.517,1.9-.994,3.8-1.985,5.659-3.054A23.267,23.267,0,0,0,3404.859,2112.583Zm-54.331.3.079.378c3.867-.813,7.743-1.576,11.6-2.45,10.183-2.307,20.34-4.763,30.317-8.063,4.038-1.336,8.039-2.821,12.039-4.3,2.031-.749,4.022-1.633,6.032-2.452.773-.315,1.548-.621,2.322-.93l-.138-.464C3392.522,2102.839,3371.677,2108.523,3350.528,2112.881Zm5.484,6.416c16.876-3.054,33.476-7.3,49.357-14.677A318.27,318.27,0,0,1,3356.013,2119.3Zm64.215-73.882.017-.354-11.784-.667q-.01.214-.019.428ZM3338.2,2139.79l.105.447,2.18-.742-.077-.324Z" transform="translate(-3079.558 -2000.727)" fill="#d81111"/>
+  </g>
+</svg>
