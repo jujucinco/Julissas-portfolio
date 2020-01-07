@@ -1,0 +1,1460 @@
+/* GLOBAL */
+
+body{
+    font-family: 'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align:center;
+}
+
+.container{
+    overflow:hidden;
+    text-align:center;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+h2 {
+    font-size:25px;
+    font-weight:bold;
+   
+}
+
+h3 {
+    font-size:20px;
+    font-weight:bold;
+    text-align:left;
+}
+
+p {
+    text-align:left;
+}
+
+  
+
+/* NAV */
+
+
+nav ul {
+    float: right;
+    padding-top:30px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    float: left;
+}
+
+nav ul li:not(:first-child) {
+    margin-left: 48px;
+}
+
+nav ul li:last-child {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    display: inline-block;
+    outline: none;
+    color: #6F6F6F;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'poppins';
+    
+}
+
+nav a:hover {
+    color:#02A0D4;
+    
+}
+
+@media screen and (max-width: 864px) {
+    .logo {
+          padding: 0;
+    }
+
+
+    .nav-wrapper {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          background: #FEF1EB;
+          opacity: 0;
+          transition: all 0.2s ease;
+    }
+
+    .nav-wrapper ul {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 100%;
+    }
+
+    .nav-wrapper ul li {
+          display: block;
+          float: none;
+          width: 100%;
+          text-align: right;
+          margin-bottom: 10px;
+    }
+
+    .nav-wrapper ul li:nth-child(1) a {
+          transition-delay: 0.2s;
+    }
+
+    .nav-wrapper ul li:nth-child(2) a {
+          transition-delay: 0.3s;
+    }
+
+    .nav-wrapper ul li:nth-child(3) a {
+          transition-delay: 0.4s;
+    }
+
+    .nav-wrapper ul li:nth-child(4) a {
+          transition-delay: 0.5s;
+    }
+
+    .nav-wrapper ul li:not(:first-child) {
+          margin-left: 0;
+    }
+
+    .nav-wrapper ul li a {
+          padding: 10px 24px;
+          opacity: 0;
+          color: #6F6F6F;
+          font-size: 18px;
+          font-weight: 400;
+          letter-spacing: 1.2px;
+          transform: translateX(-20px);
+          transition: all 0.2s ease;
+    }
+
+    .nav-btn {
+          position: fixed;
+          right: 10px;
+          /* top: 10px; */
+          display: block;
+          width: 48px;
+          height: 48px;
+          cursor: pointer;
+          z-index: 9999;
+          border-radius: 50%;
+    }
+
+    .nav-btn i {
+          display: block;
+          width: 20px;
+          height: 2px;
+          background: #4D4D4D;
+          border-radius: 2px;
+          margin-left: 14px;
+         
+    }
+
+    .nav-btn i:nth-child(1) {
+          margin-top: 30px;
+    }
+
+    .nav-btn i:nth-child(2) {
+          margin-top: 4px;
+          opacity: 1;
+    }
+
+    .nav-btn i:nth-child(3) {
+          margin-top: 4px;
+    }
+}
+
+#nav:checked + .nav-btn {
+    transform: rotate(45deg);
+}
+
+#nav:checked + .nav-btn i {
+    background: #000;
+    transition: transform 0.2s ease;
+}
+
+#nav:checked + .nav-btn i:nth-child(1) {
+    transform: translateY(6px) rotate(180deg);
+}
+
+#nav:checked + .nav-btn i:nth-child(2) {
+    opacity: 0;
+}
+
+#nav:checked + .nav-btn i:nth-child(3) {
+    transform: translateY(-6px) rotate(90deg);
+}
+
+#nav:checked ~ .nav-wrapper {
+    z-index: 9990;
+    opacity: 1;
+}
+
+#nav:checked ~ .nav-wrapper ul li a {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+/* REST OF HERO */
+
+.logo {
+    float: left;
+    /* margin-top:0px; */
+    padding-top:20px;
+    padding-bottom:10px;
+    }
+
+.logo img {
+    width:50%;
+    }
+
+
+#heroimage img {
+    width:100%;
+    padding-bottom:50px;
+}
+
+
+/* BENEATH THE FOLD */
+
+.block {
+    background-color:#DCE0EB;
+    min-height:437px;
+    padding-top:60px;
+    padding-bottom:50px;
+    text-align:center;
+}
+
+
+.boldchallenge {
+    font-weight:bold;
+}
+
+.introduction {
+    background-color: white;
+}
+
+#workersillustration img {
+    width:287px;
+}
+
+#projecticons img {
+    width:64.64px;
+    padding:28px;
+}
+
+#projectdetails {
+    background-color:white;
+    min-height:437px;
+    padding-left:5%
+}
+
+.underline {
+    border-bottom: 5px solid #F4AD93
+}
+   
+
+#role, #deliverables, #tools {
+    padding: 20px; 
+}
+
+#projectdetails li {
+    list-style:none;
+}
+
+#projectdetails h3 {
+    padding-bottom:15px;
+    text-align:center;
+}
+
+#mockupinhand img {
+    width:100%;
+}
+
+.centeredcontainer {
+    width:100%;
+}
+
+#survey, #competitiveanalysis, #personas, #userstories, #userflows, #sketchesandwireframing, #usabilitytesting, #branding, #preferencetest, #finalthoughts {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+#survey img {
+    padding:50px;
+    width: 250px;
+}
+
+#survey h3, #survey p {
+    padding-bottom:20px;
+}
+
+#survey .button2div {
+    padding-bottom:20px;
+}
+
+.surveyflextext h3 {
+    font-size:18px;
+}
+
+#survey li {
+    display:list-item;
+    list-style-position: outside;
+    text-align:left;
+    padding-left:0;
+    margin-left:0;
+}
+
+#survey ul {
+    margin:1em 0 1em 2em
+}
+
+
+#workfrom img, #whaapp img, #plainsight img {
+    width: 160px;
+}
+
+#competitiveanalysis li {
+    text-align: left;
+    padding-bottom:20px;
+    display:list-item;
+    list-style-position: outside;
+}
+
+#competitiveanalysis ul {
+    margin:1em 0 1em 2em
+}
+
+#competitiveanalysis p {
+    text-align:center;
+    font-size:16px;
+}
+
+.analysislist {
+    text-align:left;
+    border:solid #E8E8E8 2px;
+    
+  }
+
+  .logoimage {
+    text-align:center;
+    padding-top:30px;
+    background-color:#F4AD93;
+}
+
+.positioningtext {
+    margin:30px;
+    font-style: italic;
+}
+
+.analysislist {
+    margin-bottom:50px;
+}
+
+.analysislist ul {
+    width:80%;
+}
+
+.whalogo {
+    padding-bottom:10px;
+}
+
+hr {
+    width:50%;
+    border-top: 1px solid #D2D2D2 
+}
+
+.journey img {
+    width: 100%;
+}
+
+
+#felix, #lisa, #emilia {
+    padding-bottom: 30px;
+    padding-top:30px;
+}
+
+#personas h3, #personas p {
+    text-align:center;
+    padding-top:10px;
+}
+
+#personas h4 {
+    color:#6F6F6F;
+}
+
+
+#userstories p {
+    font-family: 'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
+    padding-bottom:30px;
+    text-align:center;
+}
+
+#userstories h4 {
+    padding-bottom: 20px;
+    font-weight:bold;
+}
+
+.underlinegreen {
+    border-bottom: 5px solid rgb(175, 255, 207)
+}
+
+.underlineyellow {
+    border-bottom: 5px solid #FFD179
+}
+
+.underlinered {
+    border-bottom: 5px solid rgb(245, 171, 171)
+}
+
+#userflows h4 {
+    color:#3DCEFD;
+    padding-bottom:20px;
+    font-weight:bold;
+}
+
+
+#userflows img, #contentstrategy img {
+    padding-bottom: 50px;
+}
+
+#userflows img {
+    width:375px;
+}
+
+
+#sketchesandwireframing p {
+    padding-bottom:30px;
+    font-weight: 600;
+    text-align:center;
+    
+}
+
+#sketchesandwireframing img {
+    width:300px;
+    text-align:center;
+    padding-bottom:50px;
+}
+
+#sketchesandwireframing {
+    background-image:url(../images/secondprojectimages/sketchesmockup2.jpg);
+    width:100%;
+    background-position: center;
+}
+
+#sketchesandwireframing img {
+    background-position: center;
+}
+
+
+.colorpaletteimage img {
+    width:350px;
+}
+
+
+.brandingbuttons img {
+    width:300px;
+}
+
+.typographyimages img {
+    width: 300px;
+}
+
+.nameimage, .brandinglogoimages, .typographyimages, .colorpaletteimage {
+    padding-bottom:50px;
+}
+
+.brandingbuttons {
+    padding-bottom:20px;
+}
+
+
+#usabilitytesting img {
+    padding-bottom:20px;
+    padding-top:20px;
+    width:245px;
+    border:solid #2792AB 2px;
+}
+
+#usabilitytesting h2 {
+    padding-bottom:20px;
+}
+
+#usabilitytesting p {
+    text-align: center;
+    margin-left:30px;
+    margin-right:30px;
+    padding-bottom:50px;
+}
+
+
+
+ #branding p, #branding img{
+    padding-bottom:50px;
+}
+
+
+#branding h2 {
+    padding-bottom:20px;
+}
+
+#branding ul {
+    text-align: left;
+}
+
+
+#highfidelitymockup p {
+    padding-bottom:30px;
+}
+
+#highfidelitymockup img {
+    width:350px;
+}
+
+
+#highfidelitymockup li {
+    display:list-item;
+    list-style-position: outside;
+    text-align:left;
+    padding-left:0;
+    margin-left:0;
+}
+
+#highfidelitymockup ul {
+    margin:1em 0 1em 2em
+}
+
+
+video {
+    width:100%;
+}
+
+
+.block {
+    display:flex;
+    align-items:center;
+}
+
+.solutionblock {
+    width:auto;
+    height:auto;
+    padding-top:0px;
+}
+
+.solutionblock p {
+    text-align:left;
+}
+
+
+.centered {
+    text-align: center;
+}
+
+.block h2 {
+    padding-bottom:20px;
+}
+
+.block p {
+    padding-bottom:20px;
+}
+
+.container .usertestbutton {
+    padding-bottom:50px;
+}
+
+.button {
+    background: #2792AB;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border:solid 2px #2792AB;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color:white;
+    font-family:'BlinkMacSystemFont', '-apple-system';
+    font-size:14px;
+    text-decoration: none;
+ }
+
+ .buttondiv {
+     padding-top:20px;
+     padding-bottom:10px;
+ }
+
+ .testingvideos p {
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+
+
+#finalthoughts p {
+    padding-bottom:30px;
+
+}
+
+.videocaption {
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.uparrow img {
+    width:40px;
+    padding-top:80px;
+}
+
+.backtotoptext {
+    text-decoration:none;
+    color:#2792AB;
+    font-family:'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding-top: 100px;
+    padding-bottom:0px;
+    /* margin-top: 100px; */
+    text-align: center;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: #DCE0EB
+}
+
+footer h2 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size:22px;
+}
+
+footer p {
+    font-size:14px;
+    padding-bottom:15px;
+    text-align: center;
+    font-family: 'poppins';
+}
+
+.footerbutton {
+    background: #A68DDE;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border:solid 2px #A68DDE;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color:white;
+    font-family: 'poppins';
+    font-weight:bold;
+    font-size:18px;
+    text-decoration: none;
+    margin-bottom:100px;
+ }
+
+ .button2div {
+     padding-bottom:50px;
+ }
+
+
+.heart {
+    position:relative;
+    top: 5px;
+}
+
+.heart img {
+    width:25px;
+}
+
+footer ul {
+    margin:auto;
+}
+
+footer li {
+    display: inline-block;
+    padding-top:50px;
+    padding-bottom:20px;
+}
+
+footer a {
+    padding:20px;
+}
+
+footer ul img {
+    width:30px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* EXTRA SMALL SCREENS */
+
+@media only screen and (max-width: 360px) {
+
+#userflows img {
+    width:300px;
+}
+
+.brandinglogoimages img {
+    width:250px;
+}
+
+
+
+.nameimage img {
+    width:290px;
+}
+
+.typographyimages img {
+    width: 280px;
+}
+
+.colorpaletteimage img {
+    width:280px;
+}
+
+#preferencetest img {
+    width:200px;
+}
+
+.testingvideos video {
+    width:250px;
+}
+
+
+#heroimage img {
+    width:100%;
+}
+
+#projecticons img {
+    width:50px;
+    margin:1%;
+}
+
+#survey .surveyimg img {
+    width:220px;
+}
+
+.brandingbuttons img {
+    width:280px;
+}
+
+#highfidelitymockup img {
+    width:300px;
+}
+
+footer ul img {
+    width:25px;
+}
+
+}
+
+  /* MEDIUM MEDIA QUERIES */
+
+  @media only screen and (min-width: 768px) {
+
+    .container {
+        margin-left:40px;
+        margin-right:40px;
+    }
+
+
+      .introduction {
+          padding-top:0px;
+          padding-left: 120px;
+          padding-right:120px;
+      }
+
+      .heroimage  {
+          padding-bottom:0px;
+      }
+
+      #heroimage img {
+          width:100%;
+      }
+
+      #workersillustration img {
+          width:500px;
+      }
+
+      #projecticons img {
+          width:100px;
+          margin:5%;
+      }
+
+     
+      hr {
+          width:30%;
+      }
+
+      #personas {
+          padding-left:120px;
+          padding-right:120px;
+      }
+
+      #userstories {
+          padding-left:50px;
+          padding-right:50px;
+      }
+
+      #userflows img {
+          width:600px;
+      }
+
+
+    .colorpaletteimage img {
+        width:500px;
+    }
+
+    .brandingbuttons img {
+        width:400px;
+    }
+
+    .mobilehomevideo video {
+        width:400px;
+        border: solid #2792AB 2px;
+    }
+    
+    #highfidelitymockup img {
+        width:600px;
+    }
+
+    .preferenceintro {
+        padding-bottom:50px;
+    }
+
+    .testingvideos video {
+        width:100%;
+    }
+
+    #finalthoughts p {
+        padding-left:100px;
+        padding-right:100px;
+    }
+
+    .nav-btn {
+        padding-top:30px;
+        padding-right:50px;
+    }
+
+    .logo {
+        padding-top:40px;
+        padding-left: 30px;
+        }
+  
+
+    .logo img {
+        width:70%;
+    }
+
+    p {
+        font-size:18px;
+    }
+
+    .block h2 {
+        font-size:30px;
+    }
+
+    h3 {
+        font-size:25px;
+    }
+
+    #projectdetails li {
+        font-size:18px;
+    }
+
+    #competitivenanalysis li {
+        font-size:18px;
+    }
+
+    .testingvideos video {
+        width: 50%;
+    }
+
+  }
+
+  @media only screen and (min-width: 1024px) {
+
+      .logo {
+          padding-top:20px;
+      }
+  }
+
+
+  /* DESKTOP MEDIA QUERIES */
+
+@media only screen and (min-width: 1200px) {
+
+
+    .logo img {
+        width:80%;
+        }
+
+    .container {
+        margin-left: 100px;
+        margin-right: 100px;
+       
+    }
+
+    .auto-margin {
+        margin-left:auto;
+        margin-right:auto;
+        padding-left:200px;
+        padding-right:200px;
+    }
+
+
+    #heroimage img {
+        width:100%;
+    }
+
+    .introduction {
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:0px;
+        width:70%;
+        margin:0 auto;
+    }
+
+    .challengeblock {
+    display:flex;
+    align-items:center;
+    background-color: #DCE0EB;
+    }
+
+
+    .challengecontainer {
+        justify-content:column;
+        display:flex;
+    }
+    
+
+    .challengecontent {
+        text-align:left;
+        padding-top:100px;
+    }
+
+    #workersillustration img {
+        width:550px;
+        padding-left:30px;
+    }
+
+    #workersillustration {
+        padding-bottom:70px;
+    }
+
+    #projecticons img {
+        width:130px;
+        margin-left:8%;
+        margin-right:8%;
+        position:fixed;  
+    }
+
+    
+    #role, #deliverables, #tools {
+        padding: 0px; 
+    }
+
+    #tools {
+        padding-left:20px;
+    }
+
+    #deliverables {
+        padding-left:40px;
+        
+    }
+
+    #projectdetails .projectgroup {
+    float:left;
+    margin: 5%;
+    width: 20%;
+    text-align:center;
+    padding-top:0;
+    margin-top:50px;
+    margin-bottom:0px;
+    
+    }
+
+
+    .solutionblock {
+        margin-top:30px;
+    }
+
+
+    #mockupinhand img {
+        width:100%;
+    }
+
+    .block h2 {
+        font-size:36px;
+    }
+
+     p {
+        font-size:18px;
+    }
+
+    h3 {
+        font-size:25px;
+    }
+  
+
+    #userstories h4, #userstories p {
+        padding-bottom:50px;
+    }
+
+    #userstories h4 {
+        padding-top:30px;
+    }
+
+    #userflows h4 {
+        font-size:24px;
+        color:#2792AB;
+        font-weight: 600;
+    }
+
+    #userflows img {
+        width:100%;
+    
+    }
+
+    .userstoriesblock {
+        justify-content: center;
+    }
+
+
+    #userflows .buttondiv {
+        flex:100%;
+        align-items:center;
+        justify-content:center;
+    }
+
+
+    #userflows div {
+        margin:3%;
+        padding-bottom:0;
+        margin-bottom:0;
+        margin-top:0;
+    }
+
+
+  #highfidelitymockup video {
+      width:300px;
+  }
+
+  
+
+.button {
+    font-size:18px;
+}
+
+.competitiveanalysisblock p, .personasblock p, .userstoriesblock p, .solutionblock p, .userjourneyblock p, .sketchesandwireframingblock p, .userflowsblock p {
+    text-align: center;
+}
+
+
+
+#survey .button2div {
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+#survey img {
+    width:380px;
+}
+
+#survey .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "surveyintro surveyintro" 
+      "surveyp surveyp"
+      "surveyflextext . surveyimg"
+      "nonflexsurvey nonflexsurvey";
+  }
+
+
+  .surveyintro, .surveyp {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+
+
+  .button2div {
+      grid-column-start:1;
+      grid-column-end:3;
+  }
+
+  #survey h3:first-child {
+    padding-top:50px;
+}
+
+.surveyflextext h3 {
+    font-size:18px;
+}
+
+
+  #sketchesandwireframing img {
+    width:260px;
+    padding-bottom: 80px;
+}
+  
+
+    #sketchesandwireframing {
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    #sketchesandwireframing div {
+        margin:5%;
+        padding-bottom:0;
+        margin-bottom:0;
+        margin-top:0;
+    }
+
+    #sketchesandwireframing .buttondiv{
+        flex:100%;
+    }
+
+    #sketchesandwireframing {
+        background-image:url(../images/secondprojectimages/sketchesmockup2.jpg);
+        width:100%;
+        background-position: center;
+    }
+
+    #sketchesandwireframing img {
+        background-position: center;
+    }
+    
+.testingvideos {
+    display:flex;
+    margin:0;
+    padding:0px;
+}
+
+.testingvideos div {
+    margin:5%;
+    width:30%;
+}
+
+.testingvideos p {
+    padding-top:20px;
+}
+
+.testingvideos video {
+    border: solid #2792AB 2px;
+    width:100%;
+}
+
+
+.logoimage {
+    text-align:center;
+    padding-top:30px;
+    background-color:#F4AD93;
+}
+
+.whalogo {
+    padding-bottom:20px;
+}
+
+.plainsightlogo {
+    padding-bottom:7px;
+}
+
+
+  .analysislist {
+      padding-left:0px;
+      padding-right:0px;
+    
+  }
+
+  .analysislist ul {
+    width:80%;
+}
+
+.analysislist li {
+    text-align:center;
+
+}
+
+
+.analysislist {
+    text-align:left;
+    border:solid #E8E8E8 2px;
+  }
+
+
+  #competitiveanalysis .container {
+      margin-left:50px;
+      margin-right:50px;
+      padding-bottom:70px;
+  }
+
+  .positioningtext {
+      margin:30px;
+      font-style: italic;
+  }
+
+
+  #personas .container {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin:auto;
+    padding-bottom:50px;
+  }
+
+  #personas {
+    padding-top:0px;
+    margin-top:0px;
+  }
+
+  #personas hr {
+    width: .2px;
+    height:186px;
+    margin:10%;
+    background-color:#D2D2D2;
+  }
+
+
+  #personas h3 {
+      font-size:22px;
+  }
+
+  
+
+  #competitiveanalysis .container {
+    display:flex;
+
+}
+
+
+#workfrom, #whaapp, #plainsight {
+    padding-top:0px;
+    margin-top:0px;
+    padding-bottom:50px;
+}
+
+#competitiveanalysis {
+    font-size:18px;
+}
+
+#competitiveanalysis .analysislist {
+    margin:.5%;
+}
+
+
+  #usabilitytesting  {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+#usabilitytesting div {
+    margin:5%;
+    padding-bottom:0;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+#usabilitytesting div {
+    flex:1;
+}
+
+
+#usabilitytesting p {
+    margin:0px;
+    padding-top:20px;
+}
+
+
+  #usabilitytesting img {
+      width:300px;
+      border:solid #2792AB 2px;
+  }
+
+
+  #usabilitytesting {
+      padding-top:100px;
+  }
+
+  #branding .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "brandingname . nameimage"
+      "brandinglogoimages . brandinglogo"
+      "typography . typographyimages"
+      "colorpaletteimage . colorpalette"
+      "buttontext . signupbuttonimages pricingbuttonimages"
+      "gridbutton8";
+  }
+
+  .brandingname {
+      padding-bottom:200px;
+      padding-top:50px;
+  }
+
+  .nameimage {
+      padding-top:50px;
+  }
+
+
+  .brandinglogo {
+      grid-column-start: 2;
+      grid-column-end: 3;
+  }
+
+ #branding .brandinglogoandsketches img {
+    width:500px;
+    padding-right:20px;
+}
+
+
+  #branding .brandinglogoimages {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:2;
+    grid-row-end:2;
+    padding-bottom:100px;
+  }
+
+
+  .colorpalette {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-bottom:200px;
+  }
+
+  .colorpaletteimage {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:4;
+    grid-row-end:4;
+  }
+
+  .colorpaletteimage img {
+      width:500px;
+      padding-top:50px;
+      padding-right:100px;
+  }
+
+  .typography {
+      padding-bottom:200px;
+  }
+
+  .typographyimages img {
+    width: 80%;
+}
+
+  .buttontext {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:5;
+    grid-row-end:5;
+    padding-bottom:150px;
+  }
+
+  .buttontext h2 {
+      padding-right:100px;
+  }
+
+  .colorpalette h2 {
+      padding-right:50px;
+  }
+
+  .typography h2,   {
+      padding-right:50px;
+  }
+
+  .brandingname h2{
+      padding-right:100px;
+  }
+
+  .brandinglogo {
+      padding-left:80px;
+  }
+
+  .typography h2 {
+      padding-right:50px;
+  }
+
+  .gridbutton8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#userjourney img {
+    width:100%;
+}
+
+
+#highfidelitymockup .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "mobilehomevideo . highfidelitymockuptext"
+      "desktopmockupone desktopmockupone"
+      "desktopmockuptwo desktopmockuptwo"
+  }
+
+  .highfidelitymockuptext {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top:50px;
+  }
+
+  .mobilehomevideo {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end:2;
+  }
+
+
+  #projectdetails {
+      font-size:18px;
+  }
+
+  #finalthoughts {
+      padding-left:150px;
+      padding-right:150px;
+  }
+
+  #finalthoughts p {
+      padding-bottom:100px;
+  }
+
+  footer h2 {
+    font-size:28px;
+}
+
+.heart img{
+   width:30px;
+}
+
+.heart {
+    position:relative;
+    top: 5px;
+}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="374.504" height="63.643" transform="translate(374.504 63.643) rotate(180)" fill="#9b9b9b"/>
+    </clipPath>
+    <filter id="Path" x="-23.704" y="726.256" width="422.704" height="108.687" filterUnits="userSpaceOnUse">
+      <feOffset dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Connect_near_you_2">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="Connect_near_you_2" data-name="Connect near you – 2" clip-path="url(#clip-Connect_near_you_2)">
+    <rect width="375" height="812" fill="#fff"/>
+    <g id="nav_bar" data-name="nav bar" transform="translate(374.504 -6.798) rotate(180)">
+      <g id="Group_24" data-name="Group 24" transform="translate(0 -70.441)">
+        <g id="nav_bar-2" data-name="nav bar">
+          <g id="Group_23" data-name="Group 23">
+            <g id="ui_pic" data-name="ui/pic">
+              <rect id="Mask-2" data-name="Mask" width="374.504" height="63.643" transform="translate(374.504 63.643) rotate(180)" fill="#9b9b9b"/>
+            </g>
+          </g>
+        </g>
+        <text id="Connect" transform="translate(341.215 30.237) rotate(180)" fill="#fff" font-size="15" font-family="SFProDisplay-Medium, SF Pro Display" font-weight="500"><tspan x="126.248" y="14">Connect </tspan></text>
+      </g>
+    </g>
+    <g id="Group" transform="translate(0.296 751.256)">
+      <g transform="matrix(1, 0, 0, 1, -0.3, -751.26)" filter="url(#Path)">
+        <path id="Path-2" data-name="Path" d="M374.7,0V60.686H0V0Z" transform="translate(0.3 751.26)" fill="#fff"/>
+      </g>
+      <g id="Group_3" data-name="Group 3" transform="translate(23.624 10.256)">
+        <g id="Group_2" data-name="Group 2">
+          <g id="Group_4" data-name="Group 4" transform="translate(290.823)">
+            <g id="home" transform="translate(8.06)">
+              <rect id="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+            </g>
+          </g>
+          <g id="Group_8" data-name="Group 8" transform="translate(218.239)">
+            <g id="Group_5" data-name="Group 5">
+              <g id="heart" transform="translate(8.06)">
+                <rect id="Rectangle-2" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_6" data-name="Group 6" transform="translate(145.318)">
+            <g id="users" transform="translate(7.292)">
+              <rect id="Rectangle-3" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+            </g>
+          </g>
+          <g id="Group_9" data-name="Group 9">
+            <g id="Group_7" data-name="Group 7">
+              <g id="more-horizontal" transform="translate(6.908)">
+                <rect id="Rectangle-4" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#b3b3b3"/>
+              </g>
+              <text id="Spaces" transform="translate(18.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-17.263" y="0">Spaces</tspan></text>
+              <text id="Connect-2" data-name="Connect" transform="translate(91.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Bold, SF Pro Text" font-weight="700"><tspan x="-21.108" y="0">Connect</tspan></text>
+              <text id="Messages" transform="translate(164.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-23.691" y="0">Messages</tspan></text>
+              <text id="Happenings" transform="translate(241.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-28.149" y="0">Happenings</tspan></text>
+              <text id="Profile" transform="translate(309.08 41.488)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-15.117" y="0">Profile</tspan></text>
+            </g>
+          </g>
+          <g id="Group_9_Copy" data-name="Group 9 Copy" transform="translate(72.735)">
+            <g id="Group_7-2" data-name="Group 7">
+              <g id="more-horizontal-2" data-name="more-horizontal" transform="translate(6.908)">
+                <rect id="Rectangle-5" data-name="Rectangle" width="21.877" height="21.877" rx="5.373" fill="#606060"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(0 64)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="375" height="565" stroke="none"/>
+      <rect x="0.5" y="0.5" width="374" height="564" fill="none"/>
+    </g>
+    <g id="Illustrations_make_ad" data-name="Illustrations / make ad" transform="translate(142.094 92.815)">
+      <g id="Logos_3karatLogo" data-name="Logos / 3karatLogo">
+        <ellipse id="Oval" cx="45.16" cy="45.055" rx="45.16" ry="45.055" fill="#d8d8d8"/>
+        <path id="photo_icon" data-name="photo icon" d="M19.394,19.062h0A112.972,112.972,0,0,1,4.762,18.04C1.544,17.6.031,17.228,0,16.854c-.025-.307.9-.588,1.962-.913,1.158-.353,2.469-.753,2.8-1.275l.13-.207.007-.011c.989-1.577,2.83-4.512,5.538-5.406a2.277,2.277,0,0,1,.7-.13c.858,0,1.111.726,1.258,1.511.025.134.047.268.068.4.1.6.181,1.115.531,1.115a.626.626,0,0,0,.279-.082,8.853,8.853,0,0,0,1.875-2.4,30.848,30.848,0,0,1,3.078-4.144,6.8,6.8,0,0,1,4.13-2.453,7.173,7.173,0,0,1,.727-.039c3.315,0,4.5,2.616,5.862,5.644.251.555.51,1.13.789,1.705.313.645.633,1.245.943,1.825.994,1.864,1.779,3.335,1.322,4.455a3.292,3.292,0,0,1-2.265,1.595A38.937,38.937,0,0,1,19.394,19.062ZM8.141,6.715a3.357,3.357,0,1,1,3.366-3.358A3.365,3.365,0,0,1,8.141,6.715Z" transform="translate(29.094 35.524)" fill="#a3a3a3"/>
+      </g>
+    </g>
+    <text id="Lauren" transform="translate(188 225)" fill="#050505" font-size="14" font-family="SFProText-Regular, SF Pro Text"><tspan x="-22.572" y="0">Lauren</tspan></text>
+    <text id="Design_-_Product_Designer" data-name="Design - Product Designer" transform="translate(188 254)" fill="#050505" font-size="14" font-family="SFProText-Regular, SF Pro Text"><tspan x="-87.599" y="0">Design - Product Designer</tspan></text>
+    <text id="Linkedin.com_lauren" data-name="Linkedin.com/lauren" transform="translate(188 283)" fill="#050505" font-size="14" font-family="SFProText-Regular, SF Pro Text"><tspan x="-66.295" y="0">Linkedin.com/lauren</tspan></text>
+    <text id="Nomad_who_hustles_hard_but_stays_humble" data-name="Nomad who hustles hard but stays humble" transform="translate(188 312)" fill="#050505" font-size="14" font-family="SFProText-Regular, SF Pro Text"><tspan x="-140.465" y="0">Nomad who hustles hard but stays humble</tspan></text>
+    <text id="Looking_to_collaborate_with_software_developers_app_and_web_social_media_gurus_outside_the_box_marketing_experts._Currently_working_as_a_designer_at_a_startup" data-name="Looking to collaborate with software developers (app and web) social media gurus, outside the box marketing experts. Currently working as a designer at a startup" transform="translate(22 364)" fill="#050505" font-size="14" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="13">Looking to collaborate with software developers </tspan><tspan x="0" y="29">(app and web) social media gurus, outside the </tspan><tspan x="0" y="45">box marketing experts. Currently working as a </tspan><tspan x="0" y="61">designer at a startup</tspan></text>
+    <g id="Rectangle_34" data-name="Rectangle 34" transform="translate(21.654 445.776)" fill="#fff" stroke="#8b8b8b" stroke-miterlimit="10" stroke-width="1.346">
+      <rect width="66.769" height="27.311" rx="13.655" stroke="none"/>
+      <rect x="0.673" y="0.673" width="65.423" height="25.965" rx="12.983" fill="none"/>
+    </g>
+    <g id="Rectangle_34-2" data-name="Rectangle 34" transform="translate(93.654 445.309)" fill="#fff" stroke="#8b8b8b" stroke-miterlimit="10" stroke-width="1.346">
+      <rect width="73.769" height="27.311" rx="13.655" stroke="none"/>
+      <rect x="0.673" y="0.673" width="72.423" height="25.965" rx="12.983" fill="none"/>
+    </g>
+    <g id="Rectangle_34-3" data-name="Rectangle 34" transform="translate(173.654 444.842)" fill="#fff" stroke="#8b8b8b" stroke-miterlimit="10" stroke-width="1.346">
+      <rect width="57.769" height="27.311" rx="13.655" stroke="none"/>
+      <rect x="0.673" y="0.673" width="56.423" height="25.965" rx="12.983" fill="none"/>
+    </g>
+    <g id="Rectangle_34-4" data-name="Rectangle 34" transform="translate(21.654 562.842)" fill="#fff" stroke="#8b8b8b" stroke-miterlimit="10" stroke-width="1.346">
+      <rect width="57.769" height="27.311" rx="13.655" stroke="none"/>
+      <rect x="0.673" y="0.673" width="56.423" height="25.965" rx="12.983" fill="none"/>
+    </g>
+    <text id="Networking" transform="translate(55 463)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-26.926" y="0">Networking</tspan></text>
+    <text id="Collaboration" transform="translate(131 463)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-31.418" y="0">Collaboration</tspan></text>
+    <text id="Friends" transform="translate(203 462)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-17.458" y="0">Friends</tspan></text>
+    <text id="Nomad" transform="translate(51 580)" fill="#050505" font-size="10" font-family="SFProText-Regular, SF Pro Text"><tspan x="-16.846" y="0">Nomad</tspan></text>
+    <text id="London_EN_5_miles_away" data-name="London, EN
+5 miles away" transform="translate(22 527)" fill="#050505" font-size="18" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="0">London, EN</tspan><tspan x="0" y="21">5 miles away</tspan></text>
+    <g id="accept-circular-button-outline" transform="translate(261 653.997)">
+      <g id="Group_19" data-name="Group 19" transform="translate(0 0.001)">
+        <g id="Group_17" data-name="Group 17" transform="translate(0 0)">
+          <path id="Path_5" data-name="Path 5" d="M9.551,53.255A30.821,30.821,0,1,0,2.93,43.433,30.8,30.8,0,0,0,9.551,53.255ZM31.4,5.012A26.391,26.391,0,1,1,5.011,31.4,26.391,26.391,0,0,1,31.4,5.012Z" transform="translate(-0.447 -0.448)"/>
+          <path id="Path_6" data-name="Path 6" d="M30.955,61.911A30.962,30.962,0,0,1,18.9,2.435a30.962,30.962,0,0,1,24.1,57.041A30.767,30.767,0,0,1,30.955,61.911Zm0-61.8A30.857,30.857,0,0,0,18.946,59.379,30.856,30.856,0,0,0,42.964,2.533,30.658,30.658,0,0,0,30.955.106Zm0,57.293a26.444,26.444,0,0,1-18.7-45.142,26.444,26.444,0,1,1,37.4,37.4A26.271,26.271,0,0,1,30.955,57.4Zm0-52.782A26.338,26.338,0,0,0,12.331,49.58,26.338,26.338,0,1,0,49.579,12.332,26.166,26.166,0,0,0,30.955,4.618Z" transform="translate(0 -0.001)"/>
+        </g>
+        <g id="Group_18" data-name="Group 18" transform="translate(14.582 18.991)">
+          <path id="Path_7" data-name="Path 7" d="M148.446,204a2.256,2.256,0,0,0,3.19,0l19.311-19.311a2.256,2.256,0,0,0-3.19-3.19L150.041,199.22,142.817,192a2.256,2.256,0,0,0-3.19,3.19Z" transform="translate(-138.915 -180.79)"/>
+          <path id="Path_8" data-name="Path 8" d="M149.6,204.27a2.293,2.293,0,0,1-1.632-.676l-8.82-8.82a2.308,2.308,0,1,1,3.264-3.264L149.6,198.7l17.679-17.679a2.308,2.308,0,1,1,3.264,3.264l-19.311,19.311A2.293,2.293,0,0,1,149.6,204.27Zm-8.82-13.331a2.2,2.2,0,0,0-1.558,3.761l8.82,8.82a2.2,2.2,0,0,0,3.115,0l19.311-19.311a2.2,2.2,0,0,0-3.116-3.115L149.6,198.846l-7.262-7.262A2.188,2.188,0,0,0,140.784,190.939Z" transform="translate(-138.477 -180.342)"/>
+        </g>
+      </g>
+    </g>
+    <g id="cancel" transform="translate(52 654)">
+      <g id="Group_20" data-name="Group 20" transform="translate(0)">
+        <path id="Path_9" data-name="Path 9" d="M52.62,9.024a30.834,30.834,0,0,0-43.591,0,30.805,30.805,0,0,0,21.8,52.586A30.8,30.8,0,0,0,52.62,9.024ZM50.143,50.11a27.3,27.3,0,1,1,0-38.61A27.154,27.154,0,0,1,50.143,50.11Z"/>
+        <path id="Path_10" data-name="Path 10" d="M161.006,129.523a2.024,2.024,0,0,0-2.872,0l-12.87,12.871-12.87-12.871a2.031,2.031,0,0,0-2.872,2.872l12.87,12.871-12.87,12.871a2.037,2.037,0,0,0,1.428,3.473,1.98,1.98,0,0,0,1.428-.6l12.87-12.871,12.87,12.871a2.043,2.043,0,0,0,1.428.6,1.956,1.956,0,0,0,1.428-.6,2.024,2.024,0,0,0,0-2.872l-12.84-12.871,12.87-12.871A2.024,2.024,0,0,0,161.006,129.523Z" transform="translate(-114.439 -114.461)"/>
+      </g>
+    </g>
+    <image id="icons8-slider-50_1_" data-name="icons8-slider-50 (1)" width="24" height="24" transform="translate(16 29)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAA1ElEQVRoge3YQQ6CMBCFYeKWK+DScHfSeAo9Dgs4gL8La4JKCcWprfq+pDvSmZY0eZmqEhGRXwLsAQeMfh2BNndfUfwhel71QJO7v9X8nwjpUhc/LxRfq/Z7jQvfDP6b2qDe6d7/bnKWS9KbmtyZ4V5pe+b2sENc0uKWgJbwYz/k7i8K0AAdMPjlvu4QIiL/A6XmgmCRmrFJv1ttTc1Z0+9Wc6m5zJ5Rai4QSs0iIs9QMi0IOee5MQin30/Pc2PMpt93ZrKW89y0dVEyLRBKpiIi8ugKWZL/k8mRe9UAAAAASUVORK5CYII="/>
+    <g id="notification_1_" data-name="notification (1)" transform="translate(337.415 28.822)">
+      <path id="Path_11" data-name="Path 11" d="M16.147,12.013H15.068A5.365,5.365,0,0,0,15.6,9.679V7.612c0-.045,0-.09,0-.135a3.769,3.769,0,1,0-4.17-5.121A5.4,5.4,0,0,0,4.81,7.612V9.679a5.365,5.365,0,0,0,.531,2.333H4.262A4.267,4.267,0,0,0,0,16.274v6.9H20.409v-6.9A4.267,4.267,0,0,0,16.147,12.013ZM14.92,1.358A2.411,2.411,0,1,1,12.508,3.77,2.414,2.414,0,0,1,14.92,1.358ZM6.168,7.612a4.037,4.037,0,0,1,4.984-3.924c0,.027,0,.054,0,.082a3.775,3.775,0,0,0,3.088,3.707c0,.045,0,.09,0,.135V9.679a4.036,4.036,0,0,1-8.073,0ZM19.051,21.82H1.358V16.274a2.907,2.907,0,0,1,2.9-2.9H6.274a5.386,5.386,0,0,0,7.86,0h2.013a2.907,2.907,0,0,1,2.9,2.9Zm0,0" fill="#fff"/>
+    </g>
+    <path id="Path_15" data-name="Path 15" d="M2826,2215.515c-10.235.477-19.041-5.478-26.274-14.881-4.951-6.436-6.039-14.271-5.355-22.556A36.966,36.966,0,0,1,2805.5,2154.3c6.073-6.052,13.188-8.142,21.135-5.66,2.708.846,4.384,2.994,5.526,5.768a2.308,2.308,0,0,1-.128,2.506c-.62.708-1.189-.034-1.778-.242-3.258-1.148-6.313-.014-9.29,1.271-5.41,2.336-9.468,6.585-12.885,11.84a35.174,35.174,0,0,0-5.471,19.7,10.071,10.071,0,0,0,3.86,8.272c7.654,6.309,16.238,7.2,25.032,4.87,9.04-2.389,16.559-8.1,22.093-16.6,5.676-8.716,6.158-18.064.988-27.407-.875-1.582-.429-3.1-.538-4.621-.066-.924.74-1.393,1.707-1.277,2.14.256,3.518,1.67,4.7,3.568a36.923,36.923,0,0,1,4.8,14.4c1.351,9.269.035,17.936-4.616,25.819a3.21,3.21,0,0,1-1.2,1.394,4.008,4.008,0,0,0-2.034,2.685,7.294,7.294,0,0,1-2.2,2.744C2847.158,2211.222,2837.96,2215.718,2826,2215.515Zm7.476-10.209a12.594,12.594,0,0,0,7.57-3.577Zm-14.866-54.716a7.783,7.783,0,0,0-6.294,2.446Z" transform="translate(-3230.389 -56.718) rotate(-36)" fill="#d81111"/>
+  </g>
+</svg>
