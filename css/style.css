@@ -373,6 +373,18 @@ nav a:hover {
      margin-right:70px;
  }
 
+ .jujujams p {
+     color:#5B5B5B;
+     width:70%;
+     padding-bottom:20px;
+ }
+
+ .comingsoon p {
+    color:#5B5B5B;
+    width:70%;
+    padding-bottom:20px;
+}
+
  
  .classkarmaprojectmockup img {
      width:350px;
@@ -410,6 +422,70 @@ nav a:hover {
      background-color: #2792AB;
      border:solid 2px #2792AB
  }
+
+
+ /* JUJU JAMS PROJECT */
+
+ .jujujams {
+     width:50%;
+     background-color:#DED9E1;
+     padding-bottom:80px;
+     display:inline-block;
+
+ }
+
+ .jujujamsmockup {
+     text-align:center;
+     padding-top:50px;
+ }
+
+ .jujujamsmockup img {
+     width:70%;
+ }
+
+ .jujujamsbutton {
+    background: #3C3370;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border:solid 2px #3C3370;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color:white;
+    font-size:14px;
+    text-decoration: none;
+ }
+
+
+/* COMING SOON */
+
+.comingsoon {
+    width:50%;
+    background-color:#DED9E1;
+    padding-bottom:80px;
+    display:inline-block;
+    vertical-align: top;
+    
+
+}
+
+.comingsoonmockup {
+    text-align:center;
+    padding-top:50px;
+}
+
+.comingsoonmockup img {
+    width:70%;
+}
+
+.comingsoonbutton {
+   background: #3C3370;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+   border:solid 2px #3C3370;
+   border-radius: 5px;
+   padding: 10px 30px;
+   color:white;
+   font-size:14px;
+   text-decoration: none;
+}
 
 
 /* SKILLS */
@@ -692,8 +768,30 @@ footer ul img {
     padding-bottom:40px;
 }
 
+.jujujams h2 {
+    font-size:36px;
+    padding-top:30px;
+    padding-bottom:20px;
+    color:#3C3370;
+}
+
+.comingsoon h2 {
+    font-size:36px;
+    padding-top:30px;
+    padding-bottom:20px;
+    color:#3C3370;
+}
+
 .classkarmaproject p, .openspaceproject p {
     font-size:24px;
+}
+
+.jujujams p {
+    font-size:20px;
+}
+
+.comingsoon p {
+    font-size:20px;
 }
 
 .classkarmaprojectmockup img {
@@ -720,6 +818,14 @@ footer ul img {
 .button1 {
     font-size:18px;
  }
+
+ .jujujamsbutton {
+     font-size:18px;
+ }
+
+ .comingsoonbutton {
+    font-size:18px;
+}
 
  .classkarmaproject, .openspaceproject {
     display:flex;
