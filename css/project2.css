@@ -227,8 +227,6 @@ nav a:hover {
 }
 
 
-
-
 /* BENEATH THE FOLD */
 
 .block {
@@ -239,6 +237,7 @@ nav a:hover {
     text-align:center;
 }
 
+
 .boldchallenge {
     font-weight:bold;
 }
@@ -247,7 +246,7 @@ nav a:hover {
     background-color: white;
 }
 
-#collegeillustration img {
+#workersillustration img {
     width:287px;
 }
 
@@ -288,7 +287,7 @@ nav a:hover {
     width:100%;
 }
 
-#survey, #competitiveanalysis, #personas, #userstories, #userflows, #contentstrategy, #sketchesandwireframing, #usabilitytesting, #branding, #preferencetest, #finalthoughts {
+#survey, #competitiveanalysis, #personas, #userstories, #userflows, #sketchesandwireframing, #usabilitytesting, #branding, #preferencetest, #finalthoughts {
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -323,10 +322,8 @@ nav a:hover {
 }
 
 
-#dropbox img, #googledrive img, #evernote img {
+#workfrom img, #whaapp img, #plainsight img {
     width: 160px;
-    /* padding-top:30px;
-    padding-bottom:10px; */
 }
 
 #competitiveanalysis li {
@@ -345,13 +342,46 @@ nav a:hover {
     font-size:16px;
 }
 
+.analysislist {
+    text-align:left;
+    border:solid #E8E8E8 2px;
+    
+  }
+
+  .logoimage {
+    text-align:center;
+    padding-top:30px;
+    background-color:#F4AD93;
+}
+
+.positioningtext {
+    margin:30px;
+    font-style: italic;
+}
+
+.analysislist {
+    margin-bottom:50px;
+}
+
+.analysislist ul {
+    width:80%;
+}
+
+.whalogo {
+    padding-bottom:10px;
+}
+
 hr {
     width:50%;
     border-top: 1px solid #D2D2D2 
 }
 
+.journey img {
+    width: 100%;
+}
 
-#crystal, #ana, #henry {
+
+#felix, #lisa, #emilia {
     padding-bottom: 30px;
     padding-top:30px;
 }
@@ -415,6 +445,17 @@ hr {
 #sketchesandwireframing img {
     width:300px;
     text-align:center;
+    padding-bottom:50px;
+}
+
+#sketchesandwireframing {
+    background-image:url(../images/secondprojectimages/sketchesmockup2.jpg);
+    width:100%;
+    background-position: center;
+}
+
+#sketchesandwireframing img {
+    background-position: center;
 }
 
 
@@ -427,38 +468,43 @@ hr {
     width:300px;
 }
 
-
-#usabilitytesting img {
-    padding-bottom:50px;
-    padding-top:20px;
-    width:245px;
+.typographyimages img {
+    width: 300px;
 }
 
-#usabilitytesting h2, #usabilitytesting p {
+.nameimage, .brandinglogoimages, .typographyimages, .colorpaletteimage {
+    padding-bottom:50px;
+}
+
+.brandingbuttons {
     padding-bottom:20px;
 }
 
-.usabilitytext {
-    text-align:left;
+
+#usabilitytesting img {
+    padding-bottom:20px;
+    padding-top:20px;
+    width:245px;
+    border:solid #2792AB 2px;
 }
 
-/* 
-#usabilitytesting {
-    background-color: #E0F0F8;
-} */
-
-
-
-.snippet p {
-    padding:20px;
-    font-size:14px;
-    text-align:center;
+#usabilitytesting h2 {
+    padding-bottom:20px;
 }
+
+#usabilitytesting p {
+    text-align: center;
+    margin-left:30px;
+    margin-right:30px;
+    padding-bottom:50px;
+}
+
 
 
  #branding p, #branding img{
     padding-bottom:50px;
 }
+
 
 #branding h2 {
     padding-bottom:20px;
@@ -469,19 +515,16 @@ hr {
 }
 
 
-#fivescreenmockup-description p, #fivescreenmockup img {
+#highfidelitymockup p {
     padding-bottom:30px;
 }
 
-#fivescreenmockup-description img {
+#highfidelitymockup img {
     width:350px;
 }
 
-#fivescreenmockup img {
-    width:100%;
-}
 
-#fivescreenmockup-description li {
+#highfidelitymockup li {
     display:list-item;
     list-style-position: outside;
     text-align:left;
@@ -489,28 +532,13 @@ hr {
     margin-left:0;
 }
 
-#fivescreenmockup-description ul {
+#highfidelitymockup ul {
     margin:1em 0 1em 2em
 }
 
 
 video {
     width:100%;
-}
-
-#preferencetest img {
-    padding:30px;
-    width:300px;
-    
-}
-
-#preferencetest h3 {
-    text-align:center;
-    font-weight: 400;
-}
-
-#preferencetest p {
-    padding-bottom: 40px;
 }
 
 
@@ -542,6 +570,10 @@ video {
     padding-bottom:20px;
 }
 
+.container .usertestbutton {
+    padding-bottom:50px;
+}
+
 .button {
     background: #2792AB;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
@@ -559,10 +591,11 @@ video {
      padding-bottom:10px;
  }
 
+ .testingvideos p {
+    padding-top:20px;
+    padding-bottom:50px;
+}
 
- .processcontainer {
-     width:100%;
- }
 
 
 #finalthoughts p {
@@ -582,7 +615,7 @@ video {
 
 .backtotoptext {
     text-decoration:none;
-    color:#02A0D4;
+    color:#2792AB;
     font-family:'BlinkMacSystemFont', '-apple-system', Arial, Helvetica, sans-serif;
 }
 
@@ -596,7 +629,7 @@ footer {
     text-align: center;
     padding-left: 20px;
     padding-right:20px;
-    background-color: #F5F7FF
+    background-color: #DCE0EB
 }
 
 footer h2 {
@@ -629,7 +662,6 @@ footer p {
  .button2div {
      padding-bottom:50px;
  }
-
 
 
 .heart {
@@ -670,14 +702,11 @@ footer ul img {
     width:300px;
 }
 
-
-.snippet {
-    width:275px;
+.brandinglogoimages img {
+    width:250px;
 }
 
-.snippet iframe {
-    width:265px;
-}
+
 
 .nameimage img {
     width:290px;
@@ -699,13 +728,9 @@ footer ul img {
     width:250px;
 }
 
-.brandinglogoandsketches {
-    display:none;
-
-}
 
 #heroimage img {
-    width:300px;
+    width:100%;
 }
 
 #projecticons img {
@@ -721,7 +746,7 @@ footer ul img {
     width:280px;
 }
 
-#fivescreenmockup-description img {
+#highfidelitymockup img {
     width:300px;
 }
 
@@ -752,10 +777,10 @@ footer ul img {
       }
 
       #heroimage img {
-          width:500px;
+          width:100%;
       }
 
-      #collegeillustration img {
+      #workersillustration img {
           width:500px;
       }
 
@@ -764,10 +789,6 @@ footer ul img {
           margin:5%;
       }
 
-      .analysislist {
-          padding-left:120px;
-          padding-right:120px;
-      }
      
       hr {
           width:30%;
@@ -788,26 +809,6 @@ footer ul img {
       }
 
 
-      /* #contentstrategy img:first-child {
-        width:600px;
-    
-    }
-    
-    #contentstrategy .contentstrategysmaller img {
-        width:500px; 
-    } */
-
-    .samplequestions p {
-        text-align:center
-     }
-
-     .snippet {
-        width:400px;
-        text-align:center;
-        margin:0px;
-        margin:auto;
-    }
-
     .colorpaletteimage img {
         width:500px;
     }
@@ -818,9 +819,10 @@ footer ul img {
 
     .mobilehomevideo video {
         width:400px;
+        border: solid #2792AB 2px;
     }
     
-    #fivescreenmockup-description img {
+    #highfidelitymockup img {
         width:600px;
     }
 
@@ -829,7 +831,7 @@ footer ul img {
     }
 
     .testingvideos video {
-        width:300px;
+        width:100%;
     }
 
     #finalthoughts p {
@@ -872,14 +874,14 @@ footer ul img {
         font-size:18px;
     }
 
-    /* .analysislist ul {
-        padding-left:75px;
-        
-    } */
+    .testingvideos video {
+        width: 50%;
+    }
 
   }
 
   @media only screen and (min-width: 1024px) {
+
       .logo {
           padding-top:20px;
       }
@@ -890,9 +892,6 @@ footer ul img {
 
 @media only screen and (min-width: 1200px) {
 
-    .usabilitytesting p {
-        margin:5%;
-    }
 
     .logo img {
         width:80%;
@@ -910,7 +909,6 @@ footer ul img {
         padding-left:200px;
         padding-right:200px;
     }
-
 
 
     #heroimage img {
@@ -931,24 +929,24 @@ footer ul img {
     background-color: #DCE0EB;
     }
 
+
     .challengecontainer {
         justify-content:column;
         display:flex;
     }
     
 
-
     .challengecontent {
         text-align:left;
         padding-top:100px;
     }
 
-    #collegeillustration img {
+    #workersillustration img {
         width:550px;
         padding-left:30px;
     }
 
-    #collegeillustration {
+    #workersillustration {
         padding-bottom:70px;
     }
 
@@ -956,10 +954,7 @@ footer ul img {
         width:130px;
         margin-left:8%;
         margin-right:8%;
-        position:fixed;
-        /* padding-left:150px;
-        padding-right:150px; */
-       
+        position:fixed;  
     }
 
     
@@ -976,9 +971,6 @@ footer ul img {
         
     }
 
-   
-
-
     #projectdetails .projectgroup {
     float:left;
     margin: 5%;
@@ -990,9 +982,11 @@ footer ul img {
     
     }
 
+
     .solutionblock {
         margin-top:30px;
     }
+
 
     #mockupinhand img {
         width:100%;
@@ -1041,6 +1035,7 @@ footer ul img {
         justify-content:center;
     }
 
+
     #userflows div {
         margin:3%;
         padding-bottom:0;
@@ -1049,67 +1044,21 @@ footer ul img {
     }
 
 
-  #fivescreenmockup img {
-    width:100%;
-  }
-
-  #fivescreenmockup-description video {
-      width:450px;
-  }
-
-  #fivescreenmockup-description .desktopmockup img {
-      width:800px;
-  }
-
-  #preferencetest img {
+  #highfidelitymockup video {
       width:300px;
   }
 
-  #preferencetest .divonepreferencelogo img, .divtwopreferencelogo img {
-      width:300px;
-      padding-bottom:100px;
-  }
+  
 
-  .container video {
-      width:320px;
-  }
-
- 
 .button {
     font-size:18px;
 }
 
-.competitiveanalysisblock p, .personasblock p, .userstoriesblock p, .solutionblock p, .userflowsblock p, .sketchesandwireframingblock p {
+.competitiveanalysisblock p, .personasblock p, .userstoriesblock p, .solutionblock p, .userjourneyblock p, .sketchesandwireframingblock p, .userflowsblock p {
     text-align: center;
 }
 
-/* #contentstrategy img:first-child {
-    width:650px;
-    padding-right:50px;
-}
 
-#contentstrategy .contentstrategysmaller img {
-    width:450px;
-}
-
-#contentstrategy {
-    display:inline-flex;
-    
-} */
-
-.snippet {
-    width:350px;
-    background-color:none;
-}
-
-.snippet p {
-    font-size:18px;
-    color:black;
-}
-
-#preferencetest .preferencelogo {
-    width:300px;
-}
 
 #survey .button2div {
     padding-top:30px;
@@ -1131,15 +1080,13 @@ footer ul img {
       "nonflexsurvey nonflexsurvey";
   }
 
+
   .surveyintro, .surveyp {
       grid-column-start: 1;
       grid-column-end: 3;
   }
 
-  .nonflexsurvey {
-      grid-column-start: 1;
-      grid-column-end: 3;
-  }
+
 
   .button2div {
       grid-column-start:1;
@@ -1200,46 +1147,15 @@ footer ul img {
     width:30%;
 }
 
-.createcontentvideo video {
-    width:300px;
+.testingvideos p {
+    padding-top:20px;
 }
 
-.organizecontentvideo video {
-    width:295px;
+.testingvideos video {
+    border: solid #2792AB 2px;
+    width:100%;
 }
 
-.locatecontentvideo video {
-    width:287px;
-}
-
-
-#preferencetest .container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "preferenceintro preferenceintro" 
-      "cancelpreference . loginpreference"
-      "div1preferencelogo . div2preferencelogo"
-      "preferencetext preferencetext";
-  }
-
-  .preferenceintro {
-      grid-column-start: 1;
-      grid-column-end: 3;
-  }
-
-  .preferencetext {
-      grid-column-start: 1;
-      grid-column-end: 3;
-  }
-
-  /* #competitiveanalysis hr {
-      width: .1px;
-      height:186px;
-      margin:5%;
-      background-color:#D2D2D2;
-  } */
 
 .logoimage {
     text-align:center;
@@ -1264,7 +1180,6 @@ footer ul img {
 
   .analysislist ul {
     width:80%;
-
 }
 
 .analysislist li {
@@ -1278,21 +1193,6 @@ footer ul img {
     border:solid #E8E8E8 2px;
   }
 
-  
-
-  /* #dropbox img {
-      padding-left:100px;
-      padding-top:50px;
-  }
-
-  #googledrive img {
-      padding-right:50px;
-  }
-
-  #evernote img {
-      padding-left:60px;
-      padding-top:50px;
-  } */
 
   #competitiveanalysis .container {
       margin-left:50px;
@@ -1335,12 +1235,11 @@ footer ul img {
 
   #competitiveanalysis .container {
     display:flex;
-    /* align-items: center; */
-    /* justify-content:center; */
+
 }
 
 
-#dropbox, #googledrive, #evernote {
+#workfrom, #whaapp, #plainsight {
     padding-top:0px;
     margin-top:0px;
     padding-bottom:50px;
@@ -1353,18 +1252,6 @@ footer ul img {
 #competitiveanalysis .analysislist {
     margin:.5%;
 }
-
-
-
-/* #usabilitytesting .container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "usertestwireframe . usabilitytext"
-      "documentwireframe . folderwireframe"
-      "samplequestions . snippet";
-  } */
 
 
   #usabilitytesting  {
@@ -1381,53 +1268,21 @@ footer ul img {
     margin-top:0;
 }
 
+#usabilitytesting div {
+    flex:1;
+}
 
 
-  /* .documentwireframe {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start:2;
-    grid-row-end:2;
-    padding-bottom:50px;
-  }
+#usabilitytesting p {
+    margin:0px;
+    padding-top:20px;
+}
 
-  .folderwireframe {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start:2;
-    grid-row-end:2;
-    padding-bottom:50px;
-  }
-
-  .samplequestions {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start:3;
-    grid-row-end:3; 
-    padding-right:50px;
-  } */
-
-  .samplequestions h2 {
-     text-align:center
-  }
-
-  .samplequestions p {
-      text-align:center;
-  }
-
-
-  .snippet {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start:3;
-    grid-row-end:3;
-    
-  }
 
   #usabilitytesting img {
       width:300px;
+      border:solid #2792AB 2px;
   }
-
 
 
   #usabilitytesting {
@@ -1500,6 +1355,10 @@ footer ul img {
       padding-bottom:200px;
   }
 
+  .typographyimages img {
+    width: 80%;
+}
+
   .buttontext {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -1542,23 +1401,17 @@ footer ul img {
 }
 
 
-
-#branding .signupbuttonimages img, .pricingbuttonimages img {
-    width:150px;
-}
-
-
-#fivescreenmockup-description .container {
+#highfidelitymockup .container {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     grid-template-areas: 
-      "mobilehomevideo . fivescreenmockuptext"
+      "mobilehomevideo . highfidelitymockuptext"
       "desktopmockupone desktopmockupone"
       "desktopmockuptwo desktopmockuptwo"
   }
 
-  .fivescreenmockuptext {
+  .highfidelitymockuptext {
     grid-column-start: 2;
     grid-column-end: 3;
     padding-top:50px;
@@ -1570,29 +1423,6 @@ footer ul img {
       grid-row-start: 1;
       grid-row-end:2;
   }
-
-  .deskmockupone {
-      grid-column-start:1;
-      grid-column-end:3;
-      grid-row-start: 2;
-      grid-row-end:2;
-  }
-
-  .deskmockuptwo {
-    grid-column-start:1;
-    grid-column-end:3;
-    grid-row-start: 3;
-    grid-row-end: 3;
-  }
-
-  #fivescreenmockup-description .desktopmockup img , .desktopmockup img {
-      width:1000px;
-  }
-
-  #fivescreenmockup-description .deskmockuptwo p {
-      padding-bottom:100px;
-  }
-
 
 
   #projectdetails {
