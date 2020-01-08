@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juju Jams Project</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/project3.css">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151827190-1"></script>
+     <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+ 
+     gtag('config', 'UA-151827190-1');
+     </script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+            <div class="navigation">
+                    <nav>
+                       <input type="checkbox" id="nav" class="hidden">
+                           <label for="nav" class="nav-btn">
+                               <i></i>
+                                   <i></i>
+                                   <i></i>
+                                   </label>
+                                   <div class="nav-wrapper">
+                                       <ul>
+                                           <li><a href="about.html">about</a></li>
+                                           <li><a href="purpleresume.pdf">resume</a></li>
+                                           <li><a href="contact.html">contact</a></li>
+                                       </ul>
+                                 </div>
+                           </nav>
+                     </div>
+
+                     <section class="projecthero">
+                        <header>
+                            <a href="index.html" class="logo">
+                                <img src="images/greylogonew.svg" alt=logo>
+                            </a>
+                        </header>
+
+
+<section class="projecttitle">
+<h2>Juju Jams Music Player Web App</h2>
+</section>
+                        
+
+<section id="projectsection">
+<div class="container">
+    <div class="screenimage">
+        <img src="images/jujujamsscreen.png" alt="jujujams screen">
+    </div>
+    <div class="introtext">
+    <p>As a way to practice my coding skills, I refactored existing Javascript code using JQuery to make a functional music player app. I was also responsible for the app design and branding. The finished app displays album information, song list, and standard music controls for playing, pausing, skipping forward/backward, and adjusting volume. </p>
+     </div>
+
+
+    <div class="code">
+    <h2>HTML/CSS Code</h2>
+    <p> Something a little different about coding a project like this is the index.html file was not used for all of the scripting. Here, we only had classes and id's to call in our individual scripts, which contained "dummy data" that functioned similar to an app API. The index.html file was of course still used for the app structure, this is also where I included the background image. <br>
+    <br>
+    CSS came in handy when I wanted the song number for a play or pause button, as appropriate. I could have used JQuery on the inner HTML of the song number row on hover and click, however DOM insertion is costly on performance. Instead I used CSS classes to hide and unhide elements as appropriate.</p>
+</div>
+<div class="htmlscreenshot">
+    <img src="images/thirdprojectimages/htmlscreenshot.png" alt="html screenshot">
+</div>
+<div class="jquerytext">
+    <h2>Javascript & JQuery</h2>
+    <p> Although I had a solid foundation in Javascript, It was important to me to at least become familiar with JQuery, for it's convenience and efficiency. Although nothing beats how lightweight pure Vanilla JS is, multidisciplinary designers should be familiar with the most common frontend tools at their disposal.<br>
+    <br>
+     Although I found there was a bit of a learning curve, I liked JQuery for event handlers, such as the on() method. To improve the user experience, I researched how to change the song formatting from seconds to a format users would be more comfortable with, like minutes:seconds. I added a method to the Player class for this purpose called prettyTime and applied it to current times, total times and song durations.</p>
+</div>
+<div class="jqueryimages">
+    <img src="images/thirdprojectimages/onmethodexample.png" alt="method screenshot">
+    <img src="images/thirdprojectimages/prettytimescreenshot.png" alt="pretty time screenshot">
+</div>
+    
+<div class="branding">
+    <h2>Branding</h2>
+    <p> As this was an educational project for me, instead of a real client, I had as much fun as I could designing and branding. I went with the commonly used dark design pattern for a music app, and tied this with the branding I went with, which was a fun, yet relaxed feel I call "Space Puns". The logo is a combination of a musical note and a J, for the name of Juju Jams. I went for gradient sunrise colors of yellow and pink to pop against the dark starry background image. </p>
+</div>
+<div class="brandingimage">
+    <img src="images/thirdprojectimages/jujujamslogoandbackground.svg" alt="juju jams logo">
+</div>
+</div>
+<div class="buttondiv gridbutton8">
+        <a href="https://sad-ardinghelli-3db0c7.netlify.com/" target="_blank" class='button button8'>Try It Out</a>
+    </div>
+</section>
+
+<footer>
+    <h2>Get in touch, I <span class="heart"><img src="images/purpleheart.svg" alt="heart"></span> meeting new people</h2>
+    <div class="button2div">
+        <a href="contact.html" class='footerbutton'>CONTACT</a>
+    </div>
+        <ul>
+            <li> <a href="mailto:jayaladesigner@gmail.com>"><img src="images/black-back-closed-envelope-shape.svg" alt="email"></a></li>
+            <li> <a href="https://github.com/jujucinco" target="_blank"><img src="images/purplegithub.svg" alt="github"></a></li>
+            <li> <a href="https://www.linkedin.com/in/julissaayala/" target="_blank"><img src="images/purplelinkedin.svg" alt="linkedin"></a></li>
+            <li> <a href="https://twitter.com/UXJeules" target="_blank"><img src="images/purpletwitter.svg" alt="twitter"></a></li>
+    <p>Accessibly designed and semantically coded by Julissa Ayala</p>
+        </ul>
+</footer>
+</body>
+
+</html>
