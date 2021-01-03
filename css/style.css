@@ -339,6 +339,68 @@ nav a:hover {
     z-index:1;
 }
 
+/* HEA PROJECT */
+
+.heaproject {
+    text-align:center;
+    background-color: #F3FCFF;
+    padding-bottom:100px;
+}
+
+.heaproject {
+    text-align:center;
+    background-color: #FFE9E0;
+    padding-bottom: 100px;
+}
+
+.heaproject h2 {
+   color: #3DCEFD;
+   font-size: 36px;
+   padding-bottom:20px;
+}
+
+.heaproject h2 {
+   color:#2792AB;
+   font-size:36px;
+   padding-bottom:20px;
+}
+
+
+.heamockup img {
+   width:350px;
+   padding-top:50px;
+}
+
+.heamockup {
+   width:300px;
+   padding-top:50px;
+   padding-bottom:50px;
+}
+
+
+
+.button1 {
+   background: #3DCEFD;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+   border:solid 2px #3DCEFD;
+   border-radius: 5px;
+   padding: 10px 30px;
+   color:white;
+   font-size:14px;
+   text-decoration: none;
+}
+
+.openbutton {
+    background-color: #2792AB;
+    border:solid 2px #2792AB
+}
+
+.smilingemoji img {
+    width:20px;
+    position:relative;
+    top:3px;
+}
+
 
 /* PROJECT */
 
@@ -347,6 +409,7 @@ nav a:hover {
      background-color: #F3FCFF;
      padding-bottom:100px;
  }
+
 
  .openspaceproject {
      text-align:center;
@@ -366,7 +429,7 @@ nav a:hover {
     padding-bottom:20px;
 }
 
- .classkarmaproject p, .openspaceproject p, .jujujams p, .comingsoon p {
+ .heaproject p, .classkarmaproject p, .openspaceproject p, .jujujams p, .comingsoon p {
      color: #6F6F6F;
      padding-bottom:20px;
      margin-left:70px;
@@ -374,11 +437,15 @@ nav a:hover {
  }
 
 
-
  .classkarmaprojectmockup img {
      width:350px;
      padding-top:50px;
  }
+
+ .heamockup img {
+    width:350px;
+    padding-top:50px;
+}
 
  .heamockup {
     width:300px;
@@ -397,7 +464,7 @@ nav a:hover {
     padding-bottom:20px;
  }
 
- .classkarmaproject .projdescription, .openspaceproject .projdescription {
+ .heaproject .classkarmaproject .projdescription, .openspaceproject .projdescription {
      padding-bottom:40px;
  }
 
@@ -711,7 +778,12 @@ footer ul img {
         top: 11px;
     }
 
-    .classkarmaprojectmockup img {
+   .classkarmaprojectmockup img {
+        width:270px;
+        padding-top:50px;
+    }
+
+    .heamockup img {
         width:270px;
         padding-top:50px;
     }
@@ -747,6 +819,36 @@ footer ul img {
 
 
 @media only screen and (min-width: 1200px) {
+
+/* HEA project*/
+
+.heaproject{
+    padding-bottom:0px;
+}
+
+.heaproject h2 {
+    color: #3DCEFD;
+    font-size: 48px;
+    padding-bottom:40px;
+ }
+
+ .heamockup img {
+    width:650px;
+}
+
+.heamockup {
+    order:2;
+    padding-top:80px;
+    margin-right:400px;
+    margin-left:100px;
+}
+
+.smilingemoji img {
+    width:25px;
+    position:relative;
+    top:3px;
+}
+
 
 
 .logo img {
@@ -836,7 +938,7 @@ footer ul img {
     margin-left:0px;
 }
 
-.classkarmaproject p, .openspaceproject p {
+.heaproject p, .classkarmaproject p, .openspaceproject p {
     font-size:24px;
 }
 
@@ -852,12 +954,15 @@ footer ul img {
     width:650px;
 }
 
+
+
 .classkarmaprojectmockup {
     order:2;
     padding-top:80px;
     margin-right:100px;
     margin-left:60px;
 }
+
 
 .openspacemockup img {
     width:650px;
@@ -881,7 +986,7 @@ footer ul img {
     font-size:18px;
 }
 
- .classkarmaproject, .openspaceproject {
+ .heaproject, .classkarmaproject, .openspaceproject {
     display:flex;
     align-items:center;
  }
