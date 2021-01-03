@@ -343,22 +343,17 @@ nav a:hover {
 
 .heaproject {
     text-align:center;
-    background-color: #F3FCFF;
+    background-color: #DCF0E8;
     padding-bottom:100px;
 }
 
 
 .heaproject h2 {
-   color: #3DCEFD;
+   color: #066790;
    font-size: 36px;
    padding-bottom:20px;
 }
 
-.heaproject h2 {
-   color:#2792AB;
-   font-size:36px;
-   padding-bottom:20px;
-}
 
 
 .heamockup img {
@@ -370,6 +365,16 @@ nav a:hover {
    width:300px;
    padding-top:50px;
    padding-bottom:50px;
+}
+
+.projdescription a {
+    text-decoration:none;
+    font-weight: 400;
+    color: #066790
+}
+
+.projdescription a:hover {
+    color:#A38BDB;
 }
 
 
@@ -463,11 +468,31 @@ nav a:hover {
      padding-bottom:40px;
  }
 
+ .classkarmamockup {
+    text-align:center;
+    padding-top:50px;
+}
+
+.classkarmamockup img {
+    width:70%;
+}
+
 
  .button1 {
     background: #3DCEFD;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
     border:solid 2px #3DCEFD;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color:white;
+    font-size:14px;
+    text-decoration: none;
+ }
+
+ .heabutton {
+    background: #066790;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border:solid 2px #066790;
     border-radius: 5px;
     padding: 10px 30px;
     color:white;
@@ -542,7 +567,7 @@ nav a:hover {
 
 .comingsoon {
     width:100%;
-    background-color:#FFF7CE;
+    background-color:#F3FCFF;
     padding-bottom:80px;
 }
 
@@ -564,7 +589,7 @@ nav a:hover {
     font-size:36px;
     padding-top:30px;
     padding-bottom:20px;
-    color:#3C3370;
+    color:#3DCEFD;
     line-height: 1.2em;
 
  }
@@ -822,7 +847,7 @@ footer ul img {
 }
 
 .heaproject h2 {
-    color: #3DCEFD;
+    color: #066790;
     font-size: 48px;
     padding-bottom:40px;
  }
@@ -910,7 +935,7 @@ footer ul img {
 
 .comingsoon {
     width:100%;
-    background-color:#FFF7CE;
+    background-color:#F3FCFF;
     padding-bottom:80px;
     flex:1;
 }
@@ -926,7 +951,7 @@ footer ul img {
     font-size:36px;
     padding-top:30px;
     padding-bottom:20px;
-    color:#3C3370;
+    color:#3DCEFD;
 }
 
 .comingsoon .comingsoonprojectcontent {
@@ -946,14 +971,14 @@ footer ul img {
 }
 
 .classkarmaprojectmockup img {
-    width:650px;
+    width:600px;
 }
 
 
 
 .classkarmaprojectmockup {
     order:2;
-    padding-top:80px;
+    /*padding-top:80px;*/
     margin-right:100px;
     margin-left:60px;
 }
@@ -999,6 +1024,10 @@ footer ul img {
      width:344px;
  }
 
+ .comingsoon .tags img {
+     width:344px;
+ }
+
  .projectcontent p {
      margin-left:0px;
  }
@@ -1009,7 +1038,7 @@ footer ul img {
  }
 
  .comingsoonmockup img {
-     width:70%;
+     width:45%;
  }
 
 
