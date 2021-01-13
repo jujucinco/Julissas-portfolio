@@ -493,7 +493,7 @@ nav a:hover {
 
  .jujujams {
      width:100%;
-     background-color:#DED9E1;
+     background-color:#f7f1fa;
      padding-bottom:80px;
  }
 
@@ -745,6 +745,10 @@ footer ul img {
     width:30px;
 }
 
+footer {
+    background-color: #FEF1EB;
+ }
+
 
 
 /* HOME MEDIA QUERIES */
@@ -824,6 +828,10 @@ footer ul img {
         width:300px;
      }
 
+     footer {
+        background-color: #FEF1EB;
+     }
+
 }
 
 
@@ -858,6 +866,10 @@ footer ul img {
 
      .openspaceproject .tags img {
         width:300px;
+     }
+
+     footer {
+        background-color: #FEF1EB;
      }
 
     }
@@ -948,7 +960,7 @@ footer ul img {
  }
 
  .heamockup img {
-    width:100%;
+    width:600px;
 }
 
 .heamockup {
@@ -956,7 +968,6 @@ footer ul img {
     padding-top:100px;
     padding-bottom:100px;
     margin-right:100px;
-    margin-left:100px;
 }
 
 .heaproject .tags img {
@@ -984,13 +995,20 @@ footer ul img {
 
 
 .openspacemockup {
-    padding-top:80px;
-    margin-right:80px;
+    padding-top:70px;
     margin-left:100px;
 }
 
 .openspaceproject .tags img {
     width:344px;
+}
+
+.openspacemockup img {
+    width: 600px;
+}
+
+.openspaceproject p {
+    margin-right: 150px;
 }
 
 
@@ -1001,8 +1019,7 @@ footer ul img {
 }
 
 .jujujams {
-    width:50%;
-    background-color:#DED9E1;
+    background-color:#f7f1fa;
     padding-bottom:80px;
     flex: 1;
 }
@@ -1026,6 +1043,12 @@ footer ul img {
 
 .jujujams .tags img {
     width:344px;
+}
+
+.jujujamsmockup img {
+    width:  600px;
+    height: 400px;
+   object-fit: cover;
 }
 
 
@@ -1064,10 +1087,11 @@ footer ul img {
      width:344px;
  }
 
-
- .comingsoonmockup img {
-     width:45%;
- }
+.classkarmamockup img {
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
+}
 
 
  /* My Process */
@@ -1096,6 +1120,10 @@ footer ul img {
 
  footer h2 {
      font-size:28px;
+ }
+
+ footer {
+    background-color: #FEF1EB;
  }
 
  footer a {
