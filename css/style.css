@@ -343,7 +343,7 @@ nav a:hover {
 
 .heaproject {
     text-align:center;
-    background-color: #DCF0E8;
+    background-color: #f1fbf7;
     padding-bottom:100px;
 }
 
@@ -409,10 +409,22 @@ nav a:hover {
      padding-bottom:100px;
  }
 
+ .meedanproject {
+    text-align:center;
+    background-color: #fefcf1;
+    padding-bottom: 100px;
+}
+
+.meedanlogo img {
+    width:40%;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
 
  .openspaceproject {
      text-align:center;
-     background-color: #FFE9E0;
+     background-color: #fff8f5;
      padding-bottom: 100px;
  }
 
@@ -422,13 +434,22 @@ nav a:hover {
     padding-bottom:20px;
  }
 
+ .meedanproject h2 {
+    color:#37A0DE;
+    font-size:36px;
+    padding-bottom:20px;
+    line-height: 1.2em;
+    margin: 10px;
+    
+}
+
  .openspaceproject h2 {
     color:#2792AB;
     font-size:36px;
     padding-bottom:20px;
 }
 
- .heaproject p, .classkarmaproject p, .openspaceproject p, .jujujams p, .comingsoon p {
+ .heaproject p, .classkarmaproject p, .openspaceproject p, .jujujams p, .comingsoon p, .meedanproject p {
      color: #6F6F6F;
      padding-bottom:20px;
      margin-left:70px;
@@ -447,7 +468,7 @@ nav a:hover {
     padding-bottom:20px;
  }
 
- .heaproject .classkarmaproject .projdescription, .openspaceproject .projdescription {
+ .heaproject, .classkarmaproject, .projdescription, .openspaceproject, .projdescription, .meedanproject {
      padding-bottom:40px;
  }
 
@@ -464,6 +485,17 @@ nav a:hover {
     background: #3DCEFD;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
     border:solid 2px #3DCEFD;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color:white;
+    font-size:14px;
+    text-decoration: none;
+ }
+
+ .meedanbutton {
+    background: #37A0DE;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border:solid 2px #37A0DE;
     border-radius: 5px;
     padding: 10px 30px;
     color:white;
@@ -493,7 +525,7 @@ nav a:hover {
 
  .jujujams {
      width:100%;
-     background-color:#f7f1fa;
+     background-color:#f7f6f8;
      padding-bottom:80px;
  }
 
@@ -799,6 +831,11 @@ footer {
        width:100%;
     }
 
+    .meedanlogo img {
+        width:270px;
+        padding-top:50px;
+    }
+
     .openspacemockup img {
         width:270px;
         padding-top:50px;
@@ -821,6 +858,10 @@ footer {
      }
 
      .heaproject .tags img {
+        width:300px;
+     }
+
+     .meedanproject .tags img {
         width:300px;
      }
 
@@ -861,6 +902,10 @@ footer {
      }
 
      .heaproject .tags img {
+        width:300px;
+     }
+
+     .meedanproject .tags img {
         width:300px;
      }
 
@@ -912,7 +957,7 @@ footer {
 
 /* Multiple projects*/
 
-.heaproject p, .classkarmaproject p, .openspaceproject p {
+.heaproject p, .classkarmaproject p, .openspaceproject p, .meedanproject p {
     font-size:24px;
 }
 
@@ -920,7 +965,7 @@ footer {
     font-size:18px;
  }
 
- .heaproject, .classkarmaproject, .openspaceproject {
+ .heaproject, .classkarmaproject, .openspaceproject, .meedanproject {
     display:flex;
     align-items:center;
  }
@@ -946,6 +991,37 @@ footer {
 .buttondiv1 {
     text-align:left;
     padding-top:50px;   
+}
+
+
+/* Meedan project*/
+
+.meedanproject {
+    padding-bottom:0px;
+}
+
+.meedanproject h2 {
+    color: #37A0DE;
+    font-size: 48px;
+    padding-bottom:40px;
+}
+
+
+.meedanlogo {
+    padding-top:70px;
+    margin-left:100px
+}
+
+.meedanproject .tags img {
+    width:344px;
+}
+
+.meedanlogo img {
+    width: 300px;
+}
+
+.meedanproject p {
+    margin-right: 150px;
 }
 
 
@@ -1019,7 +1095,7 @@ footer {
 }
 
 .jujujams {
-    background-color:#f7f1fa;
+    background-color:#f7f6f8;
     padding-bottom:80px;
     flex: 1;
 }
@@ -1063,7 +1139,7 @@ footer {
 
 .comingsoon {
     width:100%;
-    background-color:#F3FCFF;
+    background-color:#f6fdff;
     padding-bottom:80px;
     flex:1;
 }
